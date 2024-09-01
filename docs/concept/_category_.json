@@ -1,0 +1,8 @@
+{
+  "label": "概念",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "本章节介绍了Certimate在申请并部署证书的整体流程，以及在涉及到的一些概念，通过了解这些概念，有助于你更好地理解和使用Certimate。"
+  }
+}
