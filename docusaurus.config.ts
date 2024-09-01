@@ -111,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/usual2970/certimate",
             },
           ],
         },
@@ -124,7 +124,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/usual2970/certimate",
             },
           ],
         },
