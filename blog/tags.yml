@@ -2,3 +2,8 @@ certimate:
   label: Certimate
   permalink: /certimate
   description: Something about Certimate
+
+new-versions:
+  label: New Versions
+  permalink: /new-versions
+  description: New versions of Certimate

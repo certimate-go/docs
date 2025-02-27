@@ -1,27 +1,31 @@
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
+import Translate from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          <Translate>homepage.hero.title</Translate>
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <p className="hero__subtitle">
+          <Translate>homepage.hero.subtitle</Translate>
+        </p>
+        <div className={styles.heroButtons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            快速开始 - 5min ⏱️
+            <Translate>homepage.hero.actions.button.gettingStarted</Translate>
           </Link>
         </div>
       </div>
@@ -29,8 +33,9 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): JSX.Element {
+function Homepage(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <Layout
       title={`开源的SSL证书管理工具，可以帮助你申请SSL证书，自动续期SSL证书`}
@@ -43,3 +48,5 @@ export default function Home(): JSX.Element {
     </Layout>
   );
 }
+
+export default Homepage;
