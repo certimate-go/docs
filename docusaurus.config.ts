@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Certimate",
-  tagline: "开源的SSL证书管理工具，可以帮助你申请SSL证书，自动续期SSL证书",
+  tagline: "开源的 SSL 证书管理工具，可以帮助你自动申请、部署、续期 SSL 证书。",
   favicon: "img/logo.svg",
 
   // Set the production url of your site here
@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "usual2970", // Usually your GitHub org/user name.
-  projectName: "certimate-docs", // Usually your repo name.
+  organizationName: "certimate-go", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "zh",
+    locales: ["en", "zh"],
   },
 
   markdown: {
@@ -36,14 +36,10 @@ const config: Config = {
 
   presets: [
     [
-      "classic",
+      "@docusaurus/preset-classic",
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -51,46 +47,46 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: ["./src/css/custom.css", "./src/css/icon.css"],
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
     colorMode: {
       defaultMode: "dark",
     },
     navbar: {
       title: "Certimate",
       logo: {
-        alt: "My Site Logo",
         src: "img/logo.svg",
       },
       items: [
         {
           type: "docSidebar",
+          label: "${I18N.DOCS}",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "手册",
         },
-        { to: "/blog", label: "博客", position: "left" },
+        {
+          to: "/announcements",
+          label: "${I18N.BLOG}",
+          position: "left",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
         {
           href: "https://github.com/usual2970/certimate",
-          label: "GitHub",
           position: "right",
+          className: "icon icon-github",
         },
       ],
     },
@@ -98,33 +94,41 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "文档",
+          title: "${I18N.GUIDE}",
           items: [
             {
-              label: "手册",
+              label: "${I18N.INTRO}",
               to: "/docs/intro",
             },
           ],
         },
         {
-          title: "社区",
+          title: "${I18N.COMMUNITY}",
           items: [
             {
-              label: "GitHub",
-              href: "https://github.com/usual2970/certimate",
+              label: "${I18N.ISSUES}",
+              href: "https://github.com/usual2970/certimate/issues",
+            },
+            {
+              label: "${I18N.NFR}",
+              href: "https://github.com/usual2970/certimate/issues/new?template=feature_request.md",
+            },
+            {
+              label: "${I18N.TELEGRAM}",
+              href: "https://t.me/+ZXphsppxUg41YmVl",
             },
           ],
         },
         {
-          title: "更多",
+          title: "${I18N.MORE}",
           items: [
             {
-              label: "博客",
-              to: "/blog",
+              label: "${I18N.GITHUB}",
+              href: "https://github.com/usual2970/certimate",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/usual2970/certimate",
+              label: "${I18N.DONATE}",
+              href: "https://profile.ikit.fun/sponsors",
             },
           ],
         },

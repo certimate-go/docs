@@ -1,0 +1,10 @@
+{
+  "item.label.${I18N.DOCS}": {
+    "message": "Documentation",
+    "description": "Navbar item with label=${I18N.DOCS}"
+  },
+  "item.label.${I18N.BLOG}": {
+    "message": "Announcements",
+    "description": "Navbar item with label=${I18N.BLOG}"
+  }
+}

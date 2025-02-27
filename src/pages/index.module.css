@@ -1,8 +1,3 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -16,8 +11,10 @@
   }
 }
 
-.buttons {
+.heroButtons {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 12px;
 }

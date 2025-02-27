@@ -1,0 +1,10 @@
+{
+  "item.label.${I18N.DOCS}": {
+    "message": "文档",
+    "description": "Navbar item with label=${I18N.DOCS}"
+  },
+  "item.label.${I18N.BLOG}": {
+    "message": "公告",
+    "description": "Navbar item with label=${I18N.BLOG}"
+  }
+}
