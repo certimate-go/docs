@@ -1,0 +1,109 @@
+﻿# 提供商
+
+在 Certimate 中，提供商是指提供特定服务的第三方。
+
+提供商分为两种类型：
+
+- `DNS 提供商`：你的 DNS 托管方，通常等同于域名注册商，用于在申请证书时管理你的域名解析记录。
+- `主机提供商`：你的服务器或云服务的托管方，用于部署签发的证书。
+
+:::tip
+
+文档中所列出的提供商清单可能滞后于实际情况，完整的支持情況请前往 Certimate 仓库查看。
+
+:::
+
+---
+
+## 支持的 DNS 提供商 {#supported-dns-providers}
+
+最新版本的 Certimate 已支持以下的 DNS 提供商：
+
+- [阿里云](https://www.aliyun.com/)
+- [腾讯云](https://cloud.tencent.com/)
+- [百度智能云](https://cloud.baidu.com/)
+- [华为云](https://www.huaweicloud.com/)
+- [火山引擎](https://www.volcengine.com/)
+- [京东云](https://www.jdcloud.com/)
+- [AWS Route53](https://aws.amazon.com/route53/)
+- [Azure](https://azure.microsoft.com/)
+- [CloudFlare](https://www.cloudflare.com/)
+- [ClouDNS](https://www.cloudns.net/)
+- [DNS.LA](https://www.dns.la/)
+- [Gcore](https://gcore.com/)
+- [GNAME](https://www.gname.com/)
+- [GoDaddy](https://www.godaddy.com/)
+- [Name.com](https://www.name.com/)
+- [Namecheap](https://www.namecheap.com/)
+- [NameSilo](https://www.namesilo.com/)
+- [IBM NS1 Connect](https://www.ibm.com/cn-zh/products/ns1-connect/)
+- [移动云](https://ecloud.10086.cn/)
+- [雨云](https://www.rainyun.com/)
+- [西部数码](https://www.west.cn/)
+- [PowerDNS](https://www.powerdns.com/)
+- ACME 代理 HTTP 请求：可申请允许通过 HTTP 请求修改 DNS 的域名。
+
+### 我的域名注冊商不在清单内？ {#unlisted-domain-registrars}
+
+不幸的是，Certimate 的工作高度依赖自动化，不受支持的域名注册商将无法完成 DNS-01 质询。
+
+在我们做出支持响应之前，你可以通过以下任一方式继续使用 Certimate。
+
+1. 将你的域名 DNS 服务器设置为上述支持的提供商（注意，这只是修改 NS，不是转移你的域名注册商！）；
+2. 使用 [ACME DNS](https://github.com/joohoi/acme-dns)。
+
+在后续版本中，我们会允许用户手动完成 DNS-01 质询。
+
+---
+
+## 支持的主机提供商 {#supported-host-providers}
+
+最新版本的 Certimate 已支持以下的主机提供商：
+
+- 本地部署：可部署到本地服务器。
+- SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP）。
+- Webhook：可部署到 Webhook。
+- [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
+- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、Live、VOD 等服务。
+- [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD 等服务。
+- [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 CDN 等服务。
+- [华为云](https://www.huaweicloud.com/)：可部署到华为云 CDN、ELB、WAF 等服务。
+- [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ImageX、Live 等服务。
+- [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
+- [七牛云](https://www.qiniu.com/)：可部署到七牛云 CDN、直播云等服务。
+- [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
+- [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
+- [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
+- [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
+- [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
+- [AWS](https://aws.amazon.com/)：可部署到 AWS CloudFront。
+- [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
+- [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
+- [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly CDN。
+- [Edgio](https://edg.io/)：可部署到 Edgio Applications。
+- [Gcore](https://gcore.com/)：可部署到 Gcore CDN。
+
+---
+
+## 支持的通知渠道 {#supported-notification-channels}
+
+最新版本的 Certimate 已支持以下的通知渠道：
+
+- 邮件（SMTP）
+- Webhook
+- 钉钉（机器人）
+- 飞书（机器人）
+- 企业微信（机器人）
+- Bark
+- Server 酱
+- Telegram
+
+---
+
+## 支持的证书颁发机构 {#supported-cas}
+
+最新版本的 Certimate 已支持以下的证书颁发机构：
+
+- [Let's Encrypt](https://letsencrypt.org/)：包括测试环境及生产环境。
+- [ZeroSSL](https://zerossl.com/)
+- [Google Trust Services](https://pki.goog/)

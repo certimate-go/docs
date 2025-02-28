@@ -127,7 +127,7 @@
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "404",
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {

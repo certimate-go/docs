@@ -131,7 +131,7 @@
     "description": "The label alongside a tag list"
   },
   "theme.NotFound.title": {
-    "message": "找不到页面",
+    "message": "404",
     "description": "The title of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -203,7 +203,7 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.NotFound.p1": {
-    "message": "我们找不到您要找的页面。",
+    "message": "找不到页面。",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {

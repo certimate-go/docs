@@ -23,7 +23,7 @@ function HomepageHeader() {
         <div className={styles.heroButtons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro"
+            to="/docs/introduction"
           >
             <Translate>homepage.hero.actions.button.gettingStarted</Translate>
           </Link>

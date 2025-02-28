@@ -1,10 +1,22 @@
 {
-  "version.label": {
-    "message": "Next",
-    "description": "The label for version current"
+  "sidebar.docSidebar.category.${GETTING_STARTED}": {
+    "message": "开始",
+    "description": "The label for category=${GETTING_STARTED} in docSidebar"
   },
-  "sidebar.tutorialSidebar.category.概念": {
-    "message": "概念",
-    "description": "The label for category 概念 in sidebar tutorialSidebar"
+  "sidebar.docSidebar.category.${INSTALLATION}": {
+    "message": "安装",
+    "description": "The label for category=${INSTALLATION} in docSidebar"
+  },
+  "sidebar.docSidebar.category.${REFERENCE}": {
+    "message": "参考",
+    "description": "The label for category=${REFERENCE} in docSidebar"
+  },
+  "sidebar.docSidebar.category.${ABOUT}": {
+    "message": "关于",
+    "description": "The label for category=${ABOUT} in docSidebar"
+  },
+  "sidebar.docSidebar.category.${MIGRATIONS}": {
+    "message": "迁移",
+    "description": "The label for category=${MIGRATIONS} in docSidebar"
   }
 }

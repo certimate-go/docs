@@ -1,38 +1,46 @@
 {
-  "link.title.${I18N.GUIDE}": {
+  "link.title.${GUIDE}": {
     "message": "Guide",
-    "description": "The title of the footer links column with title=${I18N.GUIDE} in the footer"
+    "description": "The title of the footer links column with title=${GUIDE} in the footer"
   },
-  "link.title.${I18N.COMMUNITY}": {
+  "link.title.${COMMUNITY}": {
     "message": "Community",
-    "description": "The title of the footer links column with title=${I18N.COMMUNITY} in the footer"
+    "description": "The title of the footer links column with title=${COMMUNITY} in the footer"
   },
-  "link.title.${I18N.MORE}": {
+  "link.title.${MORE}": {
     "message": "More",
-    "description": "The title of the footer links column with title=${I18N.MORE} in the footer"
+    "description": "The title of the footer links column with title=${MORE} in the footer"
   },
-  "link.item.label.${I18N.INTRO}": {
+  "link.item.label.${INTRODUCTION}": {
     "message": "Introduction",
-    "description": "The label of footer link with label=${I18N.INTRO} linking to /docs/intro"
+    "description": "The label of footer link with label=${INTRODUCTION} linking to /docs/introduction"
   },
-  "link.item.label.${I18N.ISSUES}": {
+  "link.item.label.${INSTALLATION}": {
+    "message": "Installation",
+    "description": "The label of footer link with label=${INSTALLATION} linking to /docs/getting-started/installation"
+  },
+  "link.item.label.${FAQ}": {
+    "message": "FAQ",
+    "description": "The label of footer link with label=${FAQ} linking to /docs/about/faq"
+  },
+  "link.item.label.${ISSUES}": {
     "message": "Issues",
-    "description": "The label of footer link with label=${I18N.ISSUES} linking to https://github.com/usual2970/certimate/issues"
+    "description": "The label of footer link with label=${ISSUES} linking to https://github.com/usual2970/certimate/issues"
   },
-  "link.item.label.${I18N.NFR}": {
+  "link.item.label.${NFR}": {
     "message": "Feature Requests",
-    "description": "The label of footer link with label=${I18N.NFR} linking to https://github.com/usual2970/certimate/issues"
+    "description": "The label of footer link with label=${NFR} linking to https://github.com/usual2970/certimate/issues"
   },
-  "link.item.label.${I18N.TELEGRAM}": {
+  "link.item.label.${TELEGRAM}": {
     "message": "Telegram",
-    "description": "The label of footer link with label=${I18N.DONATE} linking to https://t.me/+ZXphsppxUg41YmVl"
+    "description": "The label of footer link with label=${DONATE} linking to https://t.me/+ZXphsppxUg41YmVl"
   },
-  "link.item.label.${I18N.GITHUB}": {
+  "link.item.label.${GITHUB}": {
     "message": "GitHub",
-    "description": "The label of footer link with label=${I18N.GITHUB} linking to https://github.com/usual2970/certimate"
+    "description": "The label of footer link with label=${GITHUB} linking to https://github.com/usual2970/certimate"
   },
-  "link.item.label.${I18N.DONATE}": {
+  "link.item.label.${DONATE}": {
     "message": "Donate",
-    "description": "The label of footer link with label=${I18N.DONATE} linking to https://profile.ikit.fun/sponsors"
+    "description": "The label of footer link with label=${DONATE} linking to https://profile.ikit.fun/sponsors"
   }
 }

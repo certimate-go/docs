@@ -39,7 +39,7 @@ const config: Config = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: "./sidebars.ts",
+          sidebarPath: "./docusaurus.sidebars.ts",
         },
         blog: {
           showReadingTime: true,
@@ -70,13 +70,13 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          label: "${I18N.DOCS}",
-          sidebarId: "tutorialSidebar",
+          label: "${DOCS}",
+          sidebarId: "docSidebar",
           position: "left",
         },
         {
-          to: "/announcements",
-          label: "${I18N.BLOG}",
+          to: "/blog",
+          label: "${BLOG}",
           position: "left",
         },
         {
@@ -94,40 +94,48 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "${I18N.GUIDE}",
+          title: "${GUIDE}",
           items: [
             {
-              label: "${I18N.INTRO}",
-              to: "/docs/intro",
+              label: "${INTRODUCTION}",
+              to: "/docs/introduction",
+            },
+            {
+              label: "${INSTALLATION}",
+              to: "/docs/getting-started/installation",
+            },
+            {
+              label: "${FAQ}",
+              to: "/docs/about/faq",
             },
           ],
         },
         {
-          title: "${I18N.COMMUNITY}",
+          title: "${COMMUNITY}",
           items: [
             {
-              label: "${I18N.ISSUES}",
+              label: "${ISSUES}",
               href: "https://github.com/usual2970/certimate/issues",
             },
             {
-              label: "${I18N.NFR}",
+              label: "${NFR}",
               href: "https://github.com/usual2970/certimate/issues/new?template=feature_request.md",
             },
             {
-              label: "${I18N.TELEGRAM}",
+              label: "${TELEGRAM}",
               href: "https://t.me/+ZXphsppxUg41YmVl",
             },
           ],
         },
         {
-          title: "${I18N.MORE}",
+          title: "${MORE}",
           items: [
             {
-              label: "${I18N.GITHUB}",
+              label: "${GITHUB}",
               href: "https://github.com/usual2970/certimate",
             },
             {
-              label: "${I18N.DONATE}",
+              label: "${DONATE}",
               href: "https://profile.ikit.fun/sponsors",
             },
           ],
