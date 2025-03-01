@@ -7,12 +7,6 @@
 - `DNS 提供商`：你的 DNS 托管方，通常等同于域名注册商，用于在申请证书时管理你的域名解析记录。
 - `主机提供商`：你的服务器或云服务的托管方，用于部署签发的证书。
 
-:::tip
-
-文档中所列出的提供商清单可能滞后于实际情况，完整的支持情況请前往 Certimate 仓库查看。
-
-:::
-
 ---
 
 ## 支持的 DNS 提供商 {#supported-dns-providers}
@@ -107,3 +101,13 @@
 - [Let's Encrypt](https://letsencrypt.org/)：包括测试环境及生产环境。
 - [ZeroSSL](https://zerossl.com/)
 - [Google Trust Services](https://pki.goog/)
+
+## 更多提供商 {#more-providers}
+
+如果上述提供商不能满足你的需求，欢迎告知我们，或贡献代码。
+
+:::tip
+
+文档中所列出的提供商清单可能滞后于实际情况，完整的支持情況请前往 Certimate 仓库查看。
+
+:::

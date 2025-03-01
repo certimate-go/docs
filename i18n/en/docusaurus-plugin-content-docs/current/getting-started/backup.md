@@ -1,6 +1,6 @@
 ﻿# Backup and Restore
 
-If you need to upgrade Certimate or transfer the installation to a new server, you can back up all Certimate configurations for later reinstallation.
+If you need to upgrade Certimate or transfer the installation to a new server, you can back up all data for later reinstallation.
 
 ---
 
@@ -34,6 +34,6 @@ Stop the Certimate service first, then copy all backed up files back to the `pb_
 
 Please do not directly restore data from lower versions to higher versions for cross version upgrades. As this may result in data confusion, loss, damage, and other issues.
 
-Read the [Migrations](../migrations) guide to learn more details.
+Read the _[Migrations](../migrations)_ guide to learn more details.
 
 :::

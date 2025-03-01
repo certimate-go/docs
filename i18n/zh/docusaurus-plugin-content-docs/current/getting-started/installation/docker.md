@@ -6,7 +6,7 @@
 
 ## Docker Compose {#docker-compose}
 
-你可以复制以下命令到终端中，即可一键通过 Docker Compose 启动 Certimate：
+你可以复制以下命令到终端中，即可通过 Docker Compose 一键部署 Certimate：
 
 ```bash
 mkdir -p ~/.certimate && \
@@ -34,7 +34,7 @@ services:
 
 ## Docker {#docker}
 
-如果你不想使用 Docker Compose，也可以执行通过 docker 命令运行：
+如果你不想使用 Docker Compose，也可以通过 `docker run` 命令运行：
 
 ```bash
 # 拉取镜像
@@ -72,7 +72,7 @@ docker run -d \
 
 ## 运行指定版本 {#run-the-specified-version}
 
-上述 `docker-compose.yml` 或 `docker run` 命令示例中，出现的均为 `lastest` 版本，它表示 Certimate 的当前最新发布版本。
+上述 `docker-compose.yml` 或 `docker run` 命令示例中，出现的均为 `lastest` 版本，它表示 Certimate 的当前最新发布的稳定版本。
 
 如果你想运行某个指定版本的 Certimate，你可以在拉取镜像时指定：
 
@@ -82,5 +82,3 @@ docker pull usual2970/certimate:latest:v0.3.0
 ```
 
 完整的版本清单你可以在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 或 [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) 页面查看。
-
-注意，我们会不定期地清理带有 alpha 标记的版本，它们表示某些开发中的预览版本，仅供用户尝鲜使用。

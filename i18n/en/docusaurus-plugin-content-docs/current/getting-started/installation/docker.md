@@ -6,7 +6,7 @@ It is recommended for users that familiar with Docker.
 
 ## Docker Compose {#docker-compose}
 
-You can copy the following command to the terminal, and start Certimate through Docker Compose：
+You can copy the following command to the terminal, and run Certimate through Docker Compose：
 
 ```bash
 mkdir -p ~/.certimate && \
@@ -34,7 +34,7 @@ services:
 
 ## Docker {#docker}
 
-If you don't want to use Docker Compose, you can also run it through Docker commands:
+If you don't want to use Docker Compose, you can also run it through `docker run` command:
 
 ```bash
 # Pull image
@@ -54,7 +54,7 @@ docker run -d \
 
 Due to the well-fucking-known reasons, users in China mainland may not be able to access Docker Hub and pull images properly.
 
-We also provide an accelerated image on Alibaba Cloud for this purpose, which is completely consistent with the version on Docker Hub. You only need to add the repository prefix before the image name `registry.cn-shanghai.aliyuncs.com`:
+We also provide an accelerated image on Alibaba Cloud, which is completely consistent with the version on Docker Hub. You only need to add the registry `registry.cn-shanghai.aliyuncs.com` before the image name:
 
 ```bash
 # Pull image
@@ -72,7 +72,7 @@ docker run -d \
 
 ## Run the specified version {#run-the-specified-version}
 
-In the above examples of the `docker-compose. yml` or `docker run` commands, the `lastest` version appears, which represents the current latest release version of Certimate.
+In the above examples of the `docker-compose. yml` or `docker run` commands, the `lastest` version appears, which represents the current latest stable release version of Certimate.
 
 If you want to run a specified version of Certimate, you can specify when pulling the image:
 
