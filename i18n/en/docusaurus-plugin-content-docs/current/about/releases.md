@@ -45,7 +45,7 @@ Please keep in mind that Certimate is still under active development and full ba
 
 To ensure a smooth upgrade experience for users, we may need to require users to take actions before upgrading.
 
-Read the _[Migrations](../migrations)_ guide to learn more details.
+Read the _[Migrations](../migrations/)_ guide to learn more details.
 
 ---
 

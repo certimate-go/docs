@@ -42,6 +42,8 @@ const sidebars: SidebarsConfig = {
             "getting-started/installation/binary",
             "getting-started/installation/docker",
             "getting-started/installation/source",
+            "getting-started/installation/use-1panel",
+            "getting-started/installation/use-aapanel",
           ],
         },
         "getting-started/webui",
@@ -61,6 +63,7 @@ const sidebars: SidebarsConfig = {
         "reference/mechanism",
         "reference/terminology",
         "reference/providers",
+        "reference/faq",
       ],
       collapsed: false,
     },
@@ -68,12 +71,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "${ABOUT}",
-      items: [
-        "about/faq",
-        "about/releases",
-        "about/contributing",
-        "about/disclaimer",
-      ],
+      items: ["about/releases", "about/contributing", "about/disclaimer"],
       collapsed: false,
     },
 

@@ -117,7 +117,7 @@ const config: Config = {
             },
             {
               label: "${FAQ}",
-              to: "/docs/about/faq",
+              to: "/docs/reference/faq",
             },
           ],
         },

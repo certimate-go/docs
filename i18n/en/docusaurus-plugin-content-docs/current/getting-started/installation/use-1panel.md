@@ -1,0 +1,19 @@
+﻿# Deploy with 1Panel
+
+Certimate can be deployed to 1Panel service.
+
+---
+
+## Deployment
+
+1Panel supports managing Docker services through it's WebUI. For more details, please refer to the [official user manual](https://docs.1panel.pro/user_manual/containers/introduction/).
+
+Go to 1Panel, select "Containers" -> "Compose" -> "Create Compose", then input content of `docker-compose.yml`, and click the "Confirm" button.
+
+:::tip
+
+Please refer to the _[Docker Installation](./docker)_ guide for the content of `docker-compose.yml`.
+
+Remember to modify the host path of binding mounts to an absolute path.
+
+:::

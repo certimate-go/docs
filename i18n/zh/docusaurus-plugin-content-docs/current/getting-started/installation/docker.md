@@ -1,4 +1,4 @@
-﻿# Docker 部署
+﻿# Docker 安装
 
 推荐熟悉 Docker 的用户采用这种方式安装 Certimate。
 
@@ -15,7 +15,7 @@ curl -O https://raw.githubusercontent.com/usual2970/certimate/refs/heads/main/do
 docker compose up -d
 ```
 
-以下是我们提供的 `docker-compose.yml` 文件内容，你也可以自行修改：
+上述命令会从 GitHub 仓库中下载 `docker-compose.yml`，你也可以根据我们提供的 `docker-compose.yml` 文件内容自行部署：
 
 ```yaml showLineNumbers
 version: "3.0"

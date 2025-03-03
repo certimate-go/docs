@@ -15,7 +15,7 @@ curl -O https://raw.githubusercontent.com/usual2970/certimate/refs/heads/main/do
 docker compose up -d
 ```
 
-The following is the content of the `docker-compose.yml` file we provide, which you can also modify yourself:
+The above command will download `docker-compose.yml` from GitHub, or you can deploy it yourself based on the content of the `docker-compose.yml` file we provide:
 
 ```yaml showLineNumbers
 version: "3.0"

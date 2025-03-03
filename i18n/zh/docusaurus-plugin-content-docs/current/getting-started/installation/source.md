@@ -1,4 +1,4 @@
-﻿# 源码编译部署
+﻿# 源码编译安装
 
 有二次开发或源码审计需要的用户可以采用这种方式安装 Certimate。
 
@@ -35,3 +35,7 @@ git clone https://github.com/usual2970/certimate.git
 ```bash
 make local.run
 ```
+
+---
+
+## 运行 ${run}

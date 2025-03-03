@@ -45,7 +45,7 @@ Download the archived package of precompiled binary files directly from [GitHub 
 
 Visit `http://127.0.0.1:8090` in your browser.
 
-Initial administrator account:
+Default administrator account:
 
 - Username: `admin@certimate.fun`
 - Password: `1234567890`

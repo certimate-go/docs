@@ -16,7 +16,7 @@
 ./certimate serve --http 0.0.0.0:9999
 ```
 
-### 通过 Docker 部署的 {#via-docker-installation}
+### 通过 Docker 安装的 {#via-docker-installation}
 
 我们提供的 Docker 镜像已在容器内默认监听 `0.0.0.0:8090`。因此你只需要修改其端口映射，即可在宿主机上通过其他地址访问 Certimate。
 

@@ -14,14 +14,14 @@
 
 ## 升级流程 {#upgrade-process}
 
-### 通过二进制部署的 {#via-binary-installation}
+### 通过二进制安装的 {#via-binary-installation}
 
 1. 停止旧版本 Certimate 进程。
 2. 备份 Certimate 数据。
 3. 下载新版本的二进制程序，替换掉安装目录下的同名文件。
 4. 重新运行。
 
-### 通过 Docker 部署的 {#via-docker-installation}
+### 通过 Docker 安装的 {#via-docker-installation}
 
 1. `docker compose down` 或 `docker stop` 停止旧版本 Certimate 容器运行。
 2. 备份 Certimate 数据。
@@ -36,9 +36,9 @@
 
 在需要进行较大版本跳跃时（如 v0.2.15 → v0.3.0），你还需要遵循迁移指南中需要注意的事项。
 
-不建议连续跳跃多个大版本升级，你应该按照顺序的大版本号依次执行升级（如 v0.1.0 → v0.2.0 → v0.3.0 → v0.3.5）。
+不建议连续跳跃多个大版本升级，你应该按照顺序的大版本号依次执行升级（如 v0.1.9 → v0.2.0 → v0.3.0 → v0.3.5）。
 
-阅读[版本发布](../about/releases)和[迁移](../migrations)指南以了解更多细节。
+阅读[版本发布](../about/releases)和[迁移](../migrations/)指南以了解更多细节。
 
 ---
 
