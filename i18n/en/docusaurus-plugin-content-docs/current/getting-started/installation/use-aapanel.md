@@ -12,7 +12,7 @@ Go to aaPanel, select "Docker" -> "Compose" -> "Add Compose", then input content
 
 :::tip
 
-Please refer to the _[Docker Installation](./docker)_ guide for the content of `docker-compose.yml`.
+Please read the _[Docker Installation](./docker)_ guide for the content of `docker-compose.yml`.
 
 Remember to modify the host path of binding mounts to an absolute path.
 

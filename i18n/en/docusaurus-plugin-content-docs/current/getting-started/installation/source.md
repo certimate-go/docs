@@ -35,3 +35,9 @@ git clone https://github.com/usual2970/certimate.git
 ```bash
 make local.run
 ```
+
+---
+
+## Run {#run}
+
+Read the _[Binary Installation](./binary)_ guide to learn more details.
