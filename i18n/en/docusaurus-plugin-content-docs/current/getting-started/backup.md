@@ -24,6 +24,8 @@ If you are using Docker, please ensure that the `/app/pb_data` directory in the 
 
 :::
 
+You can use [Litestream](https://litestream.io/) or other automation tools to perform regular backups.
+
 ---
 
 ## Restore data {#restore}

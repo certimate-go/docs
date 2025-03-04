@@ -16,16 +16,16 @@ Read the _[Backup and Restore](./backup)_ guide to learn more details.
 
 ### Via binary Installation {#via-binary-installation}
 
-1. Stop the old version Certimate process.
+1. Stop the old version process.
 2. Backup Certimate data.
-3. Download the new version of Certimate and replace the files in the installation directory.
+3. Download the new version release and replace the files in your installation directory.
 4. Restart Certimate.
 
 ### Via Docker Installation {#via-docker-installation}
 
-1. `docker compose down` or `docker stop` to stop the old version Certimate container.
+1. `docker compose down` or `docker stop` to stop the old version container.
 2. Backup Certimate data.
-3. `docker pull` to pull the new image of Certimate.
+3. `docker compose pull` or `docker pull` to pull the new image.
 4. `docker compose up -d` or `docker run` to restart the container.
 
 ---

@@ -26,6 +26,8 @@ Certimate 使用 SQLite 来存储全部数据，它位于你的安装路径的 `
 
 :::
 
+你可以使用 [Litestream](https://litestream.io/) 或其他自动化工具来执行定期备份。
+
 ---
 
 ## 还原数据 {#restore}

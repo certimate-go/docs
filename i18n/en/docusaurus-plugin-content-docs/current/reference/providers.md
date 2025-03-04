@@ -35,6 +35,17 @@ There are two kinds of providers:
 - [PowerDNS](https://www.powerdns.com/)
 - ACME Proxy HTTP Request: Supports managing DNS by HTTP request
 
+### My domain registrar is not on the list? {#unlisted-domain-registrars}
+
+Since automation of issuance and renewals is really important, it only makes sense to use DNS-01 challenges if your DNS provider has an API you can use to automate updates.
+
+Before we provide a support for this, you can continue to use Certimate in any of the following ways.
+
+1. Set your domain's NS server to the supported provider mentioned above (note that this is only a modification of NS, not a transfer of your domain registrar!);
+2. Use [ACME DNS](https://github.com/joohoi/acme-dns).
+
+In future versions, we may add a feature that allows users to manually satisfying DNS-01 challenges.
+
 ---
 
 ## Supported host providers {#supported-host-providers}
@@ -83,7 +94,9 @@ There are two kinds of providers:
 - [ZeroSSL](https://zerossl.com/)
 - [Google Trust Services](https://pki.goog/)
 
-## 更多提供商 {#more-providers}
+---
+
+## More providers {#more-providers}
 
 If the above providers cannot meet your needs, please let us know or contribute code.
 

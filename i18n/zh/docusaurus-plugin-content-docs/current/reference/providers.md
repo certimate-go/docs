@@ -11,8 +11,6 @@
 
 ## 支持的 DNS 提供商 {#supported-dns-providers}
 
-最新版本的 Certimate 已支持以下的 DNS 提供商：
-
 - [阿里云](https://www.aliyun.com/)
 - [腾讯云](https://cloud.tencent.com/)
 - [百度智能云](https://cloud.baidu.com/)
@@ -43,16 +41,14 @@
 
 在我们做出支持响应之前，你可以通过以下任一方式继续使用 Certimate。
 
-1. 将你的域名 DNS 服务器设置为上述支持的提供商（注意，这只是修改 NS，不是转移你的域名注册商！）；
-2. 使用 [ACME DNS](https://github.com/joohoi/acme-dns)。
+1. 将你的域名 NS 服务器设置为上述支持的提供商（注意，这只是修改 NS，不是转移你的域名注册商！）；
+2. 搭建并使用 [ACME DNS](https://github.com/joohoi/acme-dns)。
 
-在后续版本中，我们会允许用户手动完成 DNS-01 质询。
+在后续版本中，我们可能会增加允许用户手动完成 DNS-01 质询的功能。
 
 ---
 
 ## 支持的主机提供商 {#supported-host-providers}
-
-最新版本的 Certimate 已支持以下的主机提供商：
 
 - 本地部署：可部署到本地服务器。
 - SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP）。
@@ -81,8 +77,6 @@
 
 ## 支持的通知渠道 {#supported-notification-channels}
 
-最新版本的 Certimate 已支持以下的通知渠道：
-
 - 邮件（SMTP）
 - Webhook
 - 钉钉（机器人）
@@ -96,11 +90,11 @@
 
 ## 支持的证书颁发机构 {#supported-cas}
 
-最新版本的 Certimate 已支持以下的证书颁发机构：
-
 - [Let's Encrypt](https://letsencrypt.org/)：包括测试环境及生产环境。
 - [ZeroSSL](https://zerossl.com/)
 - [Google Trust Services](https://pki.goog/)
+
+---
 
 ## 更多提供商 {#more-providers}
 
