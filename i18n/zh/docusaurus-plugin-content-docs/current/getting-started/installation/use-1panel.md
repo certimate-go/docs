@@ -10,6 +10,8 @@
 
 登录 1Panel，选择左侧菜单「容器」->「编排」>「创建编排」，输入 `docker-compose.yml`，点击“确认”按钮即可。
 
+![屏幕截图](https://github.com/certimate-go/docs/blob/main/assets/gh/installation_1panel.zh.png?raw=true)
+
 :::tip
 
 `docker-compose.yml` 内容和其他部署细节请阅读 [Docker 安装](./docker)指南。

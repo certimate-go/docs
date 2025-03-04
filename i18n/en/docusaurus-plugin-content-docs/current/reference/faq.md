@@ -73,11 +73,24 @@
 > - Binding mount of the saving path to the host;
 > - Alternatively, choose to deploy to the host using SSH.
 
-#### Error on deploying to SSH: `failed to open remote file: sftp: "Failure"(SSH FX FAILURE)`:
+#### Error on deploying to SSH: "failed to open remote file: sftp: "Failure"(SSH FX FAILURE)":
 
 > Perhaps due to insufficient permissions or insufficient disk space.
 >
 > It may also be because you entered an invalid file saving path in the deployment node configuration.
+
+### Certificate error in browser?
+
+#### Using a wildcard domain certificate, but browser prompts "SSL host name does not match certificate":
+
+> The wildcard domain name `*.example.com` can only match the second level domain name, such as `www.example.com`, `static.example.com`，but not match `example.com`.
+>
+> You need to apply for `*.example.com; example.com` both in one certificate at the same time.
+
+#### The operating system is too old, but browser prompts "This CA root certificate is not trusted":
+
+> Please refer to Let's Encrypt's instructions about certificate compatibility:
+> https://letsencrypt.org/docs/certificate-compatibility/
 
 ---
 

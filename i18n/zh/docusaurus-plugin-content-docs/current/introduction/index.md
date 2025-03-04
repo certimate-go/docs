@@ -54,7 +54,7 @@ Certimate 旨在为用户提供一个安全、简便的 SSL 证书管理解决�
 
 ## ⭐ 运行截图 {#screenshot}
 
-![Screenshot](https://i.imgur.com/4DAUKEE.gif)
+![运行截图](https://i.imgur.com/4DAUKEE.gif)
 
 ---
 

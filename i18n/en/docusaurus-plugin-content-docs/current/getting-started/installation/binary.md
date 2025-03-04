@@ -30,9 +30,9 @@ When using CMD as the terminal on Windows, the suffix `.exe` cannot be omitted.
 
 :::tip
 
-You may see a prompt saying on macOS: "Cannot open 'certimate' because Apple cannot check it for malicious software."
+You may see a prompt saying on macOS: "'certimate' can't be opened because Apple cannot check it for malicious software."
 
-You can go to "System Preferences" -> "Security & Privacy" -> "General", then click "Allow Anyway", and try run again.
+You can go to "System Settings" -> "Privacy & Security" -> "Security", then click "Allow Anywhere", and try run again.
 
 :::
 

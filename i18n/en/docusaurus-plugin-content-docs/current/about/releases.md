@@ -1,8 +1,8 @@
 ﻿# Releases
 
-|                                                    Current latest version                                                    |                                      Current latest stable version                                       |
-| :--------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-| ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?include_prereleases&sort=semver&label=Release) | ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?sort=semver&label=Release) |
+|                                             Current latest version                                             |                               Current latest stable version                                |
+| :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
+| ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?include_prereleases&sort=semver) | ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?sort=semver) |
 
 A full changelog of past releases is available on [GitHub Releases](https://github.com/usual2970/certimate/releases) page.
 

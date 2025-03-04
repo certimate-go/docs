@@ -1,8 +1,8 @@
 ﻿# 版本发布
 
-|                                                         当前最新版本                                                         |                                             当前最新稳定版本                                             |
-| :--------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: |
-| ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?include_prereleases&sort=semver&label=Release) | ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?sort=semver&label=Release) |
+|                                                  当前最新版本                                                  |                                      当前最新稳定版本                                      |
+| :------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------: |
+| ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?include_prereleases&sort=semver) | ![GitHub Release](https://img.shields.io/github/v/release/usual2970/certimate?sort=semver) |
 
 完整的过往版本发布记录可以在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 页面查阅。
 

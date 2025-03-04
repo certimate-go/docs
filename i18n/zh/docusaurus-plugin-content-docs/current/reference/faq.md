@@ -73,11 +73,26 @@
 > - 将保存路径挂载到宿主机上；
 > - 或者选择使用 SSH 部署到宿主机上。
 
-#### 部署到 SSH 时报错：`failed to open remote file: sftp: "Failure"(SSH FX FAILURE)`：
+#### 部署到 SSH 时报错：“failed to open remote file: sftp: "Failure"(SSH FX FAILURE)`”
 
 > 可能因为文件权限不足，或磁盘空间不足。
 >
 > 也可能因为在部署节点配置中你输入的并非文件保存的完整路径，而是目录。
+
+### 已部署证书，但浏览器显示证书错误？
+
+#### 使用泛域名证书，提示“服务器的证书与网址不相符”：
+
+> 泛域名 `*.example.com` 只能匹配次一级域名，如 `www.example.com`、`static.example.com`，不能匹配 `example.com`。这是正常且符合 TLS/SSL 规范的。
+>
+> 如果你还需要根域名也可以使用同一张证书，你需要在申请时同时填入 `*.example.com; example.com` 这两个域名，签发一张多域名证书。
+>
+> P.S. 某些云厂商的收费证书服务会在你购买 `*.example.com` 泛域名证书时自动帮你补上 `example.com`，实际上最后签发的也是多域名证书，而并不是单个泛域名证书。
+
+#### 操作系统版本过旧，提示“此 CA 根目录证书不受信任”：
+
+> 请参考 Let's Encrypt 关于证书兼容性的相关说明：
+> https://letsencrypt.org/zh-cn/docs/certificate-compatibility/
 
 ---
 
