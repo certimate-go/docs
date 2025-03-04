@@ -4,6 +4,13 @@
 
 ---
 
+## 要求 {#prerequisites}
+
+- Docker Engine 1.13.1+
+- Docker Compose 1.27.0+
+
+---
+
 ## Docker Compose {#docker-compose}
 
 你可以复制以下命令到终端中，即可通过 Docker Compose 一键部署 Certimate：
@@ -81,4 +88,4 @@ docker run -d \
 docker pull usual2970/certimate:latest:v0.3.0
 ```
 
-完整的版本清单你可以在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 或 [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) 页面查看。
+完整的版本发布记录可以在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 或 [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) 页面查阅。

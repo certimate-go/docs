@@ -4,7 +4,7 @@
 
 ---
 
-## 环境要求 {#requirements}
+## 要求 {#prerequisites}
 
 支持以下系统架构：
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 克隆源码 {#clone}
+## 克隆 {#clone}
 
 ```bash
 git clone https://github.com/usual2970/certimate.git
@@ -30,7 +30,7 @@ git clone https://github.com/usual2970/certimate.git
 
 ---
 
-## 执行构建 {#build}
+## 构建 {#build}
 
 ```bash
 make local.run

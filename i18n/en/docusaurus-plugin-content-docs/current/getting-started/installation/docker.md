@@ -4,6 +4,13 @@ It is recommended for users that familiar with Docker.
 
 ---
 
+## Prerequisites {#prerequisites}
+
+- Docker Engine 1.13.1+
+- Docker Compose 1.27.0+
+
+---
+
 ## Docker Compose {#docker-compose}
 
 You can copy the following command to the terminal, and run Certimate through Docker Compose：

@@ -20,6 +20,16 @@ Once you've extracted the archive, you could start the application by running in
 
 :::tip
 
+When using CMD as the terminal on Windows, the suffix `.exe` cannot be omitted.
+
+```bash
+./certimate.exe serve
+```
+
+:::
+
+:::tip
+
 You may see a prompt saying on macOS: "Cannot open 'certimate' because Apple cannot check it for malicious software."
 
 You can go to "System Preferences" -> "Security & Privacy" -> "General", then click "Allow Anyway", and try run again.

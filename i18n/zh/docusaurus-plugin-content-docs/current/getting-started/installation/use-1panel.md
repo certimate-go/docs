@@ -1,4 +1,4 @@
-﻿# 使用 1Panel 部署
+﻿# 部署到 1Panel
 
 可将 Certimate 部署到已有的 1Panel 服务中。
 

@@ -1,6 +1,6 @@
-﻿# Deploy with aaPanel
+﻿# Deploy on aaPanel
 
-Certimate can be deployed to aaPanel service.
+Certimate can be deployed on aaPanel.
 
 ---
 

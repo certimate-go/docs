@@ -4,7 +4,7 @@ It is recommended for users who require secondary development or source code aud
 
 ---
 
-## Requirements {#requirements}
+## Prerequisites {#prerequisites}
 
 System architectures:
 

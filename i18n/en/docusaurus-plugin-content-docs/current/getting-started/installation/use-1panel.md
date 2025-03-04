@@ -1,6 +1,6 @@
-﻿# Deploy with 1Panel
+﻿# Deploy on 1Panel
 
-Certimate can be deployed to 1Panel service.
+Certimate can be deployed on 1Panel.
 
 ---
 
