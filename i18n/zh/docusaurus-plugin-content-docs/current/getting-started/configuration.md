@@ -6,7 +6,7 @@
 
 ## 修改监听地址 {#set-the-listening-url}
 
-### 通过二进制部署的 {#via-binary-installation}
+### 通过二进制安装的 {#via-binary-installation}
 
 出于安全考虑，Certimate 默认监听 `127.0.0.1:8090`，这意味着你只能通过本地地址访问 Certimate。
 
