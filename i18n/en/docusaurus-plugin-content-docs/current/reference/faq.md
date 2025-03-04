@@ -36,7 +36,7 @@
 
 ### Unable to apply certificates?
 
-#### The error logs contain "could not find zone", "zone _xxx_ not found":
+#### The error logs contain "could not find zone _xxx_", "zone _xxx_ not found":
 
 > Perhaps because your domain name resolution includes CNAME wildcard resolution. You can try turning on the "Disable CNAME following" switch in the application node configuration.
 
