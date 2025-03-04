@@ -211,7 +211,7 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.blog.post.readMore": {
-    "message": "阅读更多",
+    "message": "阅读全文",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
@@ -219,7 +219,7 @@
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "主页面",
+    "message": "主页",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.blog.post.readingTime.plurals": {
@@ -271,11 +271,11 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "作者列表",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View All Authors",
+    "message": "查看全部作者",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.contentVisibility.unlistedBanner.title": {
@@ -287,11 +287,11 @@
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "草稿页",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "此页面仍在编辑中。它只在开发模式下可见。",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
