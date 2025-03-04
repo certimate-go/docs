@@ -9,11 +9,10 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
+        <img alt="Certimate" src="/img/logo.svg" width={144} height={144} />
         <Heading as="h1" className="hero__title">
           <Translate>homepage.hero.title</Translate>
         </Heading>
@@ -38,8 +37,8 @@ function Homepage(): JSX.Element {
 
   return (
     <Layout
-      title={`开源的SSL证书管理工具，可以帮助你申请SSL证书，自动续期SSL证书`}
-      description="ssl automation https ssl-certificate ssl-certificates ssl-cert https-certificate"
+      title={siteConfig.tagline}
+      description="ssl tls https ssl-certificate ssl-certificates ssl-cert https-certificate https-certificates https-cert automation"
     >
       <HomepageHeader />
       <main>

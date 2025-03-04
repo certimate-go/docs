@@ -16,21 +16,21 @@ const FeatureList: FeatureItem[] = [
     description: (
       <Translate>homepage.features.item.localDeployment.content</Translate>
     ),
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/undraw_features_local.svg").default,
   },
   {
     title: <Translate>homepage.features.item.dataSecurity​.title</Translate>,
     description: (
       <Translate>homepage.features.item.dataSecurity​.content</Translate>
     ),
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/undraw_features_secure.svg").default,
   },
   {
     title: <Translate>homepage.features.item.easyOperation.title</Translate>,
     description: (
       <Translate>homepage.features.item.easyOperation.content</Translate>
     ),
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/undraw_features_easy.svg").default,
   },
 ];
 
