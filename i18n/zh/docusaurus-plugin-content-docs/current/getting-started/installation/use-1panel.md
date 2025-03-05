@@ -14,7 +14,7 @@
 
 :::tip
 
-`docker-compose.yml` 内容和其他部署细节请阅读 [Docker 安装](./docker)指南。
+`docker-compose.yml` 内容和其他部署细节请阅读 [Docker 安装](/docs/getting-started/installation/docker)指南。
 
 注意请将其中的宿主机挂载路径修改为绝对路径。
 

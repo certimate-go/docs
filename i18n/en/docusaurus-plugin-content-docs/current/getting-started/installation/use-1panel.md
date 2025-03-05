@@ -14,7 +14,7 @@ Go to 1Panel, select "Containers" -> "Composes" -> "Create", then input content 
 
 :::tip
 
-Please read the _[Docker Installation](./docker)_ guide for the content of `docker-compose.yml`.
+Please read the _[Docker Installation](/docs/getting-started/installation/docker)_ guide for the content of `docker-compose.yml`.
 
 Remember to modify the host path of binding mounts to an absolute path.
 

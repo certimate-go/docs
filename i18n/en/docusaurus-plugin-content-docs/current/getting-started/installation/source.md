@@ -40,4 +40,4 @@ make local.run
 
 ## Run {#run}
 
-Please refer to _[Getting Started / Installation / Binary Installation / Run](./binary#run)_ section.
+Please refer to _[Getting Started / Installation / Binary Installation / Run](/docs/getting-started/installation/binary#run)_ section.

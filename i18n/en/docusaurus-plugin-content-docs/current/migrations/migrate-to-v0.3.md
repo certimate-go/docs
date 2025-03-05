@@ -6,7 +6,7 @@ v0.3.0 is a major version that is not backward compatible, and its data structur
 
 ## Ready to upgrade {#ready-to-upgrade}
 
-Read the _[Upgrade](../getting-started/upgrade)_ guide to learn more details.
+Read the _[Upgrade](/docs/getting-started/upgrade)_ guide to learn more details.
 
 After upgrading and restarting Certimate, it will automatically run a migration program.
 

@@ -40,4 +40,4 @@ make local.run
 
 ## 运行 {#run}
 
-请阅读本文档的[《开始 / 安装 / 二进制安装 / 运行》](./binary/#run)
+请阅读本文档的[《开始 / 安装 / 二进制安装 / 运行》](/docs/getting-started/installation/binary/#run)

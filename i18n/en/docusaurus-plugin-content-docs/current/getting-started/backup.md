@@ -36,6 +36,6 @@ Stop the Certimate service first, then copy all backed up files back to the `pb_
 
 Please do not directly restore data from lower versions to higher versions for cross version upgrades. As this may result in data confusion, loss, damage, and other issues.
 
-Read the _[Migrations](../migrations/)_ guide to learn more details.
+Read the _[Migrations](/docs/migrations/)_ guide to learn more details.
 
 :::

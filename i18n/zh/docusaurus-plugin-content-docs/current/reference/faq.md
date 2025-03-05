@@ -18,11 +18,11 @@
 
 ### 忘记密码怎么办？
 
-> 请阅读本文档的[《开始 / 配置 / 重置登录密码》](../getting-started/configuration#reset-password)。
+> 请阅读本文档的[《开始 / 配置 / 重置登录密码》](/docs/getting-started/configuration#reset-password)。
 
 ### 为何本地 127.0.0.1:8090 能访问，公网访问不了？
 
-> 请阅读本文档的[《开始 / 配置 / 修改监听地址》](../getting-started/configuration#set-the-listening-url)。
+> 请阅读本文档的[《开始 / 配置 / 修改监听地址》](/docs/getting-started/configuration#set-the-listening-url)。
 
 ---
 

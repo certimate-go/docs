@@ -40,4 +40,4 @@ flowchart LR;
    b-->|不完整|z
 ```
 
-Read the _[Terminology](./terminology)_ guide to learn more details.
+Read the _[Terminology](/docs/reference/terminology)_ guide to learn more details.

@@ -6,7 +6,7 @@ A full changelog of past releases is available on [GitHub Releases](https://gith
 
 Before performing a Certimate upgrade, it is recommended to back up all data to prevent any issues during the upgrade process.
 
-Read the _[Backup and Restore](./backup)_ guide to learn more details.
+Read the _[Backup and Restore](/docs/getting-started/backup)_ guide to learn more details.
 
 :::
 
@@ -38,7 +38,7 @@ When you try to skip some major versions (such as v0.2.15 → v0.3.0), you need 
 
 It is not recommended to skip multiple major version upgrades in a row. You should perform the upgrade in order of the major version number (such as v0.1.9 → v0.2.0 → v0.3.0 → v0.3.5).
 
-Read the _[Releases](../about/releases)_ and the _[Migrations](../migrations/)_ guide to learn more details.
+Read the _[Releases](/docs/about/releases)_ and the _[Migrations](/docs/migrations/)_ guide to learn more details.
 
 ---
 

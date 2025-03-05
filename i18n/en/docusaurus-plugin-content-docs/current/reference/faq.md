@@ -18,11 +18,11 @@
 
 ### Forget password?
 
-> Please refer to _[Getting Started / Configuration / Reset Password](../getting-started/configuration#reset-password)_ section.
+> Please refer to _[Getting Started / Configuration / Reset Password](/docs/getting-started/configuration#reset-password)_ section.
 
 ### Why only 127.0.0.1:8090 can be accessed?
 
-> Please refer to _[Getting Started / Configuration / Set the Listening URL](../getting-started/configuration#set-the-listening-url)_ section.
+> Please refer to _[Getting Started / Configuration / Set the Listening URL](/docs/getting-started/configuration#set-the-listening-url)_ section.
 
 ---
 
