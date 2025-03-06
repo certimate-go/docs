@@ -85,7 +85,7 @@ If you want to run a specified version of Certimate, you can specify when pullin
 
 ```bash
 # Pull image of v0.3.0
-docker pull usual2970/certimate:latest:v0.3.0
+docker pull usual2970/certimate:v0.3.0
 ```
 
 You can view the full version list on [GitHub Releases](https://github.com/usual2970/certimate/releases) or [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) pages.
