@@ -35,7 +35,7 @@ We don't commit to preserving pre-releases indefinitely. They may be removed fro
 
 - `latest`: Default tag, points to the latest stable version.
 - `next`: Points to the latest pre-releases version.
-- Version number: Directly correspond to a specific version (e.g., `v0.3.0`).
+- Fixed version number (e.g., `v0.3.0`): Points to the specific version.
 
 ---
 

@@ -51,7 +51,7 @@ docker run -d \
   --name certimate_server \
   --restart unless-stopped \
   -p 8090:8090 \
-  -v ./data:/app/pb_data \
+  -v $(pwd)/data:/app/pb_data \
   usual2970/certimate:latest
 ```
 
@@ -71,7 +71,7 @@ docker run -d \
   --name certimate_server \
   --restart unless-stopped \
   -p 8090:8090 \
-  -v ./data:/app/pb_data \
+  -v $(pwd)/data:/app/pb_data \
   registry.cn-shanghai.aliyuncs.com/usual2970/certimate:latest
 ```
 
