@@ -7,6 +7,10 @@
     "message": "Installation",
     "description": "The label for category=${INSTALLATION} in docSidebar"
   },
+  "sidebar.docSidebar.category.${TUTORIAL}": {
+    "message": "Tutorial",
+    "description": "The label for category=${TUTORIAL} in docSidebar"
+  },
   "sidebar.docSidebar.category.${REFERENCE}": {
     "message": "Reference",
     "description": "The label for category=${REFERENCE} in docSidebar"

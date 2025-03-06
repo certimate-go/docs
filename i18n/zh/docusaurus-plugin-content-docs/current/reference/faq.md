@@ -77,7 +77,7 @@
 > - 将保存路径挂载到宿主机上；
 > - 或者选择使用 SSH 部署到宿主机上。
 
-#### 部署到 SSH 时报错：“failed to open remote file: sftp: "Failure"(SSH FX FAILURE)`”
+#### 部署到 SSH 时报错：“failed to open remote file: sftp: "Failure"(SSH FX FAILURE)”
 
 > 可能因为文件权限不足，或磁盘空间不足。
 >

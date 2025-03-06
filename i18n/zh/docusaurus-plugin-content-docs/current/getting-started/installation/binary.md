@@ -66,7 +66,7 @@ After=network.target
 ExecStart=/usr/sbin/certimate/certimate serve
 WorkingDirectory=/usr/sbin/certimate/
 Type=forking
-Restart=always
+Restart=on-failure
 User=root
 PrivateTmp=true
 

@@ -6,7 +6,7 @@
 
 ## 部署
 
-宝塔面板支持通过它的 Web 界面来管理 Docker 服务，更多细节请参考[官方使用手册](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=95674)。
+宝塔面板支持通过它的 Web 界面来管理 Docker 服务，更多细节请参考宝塔面板[官方用户手册](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=95674)。
 
 登录宝塔面板，选择左侧菜单「Docker」->「容器编排」>「添加容器编排」，输入 `docker-compose.yml`，点击“确定”按钮即可。
 

@@ -6,7 +6,7 @@
 
 ## 部署
 
-1Panel 支持通过它的 Web 界面来管理 Docker 服务，更多细节请参考[官方使用手册](https://1panel.dev/docs/user_manual/containers/compose.html)。
+1Panel 支持通过它的 Web 界面来管理 Docker 服务，更多细节请参考 1Panel [官方用户手册](https://1panel.dev/docs/user_manual/containers/compose.html)。
 
 登录 1Panel，选择左侧菜单「容器」->「编排」>「创建编排」，输入 `docker-compose.yml`，点击“确认”按钮即可。
 

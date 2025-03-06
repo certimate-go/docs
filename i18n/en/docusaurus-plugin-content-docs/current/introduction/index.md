@@ -24,7 +24,7 @@ Certimate aims to provide users with a secure and user-friendly SSL certificate 
 ## 💡 Features {#features}
 
 - Flexible workflow orchestration, fully automation from certificate application to deployment;
-- Supports wildcard, multi-domain certificates, with options for RSA or ECC.
+- Supports single-domain, multi-domain, wildcard certificates, with options for RSA or ECC.
 - Supports more than 20+ domain registrars (e.g., Alibaba Cloud, Tencent Cloud, Cloudflare, etc.);
 - Supports more than 50+ deployment targets (e.g., Kubernetes, CDN, WAF, load balancers, etc.);
 - Supports multiple notification channels including email, DingTalk, Feishu, WeCom, Webhook, and more;

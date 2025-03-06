@@ -7,6 +7,10 @@
     "message": "安装",
     "description": "The label for category=${INSTALLATION} in docSidebar"
   },
+  "sidebar.docSidebar.category.${TUTORIAL}": {
+    "message": "教程",
+    "description": "The label for category=${TUTORIAL} in docSidebar"
+  },
   "sidebar.docSidebar.category.${REFERENCE}": {
     "message": "参考",
     "description": "The label for category=${REFERENCE} in docSidebar"

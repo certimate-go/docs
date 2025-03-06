@@ -54,7 +54,13 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
     },
 
-    "tutorial/index",
+    {
+      type: "category",
+      label: "${TUTORIAL}",
+      link: { type: "doc", id: "tutorial/index" },
+      items: ["tutorial/overview", "tutorial/authorization-management"],
+      collapsed: false,
+    },
 
     {
       type: "category",
