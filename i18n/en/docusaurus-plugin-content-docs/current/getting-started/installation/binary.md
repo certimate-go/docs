@@ -61,9 +61,8 @@ After=network.target
 
 [Service]
 # Replace the path with your actual installation path
-ExecStart=/usr/sbin/certimate/certimate serve
 WorkingDirectory=/usr/sbin/certimate/
-Type=forking
+ExecStart=/usr/sbin/certimate/certimate serve
 Restart=on-failure
 User=root
 PrivateTmp=true
