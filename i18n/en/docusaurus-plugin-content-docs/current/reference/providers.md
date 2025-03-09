@@ -54,8 +54,8 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - SSH: Supports deployment to remote servers (via SSH+SFTP/SCP).
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
-- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD.
-- [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, CSS, VOD.
+- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC.
+- [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, CSS, VOD, SCF.
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud CDN.
 - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF.
 - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ImageX, Live.
@@ -65,7 +65,8 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
 - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
-- [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaoTaPanel) sites.
+- [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
+- [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaoTaPanel).
 - [AWS](https://aws.amazon.com/): Supports deployment to AWS CloudFront.
 - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
 - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
