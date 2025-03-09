@@ -15,4 +15,4 @@
 
 ## 浏览器支持 {#browser-support}
 
-需 Chrome v94.0 或更高版本的现代浏览器。
+需 Chrome v119.0 或更高版本的现代浏览器。

@@ -15,4 +15,4 @@ Default administrator account:
 
 ## Browser support {#browser-support}
 
-Required Chrome v94.0 or higher version modern browser.
+Required Chrome v119.0 or higher version modern browser.
