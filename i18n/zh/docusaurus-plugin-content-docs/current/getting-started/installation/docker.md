@@ -85,7 +85,7 @@ docker run -d \
 
 ```bash
 # 拉取 v0.3.0 镜像
-docker pull usual2970/certimate:latest:v0.3.0
+docker pull usual2970/certimate:v0.3.0
 ```
 
-完整的版本发布记录可以在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 或 [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) 页面查阅。
+完整的版本清单可以在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 或 [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) 页面查阅。
