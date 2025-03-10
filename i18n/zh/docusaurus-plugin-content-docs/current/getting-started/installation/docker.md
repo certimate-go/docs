@@ -33,6 +33,8 @@ services:
     ports:
       - 8090:8090
     volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
       - ./data:/app/pb_data
     restart: unless-stopped
 ```
@@ -51,6 +53,8 @@ docker run -d \
   --name certimate_server \
   --restart unless-stopped \
   -p 8090:8090 \
+  -v /etc/localtime:/etc/localtime:ro \
+  -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
   usual2970/certimate:latest
 ```
@@ -71,6 +75,8 @@ docker run -d \
   --name certimate_server \
   --restart unless-stopped \
   -p 8090:8090 \
+  -v /etc/localtime:/etc/localtime:ro \
+  -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
   registry.cn-shanghai.aliyuncs.com/usual2970/certimate:latest
 ```

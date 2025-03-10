@@ -25,6 +25,8 @@ docker run -d \
   --name certimate_server \
   --restart unless-stopped \
   -p 9999:8090 \
+  -v /etc/localtime:/etc/localtime:ro \
+  -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
   usual2970/certimate:latest
 ```
