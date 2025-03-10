@@ -63,4 +63,4 @@ Work with Certimate right now. Or read other content in the documentation to lea
 
 ## 😖 Something missing? {#somthing-missing}
 
-This website provides the full technical documentation for the project, and can be used as a reference. If you feel that there's anything missing, please let us know or [raise a Pull Request](https://github.com/certimate-go/docs/pulls) to add it.
+This website provides the full user manual for the project, and can be used as a reference. If you feel that there's anything missing, please let us know or [raise a Pull Request](https://github.com/certimate-go/docs/pulls) to add it.

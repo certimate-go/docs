@@ -61,4 +61,4 @@ Certimate 旨在为用户提供一个安全、简便的 SSL 证书管理解决�
 
 ## 😖 缺少内容？ {#somthing-missing}
 
-本网站提供项目的技术手册，可供用户作为参考。如果你认为缺少了任何内容，请告知我们或[提交 Pull Request](https://github.com/certimate-go/docs/pulls)。
+本网站提供项目的使用手册，可供用户作为参考。如果你认为缺少了任何内容，请告知我们或[提交 Pull Request](https://github.com/certimate-go/docs/pulls)。
