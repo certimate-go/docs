@@ -52,6 +52,10 @@
 
 > Same as above.
 
+#### The error logs contain "propagation: time limit exceeded":
+
+> Same as above.
+
 #### The error logs contain "NS _xxx_ did not return the expected TXT record \[fqdn: \_acme-challenge._xxx_\]":
 
 > Perhaps because you have previously used other SSL certificate tools, there are legacy TXT parsing records that have not been deleted. You can try cleaning up the useless `_acme-challenge.` and `_dnsauth.` TXT records.

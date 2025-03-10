@@ -52,6 +52,10 @@
 
 > 同上。
 
+#### 错误日志中包含“propagation: time limit exceeded”：
+
+> 同上。
+
 #### 错误日志中包含“NS _xxx_ did not return the expected TXT record \[fqdn: \_acme-challenge._xxx_\]”：
 
 > 可能因为你之前使用过其他类似的 SSL 证书申请服务，有遗留的 TXT 解析记录未删除，可以尝试清理无用的 `_acme-challenge.` 和 `_dnsauth.` 的 TXT 解析记录后重试。
