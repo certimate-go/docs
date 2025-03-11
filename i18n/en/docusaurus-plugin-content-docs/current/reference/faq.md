@@ -46,7 +46,7 @@
 
 #### The error logs contain "authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_.":
 
-> Perhaps because your domain name resolution records did not take effect in the authoritative nameservers. You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8`), and setting a larger "DNS propagation timeout" value (such as 600ms) in the application node configuration.
+> Perhaps because your domain name resolution records did not take effect in the authoritative nameservers. You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8`), and setting a larger "DNS propagation timeout" value (such as 600s) in the application node configuration.
 
 #### The error logs contain "NXDOMAIN looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain":
 

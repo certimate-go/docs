@@ -46,7 +46,7 @@
 
 #### 错误日志中包含“authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_.”：
 
-> 可能因为你的域名解析记录未能在权威名称服务器中生效，可以尝试在工作流编排的申请节点配置中，设置「DNS 递归服务器」为公共 DNS（如 `8.8.8.8` 或 `114.114.114.114`），同时设置一个较大的「DNS 传播检查超时时间」值（如 600 毫秒）后重试。
+> 可能因为你的域名解析记录未能在权威名称服务器中生效，可以尝试在工作流编排的申请节点配置中，设置「DNS 递归服务器」为公共 DNS（如 `8.8.8.8` 或 `114.114.114.114`），同时设置一个较大的「DNS 传播检查超时时间」值（如 600 秒）后重试。
 
 #### 错误日志中包含“NXDOMAIN looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain”：
 
