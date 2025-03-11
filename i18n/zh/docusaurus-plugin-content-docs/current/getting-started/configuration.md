@@ -48,6 +48,12 @@ docker run -d \
 ./certimate serve ${your-domain.com}
 ```
 
+:::tip
+
+将使用 HTTP-01 质询完成证书申请，请提前配置好域名解析。
+
+:::
+
 ---
 
 ## 重置登录密码 {#reset-password}
@@ -74,13 +80,18 @@ Certimate 提供了一些仍未稳定的实验性功能。
 如果你希望在首次启动时就使用指定的账号及密码，你可以通过环境变量来设置它们：
 
 ```bash
-# 设置环境变量
 set CERTIMATE_ADMIN_USERNAME=admin@certimate.fun
 set CERTIMATE_ADMIN_PASSWORD=1234567890
-# 启动 Certimate
-./certimate serve
 ```
 
 注意，你必须在首次启动前完成设置。一旦 Certimate 启动，初始的管理员账号及密码就已经生成，你只能通过 WebUI 重新设置它们。
 
 注意，通过环境变量设置的账号及密码也必须符合特定规则，否则可能因为无法通过 WebUI 的前端表单验证而登录失败。
+
+### 设置工作流最大并发数 {#control-the-concurrency-of-workflows}
+
+你可以通过环境变量来设置：
+
+```bash
+set CERTIMATE_WORKFLOW_MAX_WORKERS=16
+```

@@ -47,6 +47,12 @@ You can execute the following command in the terminal to issue a SSL certificate
 ./certimate serve ${your-domain.com}
 ```
 
+:::tip
+
+HTTP-01 challenge will be used. Please add domain name resolution record in advance.
+
+:::
+
 ---
 
 ## Reset password {#reset-password}
@@ -72,13 +78,18 @@ By default, the administrator account and password are `admin@certimate.fun` and
 If you want to use a specified account and password on the first startup, you can set them through environment variables:
 
 ```bash
-# Set environment variables
 set CERTIMATE_ADMIN_USERNAME=admin@certimate.fun
 set CERTIMATE_ADMIN_PASSWORD=1234567890
-# Start Certimate
-./certimate serve
 ```
 
 Please note that you must complete the setup before the first startup. Once Certimate is run, the initial administrator account and password have already been generated, and you can only reset them through the WebUI.
 
 Please note that the account and password set through environment variables must also comply with specific rules, otherwise login may fail due to inability to pass the front-end form validations.
+
+### Control the concurrency of workflow {#control-the-concurrency-of-workflows}
+
+You can set it through environment variables:
+
+```bash
+set CERTIMATE_WORKFLOW_MAX_WORKERS=16
+```
