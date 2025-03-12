@@ -41,8 +41,9 @@ Since automation of issuance and renewals is really important, it only makes sen
 
 Before we provide a support for this, you can continue to use Certimate in any of the following ways.
 
-1. Set your domain's NS server to the supported provider mentioned above (note that this is only a modification of NS, not a transfer of your domain registrar!);
-2. Use [ACME DNS](https://github.com/joohoi/acme-dns).
+1. Set your domain's NS server to the supported providers mentioned above (note that this is only a modification of NS, not a transfer of your domain registrar!);
+2. Using CNAME records to the supported providers mentioned above;
+3. Use [ACME DNS](https://github.com/joohoi/acme-dns).
 
 In future versions, we may add a feature that allows users to manually satisfying DNS-01 challenges.
 

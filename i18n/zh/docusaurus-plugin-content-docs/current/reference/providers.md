@@ -39,10 +39,11 @@
 
 不幸的是，Certimate 的工作高度依赖自动化，不受支持的域名注册商将无法完成 DNS-01 质询。
 
-在我们做出支持响应之前，你可以通过以下任一方式继续使用 Certimate。
+在我们做出支持响应之前，你可以通过以下任一方式继续使用 Certimate 来申请证书。
 
 1. 将你的域名 NS 服务器设置为上述支持的提供商（注意，这只是修改 NS，不是转移你的域名注册商！）；
-2. 搭建并使用 [ACME DNS](https://github.com/joohoi/acme-dns)。
+2. 使用 CNAME 记录，指向商户支持的提供商；
+3. 搭建并使用 [ACME DNS](https://github.com/joohoi/acme-dns)。
 
 在后续版本中，我们可能会增加允许用户手动完成 DNS-01 质询的功能。
 
