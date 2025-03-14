@@ -33,7 +33,7 @@ _acme-challenge.www.a.com  CNAME  www.a.com.validationserver.b.com
 
 ### 2. 在 Certimate 上配置工作流
 
-在 Certimate 上配置工作流，域名填写 `www.a.com`，DNS 提供商授权选择 `a.com` 所在的提供商的授权。
+在 Certimate 上配置工作流，域名填写 `www.a.com`，DNS 提供商授权选择 `b.com` 所在的提供商的授权。
 
 ![Certimate 配置](https://i.imgur.com/yXASmOZ.png)
 
