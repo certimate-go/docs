@@ -26,7 +26,7 @@
 
 ### Why the actual execution time of the workflow is different from the set time?
 
-> Perhaps because you are running Certimate in Docker, and the images we provide default to UTC time (as we cannot assume the user's time zone). You can set the environment variable `TZ=${your-time-zone}` for the container, or binding mount `/etc/timezone` to the container.
+> Perhaps because you are running Certimate in Docker, and the images we provide default to UTC time (as we cannot assume the user's time zone). You can binding mount `/etc/localtime` and `/etc/timezone` to the container.
 
 ---
 

@@ -22,6 +22,7 @@
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
 - [DNS.LA](https://www.dns.la/)
+- [dynv6](https://dynv6.com/)
 - [Gcore](https://gcore.com/)
 - [GNAME](https://www.gname.com/)
 - [GoDaddy](https://www.godaddy.com/)
@@ -55,20 +56,22 @@
 - SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP）。
 - Webhook：可部署到 Webhook。
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
-- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、Live、VOD、FC 等服务。
-- [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF 等服务。
+- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、Live、VOD、FC、CAS 等服务。
+- [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
 - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 CDN 等服务。
 - [华为云](https://www.huaweicloud.com/)：可部署到华为云 CDN、ELB、WAF 等服务。
 - [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ImageX、Live 等服务。
 - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
-- [七牛云](https://www.qiniu.com/)：可部署到七牛云 CDN、直播云等服务。
+- [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
+- [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
 - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
 - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
 - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
 - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
 - [1Panel](https://1panel.cn/)：可部署到 1Panel。
 - [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
-- [AWS](https://aws.amazon.com/)：可部署到 AWS CloudFront。
+- [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、CloudFront 等服务。
+- [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
 - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
 - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
 - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly CDN。

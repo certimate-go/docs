@@ -22,6 +22,7 @@ There are two kinds of providers:
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
 - [DNS.LA](https://www.dns.la/)
+- [dynv6](https://dynv6.com/)
 - [Gcore](https://gcore.com/)
 - [GNAME](https://www.gname.com/)
 - [GoDaddy](https://www.godaddy.com/)
@@ -55,20 +56,22 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - SSH: Supports deployment to remote servers (via SSH+SFTP/SCP).
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
-- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC.
-- [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, CSS, VOD, SCF.
+- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, CAS.
+- [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, CSS, VOD, SCF, SSL.
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud CDN.
 - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF.
 - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ImageX, Live.
 - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
-- [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud CDN, Pili.
+- [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
+- [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
 - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
 - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
 - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaoTaPanel).
-- [AWS](https://aws.amazon.com/): Supports deployment to AWS CloudFront.
+- [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, CloudFront.
+- [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
 - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
 - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
 - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly CDN.
