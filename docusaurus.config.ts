@@ -130,7 +130,7 @@ const config: Config = {
             },
             {
               label: "${NFR}",
-              href: "https://github.com/usual2970/certimate/issues/new?template=feature_request.md",
+              href: "https://github.com/usual2970/certimate/issues/new?template=2-feature_request.yml",
             },
             {
               label: "${TELEGRAM}",

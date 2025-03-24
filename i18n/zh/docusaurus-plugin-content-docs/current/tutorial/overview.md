@@ -4,6 +4,8 @@
 
 如果以上视频无法播放，请[点击此处](https://www.bilibili.com/video/BV1xockeZEm2)在新页面打开。
 
+---
+
 ## 社区教程 {#community-tutorials}
 
 你可以阅读以下内容（按发布时间排序）来获取更多使用帮助。
