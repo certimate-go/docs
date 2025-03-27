@@ -13,6 +13,7 @@
 
 - [阿里云](https://www.aliyun.com/)
 - [腾讯云](https://cloud.tencent.com/)
+- [腾讯云 EdgeOne NS 模式](https://cloud.tencent.com/document/product/1552/111782/)
 - [百度智能云](https://cloud.baidu.com/)
 - [华为云](https://www.huaweicloud.com/)
 - [火山引擎](https://www.volcengine.com/)
@@ -21,6 +22,7 @@
 - [Azure](https://azure.microsoft.com/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
+- [deSEC](https://desec.io/)
 - [DNS.LA](https://www.dns.la/)
 - [dynv6](https://dynv6.com/)
 - [Gcore](https://gcore.com/)
@@ -30,6 +32,8 @@
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
 - [IBM NS1 Connect](https://www.ibm.com/cn-zh/products/ns1-connect/)
+- [Porkbun](https://porkbun.com/)
+- [Vercel](https://vercel.com/)
 - [移动云](https://ecloud.10086.cn/)
 - [雨云](https://www.rainyun.com/)
 - [西部数码](https://www.west.cn/)
@@ -58,9 +62,9 @@
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
 - [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、Live、VOD、FC、CAS 等服务。
 - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
-- [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 CDN 等服务。
-- [华为云](https://www.huaweicloud.com/)：可部署到华为云 CDN、ELB、WAF 等服务。
-- [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ImageX、Live 等服务。
+- [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
+- [华为云](https://www.huaweicloud.com/)：可部署到华为云 CDN、ELB、WAF、SCM 等服务。
+- [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、ImageX、Live、证书中心等服务。
 - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
 - [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
 - [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
@@ -107,6 +111,6 @@
 
 :::tip
 
-文档中所列出的提供商清单可能滞后于实际情况，完整的支持情況请前往 Certimate 仓库查阅。
+文档中所列出的提供商清单可能滞后于实际情况，请以 Certimate 程序内为准。
 
 :::

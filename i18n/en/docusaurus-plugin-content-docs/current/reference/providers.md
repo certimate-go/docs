@@ -13,6 +13,7 @@ There are two kinds of providers:
 
 - [Alibaba Cloud](https://www.alibabacloud.com/)
 - [Tencent Cloud](https://www.tencentcloud.com/)
+- [Tencent Cloud EdgeOne NS mode](https://www.tencentcloud.com/document/product/1145/66364/)
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/)
 - [Huawei Cloud](https://www.huaweicloud.com/)
 - [Volcengine](https://www.volcengine.com/)
@@ -21,6 +22,7 @@ There are two kinds of providers:
 - [Azure DNS](https://azure.microsoft.com/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
+- [deSEC](https://desec.io/)
 - [DNS.LA](https://www.dns.la/)
 - [dynv6](https://dynv6.com/)
 - [Gcore](https://gcore.com/)
@@ -30,6 +32,8 @@ There are two kinds of providers:
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
 - [IBM NS1 Connect](https://www.ibm.com/products/ns1-connect/)
+- [Porkbun](https://porkbun.com/)
+- [Vercel](https://vercel.com/)
 - [CMCC Cloud](https://ecloud.10086.cn/)
 - [Rain Yun](https://www.rainyun.com/)
 - [West.cn](https://www.west.cn/)
@@ -58,9 +62,9 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
 - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, CAS.
 - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, CSS, VOD, SCF, SSL.
-- [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud CDN.
-- [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF.
-- [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ImageX, Live.
+- [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
+- [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF, SCM.
+- [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, ImageX, Live, Certificate Center.
 - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
 - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
 - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
@@ -107,6 +111,6 @@ If the above providers cannot meet your needs, please let us know or contribute 
 
 :::tip
 
-The list of providers listed in the document may be outdated. Please check the complete list in Certimate repo.
+The list of providers listed in the document may be outdated.
 
 :::

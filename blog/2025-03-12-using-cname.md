@@ -1,6 +1,6 @@
 ---
 slug: cname
-title: 使用 CNAME 实现 DNS-01 质询
+title: 使用 CNAME 完成 ACME DNS-01 质询
 authors: [usual2970]
 tags: [certimate, CNAME]
 ---
