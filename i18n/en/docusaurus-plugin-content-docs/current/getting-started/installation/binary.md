@@ -42,7 +42,7 @@ You can go to "System Settings" -> "Privacy & Security" -> "Security", then clic
 
 Certimate needs to run in the background in order to automatically renew certificates.
 
-### Linux
+### Linux {#autorun-on-linux}
 
 You can use `systemd` to manage service.
 
@@ -81,7 +81,7 @@ sudo systemctl enable certimate.service
 sudo systemctl start certimate.service
 ```
 
-### Windows
+### Windows {#autorun-on-windows}
 
 You can add a autorun startup item in the Windows Registry.
 
@@ -95,6 +95,6 @@ Windows Registry Editor Version 5.00
 "Certimate"="\"C:\\certimate\\certimate.exe\" serve"
 ```
 
-### macOS
+### macOS {#autorun-on-macos}
 
 You can use `launchd` to manage service.

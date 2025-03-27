@@ -44,7 +44,7 @@ macOS 在运行时可能会提示：「无法打开“Certimate”，因为 Appl
 
 Certimate 需要在后台运行，才能周期性地执行工作流程以自动续期证书。
 
-### Linux 操作系统
+### Linux {#autorun-on-linux}
 
 你可以利用 `systemd` 来管理开机自启动项。
 
@@ -83,7 +83,7 @@ sudo systemctl enable certimate.service
 sudo systemctl start certimate.service
 ```
 
-### Windows 操作系统
+### Windows {#autorun-on-windows}
 
 你可以通过注册表来添加开机自启动项。
 
@@ -97,6 +97,6 @@ Windows Registry Editor Version 5.00
 "Certimate"="\"D:\\certimate\\certimate.exe\" serve"
 ```
 
-### macOS 操作系统
+### macOS {#autorun-on-macos}
 
 你可以利用 `launchd` 来管理开机自启动项。
