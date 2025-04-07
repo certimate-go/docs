@@ -88,20 +88,24 @@ In future versions, we may add a feature that allows users to manually satisfyin
 
 - Email (SMTP)
 - Webhook
-- DingTalk
-- Lark/Feishu
-- WeCom
+- DingTalk Robot
+- Lark/Feishu Robot
+- WeCom Robot
 - Bark
+- Gotify
+- PushPlus
 - ServerChan
 - Telegram
 
 ---
 
-## Supported CAs {#supported-cas}
+## Supported certificate authorities {#supported-certificate-authorities}
 
 - [Let's Encrypt](https://letsencrypt.org/): Including production environment and staging environment.
-- [ZeroSSL](https://zerossl.com/)
+- [Buypass](https://www.buypass.com/)
 - [Google Trust Services](https://pki.goog/)
+- [SSL.com](https://www.ssl.com/)
+- [ZeroSSL](https://zerossl.com/)
 
 ---
 

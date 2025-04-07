@@ -42,7 +42,7 @@
 
 #### 错误日志中包含“could not find zone _xxx_”、“zone _xxx_ not found”，且出现了乱七八糟的域名：
 
-> 可能因为你的域名解析中包含 CNAME 泛解析，可以尝试在工作流编排的申请节点配置中，将「关闭 CNAME 跟随」开关打开后重试。
+> 可能因为你的域名解析中包含 CNAME 泛解析，可以尝试在工作流编排的申请节点配置中，勾选「阻止 CNAME 跟随」开关后重试。
 
 #### 错误日志中包含“authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_.”：
 

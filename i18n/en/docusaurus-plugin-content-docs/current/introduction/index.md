@@ -29,7 +29,7 @@ Certimate aims to provide users with a secure and user-friendly SSL certificate 
 - Supports more than 20+ domain registrars (e.g., Alibaba Cloud, Tencent Cloud, Cloudflare, etc.);
 - Supports more than 60+ deployment targets (e.g., Kubernetes, CDN, WAF, load balancers, etc.);
 - Supports multiple notification channels including email, DingTalk, Feishu, WeCom, Webhook, and more;
-- Supports multiple ACME CAs including Let's Encrypt, ZeroSSL, Google Trust Services, and more;
+- Supports multiple ACME CAs including Let's Encrypt, Buypass, Google Trust Services，SSL.com, ZeroSSL, and more;
 - More features waiting to be discovered.
 
 ---

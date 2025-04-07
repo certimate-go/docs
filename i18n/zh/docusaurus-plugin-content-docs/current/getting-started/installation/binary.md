@@ -25,7 +25,7 @@
 Windows 使用 CMD 作为终端时，`.exe` 后缀名不可省略。
 
 ```bash
-./certimate.exe serve
+.\certimate.exe serve
 ```
 
 :::

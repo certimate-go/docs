@@ -23,7 +23,7 @@ Once you've extracted the archive, you could start the application by running in
 When using CMD as the terminal on Windows, the suffix `.exe` cannot be omitted.
 
 ```bash
-./certimate.exe serve
+.\certimate.exe serve
 ```
 
 :::

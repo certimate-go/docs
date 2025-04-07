@@ -88,20 +88,24 @@
 
 - 邮件（SMTP）
 - Webhook
-- 钉钉（机器人）
-- 飞书（机器人）
-- 企业微信（机器人）
+- 钉钉机器人
+- 飞书机器人
+- 企业微信机器人
 - Bark
+- Gotify
+- PushPlus 推送加
 - Server 酱
 - Telegram
 
 ---
 
-## 支持的证书颁发机构 {#supported-cas}
+## 支持的证书颁发机构 {#supported-certificate-authorities}
 
 - [Let's Encrypt](https://letsencrypt.org/)：包括测试环境及生产环境。
-- [ZeroSSL](https://zerossl.com/)
+- [Buypass](https://www.buypass.com/)
 - [Google Trust Services](https://pki.goog/)
+- [SSL.com](https://www.ssl.com/)
+- [ZeroSSL](https://zerossl.com/)
 
 ---
 

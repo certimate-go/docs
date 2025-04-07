@@ -4,7 +4,7 @@ On the authorization management page, you can manage authorization credentials f
 
 ---
 
-## How to get providers' authorization credentials? {#how-to-get-providers-authorization-credentials}
+## How to retrieve provider's authorization credentials? {#how-to-retrieve-providers-authorization-credentials}
 
 ### Alibaba Cloud {#aliyun-credentials}
 
@@ -99,4 +99,10 @@ Please refer to the following process to obtain:
 
 1. Log in to the Cloudflare console.
 2. Click on the account avatar, then click on "My Profile" -> "API Tokens" -> "Create Token", and select to use the "Edit zone DNS" template.
-3. Add `Zone.DNS.Edit` permission, fill in your domain names, then click the "Continue" button.
+3. Add permission, fill in your domain names, then click the "Continue" button.
+
+Least privileges:
+
+- Applying (DNS-01 challenge):
+  - `Zone / Zone / Read`
+  - `Zone / DNS / Edit`

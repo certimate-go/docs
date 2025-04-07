@@ -29,7 +29,7 @@ Certimate 旨在为用户提供一个安全、简便的 SSL 证书管理解决�
 - 支持 20+ 域名托管商（如阿里云、腾讯云、Cloudflare 等）；
 - 支持 60+ 部署目标（如 Kubernetes、CDN、WAF、负载均衡等）；
 - 支持邮件、钉钉、飞书、企业微信、Webhook 等多种通知渠道；
-- 支持 Let's Encrypt、ZeroSSL、Google Trust Services 等多种 ACME 证书颁发机构；
+- 支持 Let's Encrypt、Buypass、Google Trust Services、SSL.com、ZeroSSL 等多种 ACME 证书颁发机构；
 - 更多特性等待探索。
 
 ## ⏱️ 快速启动 {#fast-track}

@@ -4,7 +4,7 @@
 
 ---
 
-## 如何获取提供商的授权凭证？ {#how-to-get-providers-authorization-credentials}
+## 如何获取提供商的授权凭证？ {#how-to-retrieve-providers-authorization-credentials}
 
 ### 阿里云 {#aliyun-credentials}
 
@@ -99,4 +99,10 @@
 
 1. 登录 Cloudflare 控制台，进入控制台域名管理页面。
 2. 点击账号头像，依次点击「我的个人资料」->「API 令牌」->「创建令牌」，选择使用「编辑区域 DNS」模板。
-3. 配置 `Zone.DNS.Edit` 权限，然后填入域名后，点击“继续”按钮。
+3. 配置权限，并填入域名后，点击“继续”按钮。
+
+必要的最小化权限：
+
+- 申请证书（DNS-01 质询）：
+  - `Zone / Zone / Read`
+  - `Zone / DNS / Edit`
