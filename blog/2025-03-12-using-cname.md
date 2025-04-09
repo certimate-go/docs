@@ -2,7 +2,7 @@
 slug: cname
 title: 使用 CNAME 完成 ACME DNS-01 质询
 authors: [usual2970]
-tags: [certimate, CNAME]
+tags: [certimate]
 ---
 
 Certimate 使用 DNS-01 质询验证你的域名的所有权，截至本文发布时已支持 20+ 域名托管商。但是仍有用户持有的域名不在支持的范围内，或者想给客户申请证书但是域名不在自己的掌控范围内。

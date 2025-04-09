@@ -71,6 +71,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
+- [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
 - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
 - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaoTaPanel).

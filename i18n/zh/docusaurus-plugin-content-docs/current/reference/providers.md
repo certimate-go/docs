@@ -71,6 +71,7 @@
 - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
 - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
 - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
+- [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
 - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
 - [1Panel](https://1panel.cn/)：可部署到 1Panel。
 - [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
