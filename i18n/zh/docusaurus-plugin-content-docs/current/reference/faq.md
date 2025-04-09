@@ -22,7 +22,7 @@
 
 ### 为何本地 127.0.0.1:8090 能访问，公网访问不了？
 
-> 请阅读本文档的[《开始 / 配置 / 修改监听地址》](/docs/getting-started/configuration#set-the-listening-url)。
+> 请阅读本文档的[《开始 / 配置 / 修改监听地址》](/docs/getting-started/configuration#set-listening-url)。
 
 ### 工作流的实际执行时间与设定时间相差了 8 个小时？
 

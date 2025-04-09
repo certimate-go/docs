@@ -4,7 +4,7 @@ You can configure most of the parameters of Certimate through WebUI, except for 
 
 ---
 
-## Set the listening URL {#set-the-listening-url}
+## Set the listening URL {#set-listening-url}
 
 ### Via binary installation {#via-binary-installation}
 
@@ -67,6 +67,15 @@ If you deploy through Docker, you can use `docker exec` command to enter the con
 
 ---
 
+## HTTP proxy {#http-proxy}
+
+You can set it through environment variables:
+
+```bash
+export HTTP_PROXY="http://proxy.example.com"
+export HTTPS_PROXY="http://proxy.example.com"
+```
+
 ## Experimental features {#experimental-features}
 
 Certimate provides some experimental features that are still unstable.
@@ -78,8 +87,8 @@ By default, the administrator account and password are `admin@certimate.fun` and
 If you want to use a specified account and password on the first startup, you can set them through environment variables:
 
 ```bash
-set CERTIMATE_ADMIN_USERNAME=admin@certimate.fun
-set CERTIMATE_ADMIN_PASSWORD=1234567890
+export CERTIMATE_ADMIN_USERNAME=admin@certimate.fun
+export CERTIMATE_ADMIN_PASSWORD=1234567890
 ```
 
 Please note that you must complete the setup before the first startup. Once Certimate is run, the initial administrator account and password have already been generated, and you can only reset them through the WebUI.
@@ -91,5 +100,5 @@ Please note that the account and password set through environment variables must
 You can set it through environment variables:
 
 ```bash
-set CERTIMATE_WORKFLOW_MAX_WORKERS=16
+export CERTIMATE_WORKFLOW_MAX_WORKERS=16
 ```

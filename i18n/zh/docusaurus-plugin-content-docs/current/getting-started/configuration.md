@@ -4,7 +4,7 @@
 
 ---
 
-## 修改监听地址 {#set-the-listening-url}
+## 修改监听地址 {#set-listening-url}
 
 ### 通过二进制安装的 {#via-binary-installation}
 
@@ -69,6 +69,17 @@ docker run -d \
 
 ---
 
+## HTTP 代理 {#http-proxy}
+
+你可以通过环境变量来设置：
+
+```bash
+export HTTP_PROXY="http://proxy.example.com"
+export HTTPS_PROXY="http://proxy.example.com"
+```
+
+---
+
 ## 实验性功能 {#experimental-features}
 
 Certimate 提供了一些仍未稳定的实验性功能。
@@ -80,8 +91,8 @@ Certimate 提供了一些仍未稳定的实验性功能。
 如果你希望在首次启动时就使用指定的账号及密码，你可以通过环境变量来设置它们：
 
 ```bash
-set CERTIMATE_ADMIN_USERNAME=admin@certimate.fun
-set CERTIMATE_ADMIN_PASSWORD=1234567890
+export CERTIMATE_ADMIN_USERNAME=admin@certimate.fun
+export CERTIMATE_ADMIN_PASSWORD=1234567890
 ```
 
 注意，你必须在首次启动前完成设置。一旦 Certimate 启动，初始的管理员账号及密码就已经生成，你只能通过 WebUI 重新设置它们。
@@ -93,5 +104,5 @@ set CERTIMATE_ADMIN_PASSWORD=1234567890
 你可以通过环境变量来设置：
 
 ```bash
-set CERTIMATE_WORKFLOW_MAX_WORKERS=16
+export CERTIMATE_WORKFLOW_MAX_WORKERS=16
 ```
