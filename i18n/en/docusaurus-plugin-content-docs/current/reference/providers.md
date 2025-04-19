@@ -20,6 +20,7 @@ There are two kinds of providers:
 - [JD Cloud](https://www.jdcloud.com/)
 - [AWS Route53](https://aws.amazon.com/route53/)
 - [Azure DNS](https://azure.microsoft.com/)
+- [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
 - [deSEC](https://desec.io/)
@@ -60,7 +61,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - SSH: Supports deployment to remote servers (via SSH+SFTP/SCP).
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
-- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, CAS.
+- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, CAS.
 - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, CSS, VOD, SCF, SSL.
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
 - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF, SCM.
@@ -68,6 +69,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
 - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
 - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
+- [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN Pro。
 - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
@@ -77,6 +79,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaoTaPanel).
 - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, CloudFront.
 - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
+- [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN。
 - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
 - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
 - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly CDN.

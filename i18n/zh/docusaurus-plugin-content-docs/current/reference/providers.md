@@ -20,6 +20,7 @@
 - [京东云](https://www.jdcloud.com/)
 - [AWS Route53](https://aws.amazon.com/route53/)
 - [Azure](https://azure.microsoft.com/)
+- [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
 - [deSEC](https://desec.io/)
@@ -60,7 +61,7 @@
 - SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP）。
 - Webhook：可部署到 Webhook。
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
-- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、Live、VOD、FC、CAS 等服务。
+- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、Live、VOD、FC、APIG、CAS 等服务。
 - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
 - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
 - [华为云](https://www.huaweicloud.com/)：可部署到华为云 CDN、ELB、WAF、SCM 等服务。
@@ -68,6 +69,7 @@
 - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
 - [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
 - [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
+- [网宿云](https://www.wangsu.com/)：可部署到网宿云 CDN Pro。
 - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
 - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
 - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
@@ -77,6 +79,7 @@
 - [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
 - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、CloudFront 等服务。
 - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
+- [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
 - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
 - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
 - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly CDN。

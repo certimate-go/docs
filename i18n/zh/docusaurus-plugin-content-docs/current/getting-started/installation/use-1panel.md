@@ -10,7 +10,7 @@
 
 登录 1Panel，在应用商店中搜索 `Certimate`，然后点击“安装”按钮。
 
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/assets/gh/installation_1panel_appstore.zh.png?raw=true)
+![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel_appstore.zh.png?raw=true)
 
 ### 通过容器编排部署 {#deploy-via-docker-compose}
 
@@ -18,7 +18,7 @@
 
 登录 1Panel，选择左侧菜单「容器」->「编排」>「创建编排」，输入 `docker-compose.yml` 内容，点击“确认”按钮即可。
 
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/assets/gh/installation_1panel.zh.png?raw=true)
+![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel.zh.png?raw=true)
 
 :::tip
 
