@@ -42,11 +42,15 @@
 
 #### 错误日志中包含“could not find zone _xxx_”、“zone _xxx_ not found”，且出现了乱七八糟的域名：
 
-> 可能因为你的域名解析中包含 CNAME 泛解析，可以尝试在工作流编排的申请节点配置中，勾选「阻止 CNAME 跟随」开关后重试。
+> 可能因为你的域名解析中包含 CNAME 泛解析。根据 DNS 规范，CNAME 的优先级最高，因此 DNS-01 质询过程中无法查询到正确的 TXT 解析记录。
+>
+> 可以尝试在工作流编排的申请节点配置中，勾选「阻止 CNAME 跟随」开关后重试。
 
 #### 错误日志中包含“authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_.”：
 
-> 可能因为你的域名解析记录未能在权威名称服务器中生效，可以尝试在工作流编排的申请节点配置中，设置「DNS 递归服务器」为公共 DNS（如 `8.8.8.8` 或 `114.114.114.114`），同时设置一个较大的「DNS 传播检查超时时间」值（如 600 秒）后重试。
+> 可能因为你的域名解析记录未能在权威名称服务器中生效。
+>
+> 可以尝试在工作流编排的申请节点配置中，设置「DNS 递归服务器」为公共 DNS（如 `8.8.8.8` 或 `114.114.114.114`），同时设置一个较大的「DNS 传播检查超时时间」值（如 600 秒）后重试。也可以尝试设置「DNS 传播等待时间」值（如 30 秒），以跳过本机检查。
 
 #### 错误日志中包含“NXDOMAIN looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain”：
 
@@ -58,7 +62,9 @@
 
 #### 错误日志中包含“NS _xxx_ did not return the expected TXT record \[fqdn: \_acme-challenge._xxx_\]”：
 
-> 可能因为你之前使用过其他类似的 SSL 证书申请服务，有遗留的 TXT 解析记录未删除，可以尝试清理无用的 `_acme-challenge.` 和 `_dnsauth.` 的 TXT 解析记录后重试。
+> 可能因为你之前使用过其他类似的 SSL 证书申请服务，有遗留的 TXT 解析记录未删除。
+>
+> 可以尝试清理无用的 `_acme-challenge.` 和 `_dnsauth.` 的 TXT 解析记录后重试。
 >
 > 如果你最近变更过域名的注册商或修改过 NS 服务器，还可能是因为存在缓存的解析记录，需要等待 48~72 小时后重试。
 
@@ -68,7 +74,9 @@
 
 #### 错误日志中包含“dial tcp: lookup acme-v02.api.letsencrypt.org on 127.0.0.11:53: i/o timeout”
 
-> 无法连接到 Let's Encrypt 服务器，因为众所周知的原因，在国内的用户会比较常见。确认本机网络畅通的情况下，如果是公有云可以尝试重新申请一个动态 IP，也可以尝试切换到 ZeroSSL 或其他证书颁发机构。
+> 无法连接到 Let's Encrypt 服务器，因为众所周知的原因，在国内的用户会比较常见。
+>
+> 在确认本机网络畅通的情况下，如果是公有云可以尝试重新申请一个动态 IP，也可以尝试切换到其他证书颁发机构。
 
 ### 无法部署证书？
 

@@ -42,11 +42,15 @@
 
 #### The error logs contain "could not find zone _xxx_", "zone _xxx_ not found":
 
-> Perhaps because your domain name resolution includes CNAME wildcard resolution. You can try turning on the "Disable CNAME following" switch in the application node configuration.
+> Perhaps because your domain name resolution includes CNAME wildcard resolution. According to the specification, CNAME has the highest priority, so the TXT resolution record cannot be queried during the DNS-01 challenge process.
+>
+> You can try turning on the "Disable CNAME following" switch in the application node configuration.
 
 #### The error logs contain "authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_.":
 
-> Perhaps because your domain name resolution records did not take effect in the authoritative nameservers. You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8`), and setting a larger "DNS propagation timeout" value (such as 600s) in the application node configuration.
+> Perhaps because your domain name resolution records did not take effect in the authoritative nameservers.
+>
+> You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8`), and setting a larger "DNS propagation checks timeout" value (such as 600s) in the application node configuration. You can also try setting the "DNS propagation waiting time" value (such as 30s) to skip local checks.
 
 #### The error logs contain "NXDOMAIN looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain":
 
@@ -58,7 +62,9 @@
 
 #### The error logs contain "NS _xxx_ did not return the expected TXT record \[fqdn: \_acme-challenge._xxx_\]":
 
-> Perhaps because you have previously used other SSL certificate tools, there are legacy TXT parsing records that have not been deleted. You can try cleaning up the useless `_acme-challenge.` and `_dnsauth.` TXT records.
+> Perhaps because you have previously used other SSL certificate tools, there are legacy TXT parsing records that have not been deleted.
+>
+> You can try cleaning up the useless `_acme-challenge.` and `_dnsauth.` TXT records.
 >
 > If you have recently changed the domain name registrar or modified the NS server, it may also be due to cached resolution records, and you need to wait 48-72 hours before trying again.
 
