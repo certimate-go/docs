@@ -2,16 +2,19 @@
 
 Provider refers to a third party that provides specific services.
 
-There are two kinds of providers:
+There are several kinds of providers:
 
 - `DNS provider`: The provider that hosts your domain names and manages your DNS records.
-- `Host provider`: The provider that hosts your servers or cloud services for deploying certificates.
+- `Hosting provider`: The provider that hosts your servers or cloud services for deploying certificates.
+- `CA provider`: The provider which is certificate authority. Only CAs that use the ACME protocol are supported currently.
+- `Notification provider`: The provider used for pushing notifications.
 
 ---
 
 ## Supported DNS providers {#supported-dns-providers}
 
 - [Alibaba Cloud](https://www.alibabacloud.com/)
+- [Alibaba Cloud ESA NS mode](https://www.alibabacloud.com/help/en/edge-security-acceleration/esa/user-guide/dns-overview/)
 - [Tencent Cloud](https://www.tencentcloud.com/)
 - [Tencent Cloud EdgeOne NS mode](https://www.tencentcloud.com/document/product/1145/66364/)
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/)
@@ -39,7 +42,7 @@ There are two kinds of providers:
 - [Rain Yun](https://www.rainyun.com/)
 - [West.cn](https://www.west.cn/)
 - [PowerDNS](https://www.powerdns.com/)
-- ACME Proxy HTTP Request: Supports managing DNS by HTTP request
+- ACME Proxy HTTP Request: Supports managing DNS by HTTP request.
 
 ### My domain registrar is not on the list? {#unlisted-domain-registrars}
 
@@ -55,14 +58,14 @@ In future versions, we may add a feature that allows users to manually satisfyin
 
 ---
 
-## Supported host providers {#supported-host-providers}
+## Supported hosting providers {#supported-hosting-providers}
 
 - Local: Supports deployment to local servers.
 - SSH: Supports deployment to remote servers (via SSH+SFTP/SCP).
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
 - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, CAS.
-- [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, CSS, VOD, SCF, SSL.
+- [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
 - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF, SCM.
 - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, ImageX, Live, Certificate Center.
@@ -85,6 +88,8 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly CDN.
 - [Edgio](https://edg.io/): Supports deployment to Edgio Applications.
 - [Gcore](https://gcore.com/): Supports deployment to Gcore CDN.
+- [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge CDN.
+- [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
 
 ---
 
@@ -92,13 +97,17 @@ In future versions, we may add a feature that allows users to manually satisfyin
 
 - Email (SMTP)
 - Webhook
-- DingTalk Robot
-- Lark/Feishu Robot
-- WeCom Robot
-- Bark
-- Gotify
-- PushPlus
-- ServerChan
+  - Bark
+  - ntfy
+  - Gotify
+  - Pushover
+  - PushPlus
+  - ServerChan
+  - _Custom Webhook_
+- DingTalk Bot
+- Lark/Feishu Bot
+- WeCom Bot
+- Mattermost
 - Telegram
 
 ---

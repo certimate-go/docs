@@ -14,7 +14,7 @@ A typical `pb_data` directory structure is as follows:
 .
 ├─ backups/
 ├─ storage/
-├─ auxiliary.db
+├─ auxiliary.db  # VERY IMPORTANT!
 └─ data.db       # VERY IMPORTANT!
 ```
 

@@ -14,7 +14,7 @@ Certimate 使用 SQLite 来存储全部数据，它位于你的安装路径的 `
 .
 ├─ backups/
 ├─ storage/
-├─ auxiliary.db
+├─ auxiliary.db  # VERY IMPORTANT!
 └─ data.db       # VERY IMPORTANT!
 ```
 

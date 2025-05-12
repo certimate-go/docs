@@ -2,16 +2,19 @@
 
 在 Certimate 中，提供商是指提供特定服务的第三方。
 
-提供商分为两种类型：
+提供商分为以下种类型：
 
 - `DNS 提供商`：你的 DNS 托管方，通常等同于域名注册商，用于在申请证书时管理你的域名解析记录。
 - `主机提供商`：你的服务器或云服务的托管方，用于部署签发的证书。
+- `证书颁发机构`：证书颁发机构。目前仅支持使用 ACME 协议的证书颁发机构。
+- `通知渠道`：用于推送消息通知的渠道。
 
 ---
 
 ## 支持的 DNS 提供商 {#supported-dns-providers}
 
 - [阿里云](https://www.aliyun.com/)
+- [阿里云 ESA NS 模式](https://help.aliyun.com/zh/edge-security-acceleration/esa/user-guide/dns-overview/)
 - [腾讯云](https://cloud.tencent.com/)
 - [腾讯云 EdgeOne NS 模式](https://cloud.tencent.com/document/product/1552/111782/)
 - [百度智能云](https://cloud.baidu.com/)
@@ -55,13 +58,13 @@
 
 ---
 
-## 支持的主机提供商 {#supported-host-providers}
+## 支持的主机提供商 {#supported-hosting-providers}
 
 - 本地部署：可部署到本地服务器。
 - SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP）。
 - Webhook：可部署到 Webhook。
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
-- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、Live、VOD、FC、APIG、CAS 等服务。
+- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、CAS 等服务。
 - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
 - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
 - [华为云](https://www.huaweicloud.com/)：可部署到华为云 CDN、ELB、WAF、SCM 等服务。
@@ -85,21 +88,8 @@
 - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly CDN。
 - [Edgio](https://edg.io/)：可部署到 Edgio Applications。
 - [Gcore](https://gcore.com/)：可部署到 Gcore CDN。
-
----
-
-## 支持的通知渠道 {#supported-notification-channels}
-
-- 邮件（SMTP）
-- Webhook
-- 钉钉机器人
-- 飞书机器人
-- 企业微信机器人
-- Bark
-- Gotify
-- PushPlus 推送加
-- Server 酱
-- Telegram
+- [GoEdge](https://goedge.cloud/)：可部署到 GoEdge CDN。
+- [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
 
 ---
 
@@ -110,6 +100,25 @@
 - [Google Trust Services](https://pki.goog/)
 - [SSL.com](https://www.ssl.com/)
 - [ZeroSSL](https://zerossl.com/)
+
+---
+
+## 支持的通知渠道 {#supported-notification-channels}
+
+- 邮件（SMTP）
+- Webhook
+  - Bark
+  - ntfy
+  - Gotify
+  - Pushover
+  - PushPlus 推送加
+  - Server 酱
+  - _自定义 Webhook_
+- 钉钉机器人
+- 飞书机器人
+- 企业微信机器人
+- Mattermost
+- Telegram
 
 ---
 
