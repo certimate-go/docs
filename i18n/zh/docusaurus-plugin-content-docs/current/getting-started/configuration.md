@@ -62,7 +62,7 @@ docker run -d \
 
 ```bash
 # 请将 `${your-account}` 和 `${your-new-password}` 替换为实际值
-./certimate admin update ${your-account} ${your-new-password}
+./certimate superuser update ${your-account} ${your-new-password}
 ```
 
 如果你是通过 Docker 部署，你可以通过 `docker exec` 命令进入到容器内再执行上述命令。

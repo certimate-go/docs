@@ -60,7 +60,7 @@ HTTP-01 challenge will be used. Please add domain name resolution record in adva
 If you have forgotten the login password for Certimate, you can execute the following command in the terminal to reset it:
 
 ```bash
-./certimate admin update ${your-account} ${your-new-password}
+./certimate superuser update ${your-account} ${your-new-password}
 ```
 
 If you deploy through Docker, you can use `docker exec` command to enter the container and execute the above command.
