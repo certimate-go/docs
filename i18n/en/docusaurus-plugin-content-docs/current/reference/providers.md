@@ -35,6 +35,8 @@ There are several kinds of providers:
 - [Name.com](https://www.name.com/)
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
+- [netcup](https://www.netcup.com/)
+- [netlify](https://www.netlify.com/)
 - [IBM NS1 Connect](https://www.ibm.com/products/ns1-connect/)
 - [Porkbun](https://porkbun.com/)
 - [Vercel](https://vercel.com/)
@@ -60,8 +62,18 @@ In future versions, we may add a feature that allows users to manually satisfyin
 
 ## Supported hosting providers {#supported-hosting-providers}
 
-- Local: Supports deployment to local servers.
-- SSH: Supports deployment to remote servers (via SSH+SFTP/SCP).
+- Local: Supports deployment to local servers. Preset scripts:
+  - Binding IIS
+  - Binding netsh
+  - Binding RDP
+  - _Custom scripts_
+- SSH: Supports deployment to remote servers (via SSH+SFTP/SCP). Preset scripts:
+  - Replace SynologyDSM SSL certificate
+  - Replace fnOS SSL certificate
+  - Binding IIS
+  - Binding netsh
+  - Binding RDP
+  - _Custom scripts_
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
 - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, CAS.
@@ -89,6 +101,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Edgio](https://edg.io/): Supports deployment to Edgio Applications.
 - [Gcore](https://gcore.com/): Supports deployment to Gcore CDN.
 - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge CDN.
+- [netlify](https://www.netlify.com/): Supports deployment to netlify Sites.
 - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
 
 ---

@@ -35,6 +35,8 @@
 - [Name.com](https://www.name.com/)
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
+- [netcup](https://www.netcup.com/)
+- [netlify](https://www.netlify.com/)
 - [IBM NS1 Connect](https://www.ibm.com/cn-zh/products/ns1-connect/)
 - [Porkbun](https://porkbun.com/)
 - [Vercel](https://vercel.com/)
@@ -60,8 +62,18 @@
 
 ## 支持的主机提供商 {#supported-hosting-providers}
 
-- 本地部署：可部署到本地服务器。
-- SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP）。
+- 本地部署：可部署到本地服务器，并提供预设脚本：
+  - 导入并绑定到 IIS
+  - 导入并绑定到 netsh
+  - 导入并绑定到 RDP
+  - _自定义脚本_
+- SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP），并提供预设脚本：
+  - 替换群晖 DSM 证书
+  - 替换飞牛 fnOS 证书
+  - 导入并绑定到 IIS
+  - 导入并绑定到 netsh
+  - 导入并绑定到 RDP
+  - _自定义脚本_
 - Webhook：可部署到 Webhook。
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
 - [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、CAS 等服务。
@@ -89,6 +101,7 @@
 - [Edgio](https://edg.io/)：可部署到 Edgio Applications。
 - [Gcore](https://gcore.com/)：可部署到 Gcore CDN。
 - [GoEdge](https://goedge.cloud/)：可部署到 GoEdge CDN。
+- [netlify](https://www.netlify.com/)：可部署到 netlify Sites。
 - [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
 
 ---
