@@ -50,7 +50,7 @@
 
 > Perhaps because your domain name resolution records did not take effect in the authoritative nameservers.
 >
-> You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8`), and setting a larger "DNS propagation checks timeout" value (such as 600s) in the application node configuration. You can also try setting the "DNS propagation waiting time" value (such as 30s) to skip local checks.
+> You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8` or `1.1.1.1`), and setting a larger "DNS propagation checks timeout" value (such as 600s) in the application node configuration. You can also try setting the "DNS propagation waiting time" value (such as 30s) to skip local checks.
 
 #### The error logs contain "NXDOMAIN looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain":
 
