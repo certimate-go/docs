@@ -36,7 +36,7 @@ There are several kinds of providers:
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
 - [netcup](https://www.netcup.com/)
-- [netlify](https://www.netlify.com/)
+- [Netlify](https://www.netlify.com/)
 - [IBM NS1 Connect](https://www.ibm.com/products/ns1-connect/)
 - [Porkbun](https://porkbun.com/)
 - [Vercel](https://vercel.com/)
@@ -76,7 +76,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - _Custom scripts_
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
-- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, CAS.
+- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
 - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
 - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF, SCM.
@@ -84,14 +84,16 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
 - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
 - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
-- [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN Pro。
+- [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management。
 - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
 - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
 - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
-- [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaoTaPanel).
+- [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaotaPanel).
+- [aaWAF](https://www.aapanel.com/new/waf.html): Supports deployment to aaWAF (aka BaotaWAF).
+- [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
 - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, CloudFront.
 - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
 - [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN。
@@ -99,9 +101,11 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
 - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly CDN.
 - [Edgio](https://edg.io/): Supports deployment to Edgio Applications.
+- [FlexCDN](https://flexcdn.cn/): Supports deployment to Flex CDN.
 - [Gcore](https://gcore.com/): Supports deployment to Gcore CDN.
 - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge CDN.
-- [netlify](https://www.netlify.com/): Supports deployment to netlify Sites.
+- [LeCDN](https://cdn.cmzi.com/): Supports deployment to LeCDN CDN.
+- [Netlify](https://www.netlify.com/): Supports deployment to Netlify Sites.
 - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
 
 ---
