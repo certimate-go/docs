@@ -44,6 +44,7 @@ const sidebars: SidebarsConfig = {
             "getting-started/installation/source",
             "getting-started/installation/use-1panel",
             "getting-started/installation/use-aapanel",
+            "getting-started/installation/use-xp-panel",
           ],
         },
         "getting-started/webui",
@@ -92,3 +93,4 @@ const sidebars: SidebarsConfig = {
 };
 
 export default sidebars;
+
