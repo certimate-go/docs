@@ -12,6 +12,12 @@
 
 ![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel_appstore.zh.png?raw=true)
 
+:::caution
+
+1Panel 应用商店中的 Certimate 版本更新由 1Panel 官方团队负责维护，可能存在滞后。
+
+:::
+
 ### 通过容器编排部署 {#deploy-via-docker-compose}
 
 1Panel 支持通过它的 Web 界面来管理 Docker 服务，更多细节请参考 1Panel [官方用户手册](https://1panel.dev/docs/user_manual/containers/compose.html)。

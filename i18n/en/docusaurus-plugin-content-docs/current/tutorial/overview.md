@@ -20,4 +20,4 @@ Community tutorials are provided spontaneously by Certimate users. We only provi
 - [哔哩哔哩 - 《SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！》](https://www.bilibili.com/video/BV1F591YzEUB)
 - [LiuShen's Blog - 《Certimate——自动化申请并部署证书到所有平台》](https://blog.liushen.fun/posts/3a813929/)
 
-If you want to contribute excellent tutorials, please raise an issue on GitHub.
+If you want to contribute excellent tutorials, please create an issue on GitHub.

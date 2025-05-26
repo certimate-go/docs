@@ -27,11 +27,14 @@ There are several kinds of providers:
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
 - [deSEC](https://desec.io/)
+- [DigitalOcean](https://www.digitalocean.com/)
 - [DNS.LA](https://www.dns.la/)
+- [Duck DNS](https://www.duckdns.org/)
 - [dynv6](https://dynv6.com/)
 - [Gcore](https://gcore.com/)
 - [GNAME](https://www.gname.com/)
 - [GoDaddy](https://www.godaddy.com/)
+- [Hetzner](https://www.hetzner.com/)
 - [Name.com](https://www.name.com/)
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
@@ -62,12 +65,12 @@ In future versions, we may add a feature that allows users to manually satisfyin
 
 ## Supported hosting providers {#supported-hosting-providers}
 
-- Local: Supports deployment to local servers. Preset scripts:
+- Local host: Supports deployment to local servers. Preset scripts:
   - Binding IIS
   - Binding netsh
   - Binding RDP
   - _Custom scripts_
-- SSH: Supports deployment to remote servers (via SSH+SFTP/SCP). Preset scripts:
+- Remove host (SSH): Supports deployment to remote servers (via SFTP/SCP). Preset scripts:
   - Replace SynologyDSM SSL certificate
   - Replace fnOS SSL certificate
   - Binding IIS
@@ -89,11 +92,12 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
 - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
-- [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
+- [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
 - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaotaPanel).
 - [aaWAF](https://www.aapanel.com/new/waf.html): Supports deployment to aaWAF (aka BaotaWAF).
 - [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
+- [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
 - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, CloudFront.
 - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
 - [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN。
@@ -113,7 +117,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 ## Supported notification channels {#supported-notification-channels}
 
 - Email (SMTP)
-- Webhook
+- Webhook. Preset templates:
   - Bark
   - ntfy
   - Gotify
@@ -124,8 +128,10 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - DingTalk Bot
 - Lark/Feishu Bot
 - WeCom Bot
+- Discord Bot
+- Slack Bot
+- Telegram Bot
 - Mattermost
-- Telegram
 
 ---
 

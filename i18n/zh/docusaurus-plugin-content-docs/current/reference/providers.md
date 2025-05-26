@@ -27,11 +27,14 @@
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
 - [deSEC](https://desec.io/)
+- [DigitalOcean](https://www.digitalocean.com/)
 - [DNS.LA](https://www.dns.la/)
+- [Duck DNS](https://www.duckdns.org/)
 - [dynv6](https://dynv6.com/)
 - [Gcore](https://gcore.com/)
 - [GNAME](https://www.gname.com/)
 - [GoDaddy](https://www.godaddy.com/)
+- [Hetzner](https://www.hetzner.com/)
 - [Name.com](https://www.name.com/)
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
@@ -62,12 +65,12 @@
 
 ## 支持的主机提供商 {#supported-hosting-providers}
 
-- 本地部署：可部署到本地服务器，并提供预设脚本：
+- 本地主机：可部署到本地主机，并提供预设脚本：
   - 导入并绑定到 IIS
   - 导入并绑定到 netsh
   - 导入并绑定到 RDP
   - _自定义脚本_
-- SSH 部署：可部署到远程服务器（通过 SSH+SFTP/SCP），并提供预设脚本：
+- 远程主机（SSH）：可部署到远程主机（通过 SFTP/SCP），并提供预设脚本：
   - 替换群晖 DSM 证书
   - 替换飞牛 fnOS 证书
   - 导入并绑定到 IIS
@@ -89,11 +92,12 @@
 - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
 - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
 - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
-- [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
+- [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
 - [1Panel](https://1panel.cn/)：可部署到 1Panel。
 - [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
 - [堡塔云 WAF](https://www.bt.cn/new/aawaf.html)：可部署到堡塔云 WAF。
 - [耗子面板](https://github.com/tnb-labs/panel)：可部署到耗子面板。
+- [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
 - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、CloudFront 等服务。
 - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
 - [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
@@ -123,7 +127,7 @@
 ## 支持的通知渠道 {#supported-notification-channels}
 
 - 邮件（SMTP）
-- Webhook
+- Webhook，并提供预设模板：
   - Bark
   - ntfy
   - Gotify
@@ -134,8 +138,10 @@
 - 钉钉机器人
 - 飞书机器人
 - 企业微信机器人
+- Discord 机器人
+- Slack 机器人
+- Telegram 机器人
 - Mattermost
-- Telegram
 
 ---
 
