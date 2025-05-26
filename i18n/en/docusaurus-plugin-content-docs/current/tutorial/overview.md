@@ -16,8 +16,9 @@ Community tutorials are provided spontaneously by Certimate users. We only provi
 
 :::
 
-- [微信公众号 - 《推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台》](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg)
-- [哔哩哔哩 - 《SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！》](https://www.bilibili.com/video/BV1F591YzEUB)
-- [LiuShen's Blog - 《Certimate——自动化申请并部署证书到所有平台》](https://blog.liushen.fun/posts/3a813929/)
+- [WeChat Official Account - _飞牛 NAS+Certimate 全自动证书部署神器指南（实战版）_](https://mp.weixin.qq.com/s/3acJbLjuv944SRFgJ8vSgA)
+- [WeChat Official Account - _推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台_](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg)
+- [BiliBili - _SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！_](https://www.bilibili.com/video/BV1F591YzEUB)
+- [LiuShen's Blog - _Certimate——自动化申请并部署证书到所有平台_](https://blog.liushen.fun/posts/3a813929/)
 
 If you want to contribute excellent tutorials, please create an issue on GitHub.
