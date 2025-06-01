@@ -16,6 +16,7 @@ Community tutorials are provided spontaneously by Certimate users. We only provi
 
 :::
 
+- [Anyeの小站 - _SSL证书申请老出问题？这套组合直接帮你搞定！_](https://www.anye.xyz/archives/biEj2Hxb)
 - [WeChat Official Account - _飞牛 NAS+Certimate 全自动证书部署神器指南（实战版）_](https://mp.weixin.qq.com/s/3acJbLjuv944SRFgJ8vSgA)
 - [WeChat Official Account - _推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台_](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg)
 - [BiliBili - _SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！_](https://www.bilibili.com/video/BV1F591YzEUB)

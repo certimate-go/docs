@@ -16,6 +16,7 @@
 
 :::
 
+- [Anyeの小站 - 《SSL证书申请老出问题？这套组合直接帮你搞定！》](https://www.anye.xyz/archives/biEj2Hxb)
 - [微信公众号 - 《飞牛 NAS+Certimate 全自动证书部署神器指南（实战版）》](https://mp.weixin.qq.com/s/3acJbLjuv944SRFgJ8vSgA)
 - [微信公众号 - 《推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台》](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg)
 - [哔哩哔哩 - 《SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！》](https://www.bilibili.com/video/BV1F591YzEUB)
