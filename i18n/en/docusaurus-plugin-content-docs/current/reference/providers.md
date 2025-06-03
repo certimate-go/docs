@@ -26,6 +26,7 @@ There are several kinds of providers:
 - [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
+- [Constellix](https://www.constellix.com/)
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
 - [DNS.LA](https://www.dns.la/)
@@ -99,7 +100,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [aaWAF](https://www.aapanel.com/new/waf.html): Supports deployment to aaWAF (aka BaotaWAF).
 - [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
 - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
-- [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, CloudFront.
+- [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront.
 - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
 - [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN。
 - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.

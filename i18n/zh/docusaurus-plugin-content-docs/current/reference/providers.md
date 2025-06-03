@@ -26,6 +26,7 @@
 - [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
+- [Constellix](https://www.constellix.com/)
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
 - [DNS.LA](https://www.dns.la/)
@@ -99,7 +100,7 @@
 - [堡塔云 WAF](https://www.bt.cn/new/aawaf.html)：可部署到堡塔云 WAF。
 - [耗子面板](https://github.com/tnb-labs/panel)：可部署到耗子面板。
 - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
-- [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、CloudFront 等服务。
+- [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront 等服务。
 - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
 - [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
 - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
