@@ -40,9 +40,10 @@ There are several kinds of providers:
 - [NameSilo](https://www.namesilo.com/)
 - [netcup](https://www.netcup.com/)
 - [Netlify](https://www.netlify.com/)
-- [IBM NS1 Connect](https://www.ibm.com/products/ns1-connect/)
+- [NS1 Connect](https://www.ibm.com/products/ns1-connect/)
 - [Porkbun](https://porkbun.com/)
 - [Vercel](https://vercel.com/)
+- [UCloud](https://www.ucloud-global.com/)
 - [CMCC Cloud](https://ecloud.10086.cn/)
 - [Rain Yun](https://www.rainyun.com/)
 - [West.cn](https://www.west.cn/)
@@ -118,20 +119,21 @@ In future versions, we may add a feature that allows users to manually satisfyin
 
 - Email (SMTP)
 - Webhook. Preset templates:
-  - Bark
-  - ntfy
-  - Gotify
-  - Pushover
-  - PushPlus
-  - ServerChan
+  - [Bark](https://github.com/Finb/Bark)
+  - [ntfy](https://github.com/binwiederhier/ntfy)
+  - [Gotify](https://github.com/gotify/server)
+  - [Pushover](https://pushover.net/)
+  - [PushPlus](https://www.pushplus.plus/)
+  - [ServerChan <sup>Turbo</sup>](https://sct.ftqq.com/)
+  - [ServerChan <sup>3</sup>](https://sc3.ft07.com/)
   - _Custom Webhook_
-- DingTalk Bot
-- Lark/Feishu Bot
-- WeCom Bot
-- Discord Bot
-- Slack Bot
-- Telegram Bot
-- Mattermost
+- [DingTalk Bot](https://www.dingtalk.com/)
+- [Lark/Feishu Bot](https://www.larksuite.com/)
+- [WeCom Bot](https://work.weixin.qq.com/)
+- [Discord Bot](https://discordapp.com/)
+- [Slack Bot](https://slack.com/)
+- [Telegram Bot](https://telegram.org/)
+- [Mattermost](https://mattermost.com/)
 
 ---
 

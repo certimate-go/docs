@@ -40,9 +40,10 @@
 - [NameSilo](https://www.namesilo.com/)
 - [netcup](https://www.netcup.com/)
 - [Netlify](https://www.netlify.com/)
-- [IBM NS1 Connect](https://www.ibm.com/cn-zh/products/ns1-connect/)
+- [NS1 Connect](https://www.ibm.com/cn-zh/products/ns1-connect/)
 - [Porkbun](https://porkbun.com/)
 - [Vercel](https://vercel.com/)
+- [优刻得](https://www.ucloud.cn/)
 - [移动云](https://ecloud.10086.cn/)
 - [雨云](https://www.rainyun.com/)
 - [西部数码](https://www.west.cn/)
@@ -128,20 +129,21 @@
 
 - 邮件（SMTP）
 - Webhook，并提供预设模板：
-  - Bark
-  - ntfy
-  - Gotify
-  - Pushover
-  - PushPlus 推送加
-  - Server 酱
+  - [Bark](https://github.com/Finb/Bark)
+  - [ntfy](https://github.com/binwiederhier/ntfy)
+  - [Gotify](https://github.com/gotify/server)
+  - [Pushover](https://pushover.net/)
+  - [PushPlus](https://www.pushplus.plus/)
+  - [Server 酱 <sup>Turbo</sup>](https://sct.ftqq.com/)
+  - [Server 酱 <sup>3</sup>](https://sc3.ft07.com/)
   - _自定义 Webhook_
-- 钉钉机器人
-- 飞书机器人
-- 企业微信机器人
-- Discord 机器人
-- Slack 机器人
-- Telegram 机器人
-- Mattermost
+- [钉钉机器人](https://www.dingtalk.com/)
+- [飞书机器人](https://www.feishu.cn/)
+- [企业微信机器人](https://work.weixin.qq.com/)
+- [Discord 机器人](https://discordapp.com/)
+- [Slack 机器人](https://slack.com/)
+- [Telegram 机器人](https://telegram.org/)
+- [Mattermost](https://mattermost.com/)
 
 ---
 
