@@ -8,7 +8,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 
 :::
 
-- [_自动 SSL 证书续签工具 Certimate 安装 & 使用教程_](www.shephe.com/website/certimate-ssl-auto-renewal-tutorial) (author _Kevin_, from _Kevin's_)
+- [_自动 SSL 证书续签工具 Certimate 安装 & 使用教程_](https://www.shephe.com/website/certimate-ssl-auto-renewal-tutorial) (author _Kevin_, from _Kevin's_)
 - [_SSL 证书申请老出问题？这套组合直接帮你搞定！_](https://www.anye.xyz/archives/biEj2Hxb) (author _Anye_, from _Anye の小站_)
 - [_飞牛 NAS+Certimate 全自动证书部署神器指南（实战版）_](https://mp.weixin.qq.com/s/3acJbLjuv944SRFgJ8vSgA) (author _栗子苏哟_, from _WeChat Official Account_)
 - [_推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台_](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg) (author _wood_, from _WeChat Official Account_)
