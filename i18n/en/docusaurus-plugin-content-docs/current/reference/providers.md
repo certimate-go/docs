@@ -75,6 +75,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - Remove host (SSH): Supports deployment to remote servers (via SFTP/SCP). Preset scripts:
   - Replace SynologyDSM SSL certificate
   - Replace fnOS SSL certificate
+  - Replace QNAP SSL certificate
   - Binding IIS
   - Binding netsh
   - Binding RDP

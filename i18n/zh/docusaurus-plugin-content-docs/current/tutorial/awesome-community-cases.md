@@ -8,7 +8,7 @@
 
 :::
 
-- [《自动 SSL 证书续签工具 Certimate 安装 & 使用教程》](https://www.shephe.com/website/certimate-ssl-auto-renewal-tutorial)（作者：_Kevin_，来源：_Kevin's_）
+- [《自动 SSL 证书续签工具 Certimate 安装 & 使用教程》](https://www.shephe.com/website/certimate-ssl-auto-renewal-tutorial)（作者：_Kevin_，来源：_Kevin's Space_）
 - [《SSL 证书申请老出问题？这套组合直接帮你搞定！》](https://www.anye.xyz/archives/biEj2Hxb)（作者：_Anye_，来源：_Anye の小站_）
 - [《飞牛 NAS+Certimate 全自动证书部署神器指南（实战版）》](https://mp.weixin.qq.com/s/3acJbLjuv944SRFgJ8vSgA)（作者：_栗子苏哟_，来源：_微信公众号_）
 - [《推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台》](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg)（作者：_wood_，来源：_微信公众号_）
