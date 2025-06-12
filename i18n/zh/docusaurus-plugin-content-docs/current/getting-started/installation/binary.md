@@ -4,6 +4,16 @@
 
 ---
 
+## 要求 {#prerequisites}
+
+操作系统版本要求：
+
+- Linux 内核 3.2 或更高版本
+- macOS 11 Big Sur 或更高版本
+- Windows 10 / Windows Server 2016 或更高版本
+
+---
+
 ## 下载 {#download}
 
 请前往 [GitHub Releases](https://github.com/usual2970/certimate/releases) 页面下载预先编译好的二进制可执行文件压缩包。

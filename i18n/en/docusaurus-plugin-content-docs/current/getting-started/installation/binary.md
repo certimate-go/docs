@@ -4,6 +4,16 @@ It is recommended for ordinary users.
 
 ---
 
+## Prerequisites {#prerequisites}
+
+Supported operating systems:
+
+- Linux Kernel 3.2 or higher
+- macOS 11 Big Sur or higher
+- Windows 10 / Windows Server 2016 or higher
+
+---
+
 ## Download {#download}
 
 Download the archived package of precompiled binary files directly from [GitHub Releases](https://github.com/usual2970/certimate/releases).

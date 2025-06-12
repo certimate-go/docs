@@ -6,18 +6,20 @@ It is recommended for users who require secondary development or source code aud
 
 ## Prerequisites {#prerequisites}
 
-System architectures:
+Supported system architectures:
 
 - linux/amd64
 - linux/arm64
+- linux/armv7
 - darwin/amd64
 - darwin/arm64
 - windows/amd64
 - windows/arm64
+- Other architectures listed in [_Go Wiki_](https://go.dev/wiki/MinimumRequirements) are primarily​​ supported, but not tested.
 
-Runtimes:
+Required runtimes:
 
-- Go 1.22+
+- Go 1.24+
 - Node.js 20.0+
 
 ---
