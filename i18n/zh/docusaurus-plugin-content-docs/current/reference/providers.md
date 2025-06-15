@@ -46,6 +46,7 @@
 - [Vercel](https://vercel.com/)
 - [优刻得](https://www.ucloud.cn/)
 - [移动云](https://ecloud.10086.cn/)
+- [天翼云](https://www.ctyun.cn/)
 - [雨云](https://www.rainyun.com/)
 - [西部数码](https://www.west.cn/)
 - [PowerDNS](https://www.powerdns.com/)
@@ -94,6 +95,7 @@
 - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
 - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
 - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
+- [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
 - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
 - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
 - [1Panel](https://1panel.cn/)：可部署到 1Panel。

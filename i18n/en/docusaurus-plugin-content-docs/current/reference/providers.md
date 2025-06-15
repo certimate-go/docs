@@ -46,6 +46,7 @@ There are several kinds of providers:
 - [Vercel](https://vercel.com/)
 - [UCloud](https://www.ucloud-global.com/)
 - [CMCC Cloud](https://ecloud.10086.cn/)
+- [CTCC StateCloud](https://www.ctyun.cn/)
 - [Rain Yun](https://www.rainyun.com/)
 - [West.cn](https://www.west.cn/)
 - [PowerDNS](https://www.powerdns.com/)
@@ -94,6 +95,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
+- [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
 - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
 - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
