@@ -1,4 +1,4 @@
-# 📄 Documentation for [Certimate](https://github.com/usual2970/certimate)
+# 📄 Documentation for [Certimate](https://github.com/certimate-go/certimate)
 
 Please visit [docs.certimate.me](https://docs.certimate.me/).
 

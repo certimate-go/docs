@@ -1,6 +1,6 @@
 ﻿# 升级
 
-在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 页面，你可以找到每个版本的发布说明。
+在 [GitHub Releases](https://github.com/certimate-go/certimate/releases) 页面，你可以找到每个版本的发布说明。
 
 :::tip
 

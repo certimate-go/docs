@@ -27,7 +27,7 @@ Required runtimes:
 ## Clone {#clone}
 
 ```bash
-git clone https://github.com/usual2970/certimate.git
+git clone https://github.com/certimate-go/certimate.git
 ```
 
 ---

@@ -18,7 +18,7 @@
 ```bash
 mkdir -p ~/.certimate && \
 cd ~/.certimate && \
-curl -O https://raw.githubusercontent.com/usual2970/certimate/refs/heads/main/docker/docker-compose.yml && \
+curl -O https://raw.githubusercontent.com/certimate-go/certimate/refs/heads/main/docker/docker-compose.yml && \
 docker compose up -d
 ```
 
@@ -28,8 +28,8 @@ docker compose up -d
 version: "3.0"
 services:
   certimate:
-    image: usual2970/certimate:latest
-    container_name: certimate_server
+    image: certimate/certimate:latest
+    container_name: certimate
     ports:
       - 8090:8090
     volumes:
@@ -47,16 +47,16 @@ services:
 
 ```bash
 # 拉取镜像
-docker pull usual2970/certimate:latest
+docker pull certimate/certimate:latest
 # 启动容器
 docker run -d \
-  --name certimate_server \
+  --name certimate \
   --restart unless-stopped \
   -p 8090:8090 \
   -v /etc/localtime:/etc/localtime:ro \
   -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
-  usual2970/certimate:latest
+  certimate/certimate:latest
 ```
 
 ---
@@ -69,7 +69,7 @@ docker run -d \
 
 ```bash
 # 拉取镜像
-docker pull registry.cn-shanghai.aliyuncs.com/usual2970/certimate:latest
+docker pull registry.cn-shanghai.aliyuncs.com/certimate/certimate:latest
 # 启动容器
 docker run -d \
   --name certimate_server \
@@ -78,7 +78,7 @@ docker run -d \
   -v /etc/localtime:/etc/localtime:ro \
   -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
-  registry.cn-shanghai.aliyuncs.com/usual2970/certimate:latest
+  registry.cn-shanghai.aliyuncs.com/certimate/certimate:latest
 ```
 
 ---
@@ -91,7 +91,7 @@ docker run -d \
 
 ```bash
 # 拉取 v0.3.0 镜像
-docker pull usual2970/certimate:v0.3.0
+docker pull certimate/certimate:v0.3.0
 ```
 
-完整的版本清单可以在 [GitHub Releases](https://github.com/usual2970/certimate/releases) 或 [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) 页面查阅。
+完整的版本清单可以在 [GitHub Releases](https://github.com/certimate-go/certimate/releases) 或 [Docker Hub](https://hub.docker.com/r/certimate/certimate/tags) 页面查阅。
