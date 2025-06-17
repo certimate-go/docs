@@ -110,4 +110,4 @@
 
 ## Cannot solve the problem? {#cannot-solve-the-problem}
 
-If none of the above content can solve your problem, welcome to ask on [GitHub Issues](https://github.com/usual2970/certimate/issues).
+If none of the above content can solve your problem, welcome to ask on [GitHub Issues](https://github.com/certimate-go/certimate/issues).

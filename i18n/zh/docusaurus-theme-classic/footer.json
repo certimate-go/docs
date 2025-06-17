@@ -25,11 +25,11 @@
   },
   "link.item.label.${ISSUES}": {
     "message": "Issues",
-    "description": "The label of footer link with label=${ISSUES} linking to https://github.com/usual2970/certimate/issues"
+    "description": "The label of footer link with label=${ISSUES} linking to https://github.com/certimate-go/certimate/issues"
   },
   "link.item.label.${NFR}": {
     "message": "Feature Requests",
-    "description": "The label of footer link with label=${NFR} linking to https://github.com/usual2970/certimate/issues"
+    "description": "The label of footer link with label=${NFR} linking to https://github.com/certimate-go/certimate/issues"
   },
   "link.item.label.${TELEGRAM}": {
     "message": "Telegram",
@@ -37,7 +37,7 @@
   },
   "link.item.label.${GITHUB}": {
     "message": "GitHub",
-    "description": "The label of footer link with label=${GITHUB} linking to https://github.com/usual2970/certimate"
+    "description": "The label of footer link with label=${GITHUB} linking to https://github.com/certimate-go/certimate"
   },
   "link.item.label.${DONATE}": {
     "message": "捐赠",

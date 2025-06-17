@@ -95,7 +95,7 @@ const config: Config = {
           position: "right",
         },
         {
-          href: "https://github.com/usual2970/certimate",
+          href: "https://github.com/certimate-go/certimate",
           position: "right",
           className: "icon icon-github",
         },
@@ -126,11 +126,11 @@ const config: Config = {
           items: [
             {
               label: "${ISSUES}",
-              href: "https://github.com/usual2970/certimate/issues",
+              href: "https://github.com/certimate-go/certimate/issues",
             },
             {
               label: "${NFR}",
-              href: "https://github.com/usual2970/certimate/issues/new?template=2-feature_request.yml",
+              href: "https://github.com/certimate-go/certimate/issues/new?template=2-feature_request.yml",
             },
             {
               label: "${TELEGRAM}",
@@ -143,7 +143,7 @@ const config: Config = {
           items: [
             {
               label: "${GITHUB}",
-              href: "https://github.com/usual2970/certimate",
+              href: "https://github.com/certimate-go/certimate",
             },
             {
               label: "${DONATE}",

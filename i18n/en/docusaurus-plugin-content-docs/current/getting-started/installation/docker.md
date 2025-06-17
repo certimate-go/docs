@@ -18,7 +18,7 @@ You can copy the following command to the terminal, and run Certimate through Do
 ```bash
 mkdir -p ~/.certimate && \
 cd ~/.certimate && \
-curl -O https://raw.githubusercontent.com/usual2970/certimate/refs/heads/main/docker/docker-compose.yml && \
+curl -O https://raw.githubusercontent.com/certimate-go/certimate/refs/heads/main/docker/docker-compose.yml && \
 docker compose up -d
 ```
 
@@ -28,8 +28,8 @@ The above command will download `docker-compose.yml` from GitHub, or you can dep
 version: "3.0"
 services:
   certimate:
-    image: usual2970/certimate:latest
-    container_name: certimate_server
+    image: certimate/certimate:latest
+    container_name: certimate
     ports:
       - 8090:8090
     volumes:
@@ -47,7 +47,7 @@ If you don't want to use Docker Compose, you can also run it through `docker run
 
 ```bash
 # Pull image
-docker pull usual2970/certimate:latest
+docker pull certimate/certimate:latest
 # Start container
 docker run -d \
   --name certimate_server \
@@ -56,7 +56,7 @@ docker run -d \
   -v /etc/localtime:/etc/localtime:ro \
   -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
-  usual2970/certimate:latest
+  certimate/certimate:latest
 ```
 
 ---
@@ -69,7 +69,7 @@ We also provide an accelerated image on Alibaba Cloud, which is completely consi
 
 ```bash
 # Pull image
-docker pull registry.cn-shanghai.aliyuncs.com/usual2970/certimate:latest
+docker pull registry.cn-shanghai.aliyuncs.com/certimate/certimate:latest
 # Start container
 docker run -d \
   --name certimate_server \
@@ -78,7 +78,7 @@ docker run -d \
   -v /etc/localtime:/etc/localtime:ro \
   -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
-  registry.cn-shanghai.aliyuncs.com/usual2970/certimate:latest
+  registry.cn-shanghai.aliyuncs.com/certimate/certimate:latest
 ```
 
 ---
@@ -91,7 +91,7 @@ If you want to run a specified version of Certimate, you can specify when pullin
 
 ```bash
 # Pull image of v0.3.0
-docker pull usual2970/certimate:v0.3.0
+docker pull certimate/certimate:v0.3.0
 ```
 
-You can view the full version list on [GitHub Releases](https://github.com/usual2970/certimate/releases) or [Docker Hub](https://hub.docker.com/r/usual2970/certimate/tags) pages.
+You can view the full version list on [GitHub Releases](https://github.com/certimate-go/certimate/releases) or [Docker Hub](https://hub.docker.com/r/certimate/certimate/tags) pages.

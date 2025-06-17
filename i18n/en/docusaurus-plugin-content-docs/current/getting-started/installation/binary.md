@@ -16,7 +16,7 @@ Supported operating systems:
 
 ## Download {#download}
 
-Download the archived package of precompiled binary files directly from [GitHub Releases](https://github.com/usual2970/certimate/releases).
+Download the archived package of precompiled binary files directly from [GitHub Releases](https://github.com/certimate-go/certimate/releases).
 
 ---
 
