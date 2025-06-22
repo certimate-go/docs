@@ -16,7 +16,7 @@
 
 ## 下载 {#download}
 
-请前往 [GitHub Releases](https://github.com/usual2970/certimate/releases) 页面下载预先编译好的二进制可执行文件压缩包。
+请前往 [GitHub Releases](https://github.com/certimate-go/certimate/releases) 页面下载预先编译好的二进制可执行文件压缩包。
 
 压缩包文件名后缀包含系统架构信息，请结合你的设备需要自行选择相应的压缩包，下载并解压缩全部文件。
 

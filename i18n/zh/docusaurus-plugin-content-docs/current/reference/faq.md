@@ -114,4 +114,4 @@
 
 ## 仍不能解决问题？ {#cannot-solve-the-problem}
 
-如果以上内容都无法解决你的问题，欢迎到 [GitHub Issues](https://github.com/usual2970/certimate/issues) 中提问。
+如果以上内容都无法解决你的问题，欢迎到 [GitHub Issues](https://github.com/certimate-go/certimate/issues) 中提问。

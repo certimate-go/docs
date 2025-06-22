@@ -28,7 +28,7 @@ docker run -d \
   -v /etc/localtime:/etc/localtime:ro \
   -v /etc/timezone:/etc/timezone:ro \
   -v $(pwd)/data:/app/pb_data \
-  usual2970/certimate:latest
+  certimate/certimate:latest
 ```
 
 :::caution

@@ -36,7 +36,7 @@ Certimate 旨在为用户提供一个安全、简便的 SSL 证书管理解决�
 
 **5 分钟部署 Certimate！**
 
-从 [GitHub Releases](https://github.com/usual2970/certimate/releases) 页面下载预先编译好的二进制可执行文件压缩包，解压缩后在终端中执行：
+从 [GitHub Releases](https://github.com/certimate-go/certimate/releases) 页面下载预先编译好的二进制可执行文件压缩包，解压缩后在终端中执行：
 
 ```bash
 ./certimate serve
