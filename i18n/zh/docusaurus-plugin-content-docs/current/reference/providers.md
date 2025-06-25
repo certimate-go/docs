@@ -116,6 +116,8 @@
 - [GoEdge](https://goedge.cloud/)：可部署到 GoEdge CDN。
 - [LeCDN](https://cdn.cmzi.com/)：可部署到 LeCDN CDN。
 - [Netlify](https://www.netlify.com/)：可部署到 Netlify Sites。
+- [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。
+- [Kong](https://konghq.com/)：可部署到 Kong。
 - [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
 
 ---

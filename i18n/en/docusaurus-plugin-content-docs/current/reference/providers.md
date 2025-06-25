@@ -116,6 +116,8 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge CDN.
 - [LeCDN](https://cdn.cmzi.com/): Supports deployment to LeCDN CDN.
 - [Netlify](https://www.netlify.com/): Supports deployment to Netlify Sites.
+- [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。
+- [Kong](https://konghq.com/)：可部署到 Kong。
 - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
 
 ---
