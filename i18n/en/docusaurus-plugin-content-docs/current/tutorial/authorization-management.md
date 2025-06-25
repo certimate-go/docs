@@ -12,8 +12,24 @@ Please refer to the [official user manual](https://www.alibabacloud.com/help/en/
 
 Least privileges:
 
-- Applying (DNS-01 challenge): `AliyunDNSFullAccess`.
-- Deploying: `AliyunYundunCertFullAccess` + full access to the related services or resources.
+- Request certificates (DNS-01 challenge):
+  - Use system policy:
+    - `AliyunDNSFullAccess`
+  - Use custom policy:
+    - `alidns:DescribeDomains`
+    - `alidns:DescribeDomainRecords`
+    - `alidns:AddDomainRecord`
+    - `alidns:UpdateDomainRecord`
+    - `alidns:DeleteDomainRecord`
+- Deploy certificates:
+  - Use system policy:
+    - `AliyunYundunCertFullAccess`
+    - Full access to the related services or resources.
+  - Use custom policy:
+    - `yundun-cert:ListUserCertificateOrder`
+    - `yundun-cert:GetUserCertificateDetail`
+    - `yundun-cert:UploadUserCertificate`
+    - Full access to the related services or resources.
 
 ### Tencent Cloud {#tencentcloud-credentials}
 
@@ -21,8 +37,23 @@ Please refer to the [official user manual](https://cloud.tencent.com/document/pr
 
 Least privileges:
 
-- Applying (DNS-01 challenge): `QcloudDNSPodFullAccess`.
-- Deploying: `QcloudSSLFullAccess` + full access to the related services or resources.
+- Request certificates (DNS-01 challenge):
+  - Use system policy:
+    - `QcloudDNSPodFullAccess`
+  - Use custom policy:
+    - `dnspod:CreateRecord`
+    - `dnspod:ModifyRecord`
+    - `dnspod:DeleteRecord`
+- Deploy certificates:
+  - Use system policy:
+    - `QcloudSSLFullAccess`
+    - Full access to the related services or resources.
+  - Use custom policy:
+    - `ssl:DescribeCertificates`
+    - `ssl:DescribeCertificate`
+    - `ssl:DescribeCertificateDetail`
+    - `ssl:UploadCertificate`
+    - Full access to the related services or resources.
 
 ### Baidu Cloud {#baiducloud-credentials}
 
@@ -30,8 +61,19 @@ Please refer to the [official user manual](https://intl.cloud.baidu.com/doc/Refe
 
 Least privileges:
 
-- Applying (DNS-01 challenge): `DNSOperatePolicy`.
-- Deploying: `CASFullControlPolicy` + full access to the related services or resources.
+- Request certificates (DNS-01 challenge):
+  - Use system policy:
+    - `DNSOperatePolicy`
+  - Use custom policy:
+    - `bce:dns:READ`
+    - `bce:dns:OPERATE`
+- Deploy certificates:
+  - Use system policy:
+    - `CASFullControlPolicy`
+    - Full access to the related services or resources.
+  - Use custom policy:
+    - `bce:cas:FULL_CONTROL`
+    - Full access to the related services or resources.
 
 ### Huawei Cloud {#huaweicloud-credentials}
 
@@ -39,8 +81,26 @@ Please refer to the [official user manual](https://support.huaweicloud.com/intl/
 
 Least privileges:
 
-- Applying (DNS-01 challenge): `DNSFullAccess`.
-- Deploying: `SCMFullAccess` + full access to the related services or resources.
+- Request certificates (DNS-01 challenge):
+  - Use system policy:
+    - `DNSFullAccess`
+  - Use custom policy:
+    - `dns:zone:list`
+    - `dns:recordset:list`
+    - `dns:recordset:get`
+    - `dns:recordset:create`
+    - `dns:recordset:update`
+    - `dns:recordset:delete`
+- Deploy certificates:
+  - Use system policy:
+    - `SCMFullAccess`
+    - Full access to the related services or resources.
+  - Use custom policy:
+    - `scm:cert:list`
+    - `scm:cert:get`
+    - `scm:cert:download`
+    - `scm:cert:upload`
+    - Full access to the related services or resources.
 
 ### Volc Engine {#volcengine-credentials}
 
@@ -48,8 +108,21 @@ Please refer to the [official user manual](https://www.volcengine.com/docs/6291/
 
 Least privileges:
 
-- Applying (DNS-01 challenge): `DNSFullAccess`.
-- Deploying: `SSLFullAccess` + full access to the related services or resources.
+- Request certificates (DNS-01 challenge):
+  - Use system policy:
+    - `DNSFullAccess`
+  - Use custom policy:
+    - `dns:ListZones`
+    - `dns:CreateRecord`
+    - `dns:UpdateRecord`
+    - `dns:DeleteRecord`
+- Deploy certificates:
+  - Use system policy:
+    - `SSLFullAccess`
+    - Full access to the related services or resources.
+  - Use custom policy:
+    - `ImportCertificate`
+    - Full access to the related services or resources.
 
 ### JD Cloud {#jdcloud-credentials}
 
@@ -57,8 +130,23 @@ Please refer to the [official user manual](https://docs.jdcloud.com/en/account-m
 
 Least privileges:
 
-- Applying (DNS-01 challenge): `JDCloudHTTPDNSAdmin`.
-- Deploying: `JDCloudSSLAdmin` + full access to the related services or resources.
+- Request certificates (DNS-01 challenge):
+  - Use system policy:
+    - `JDCloudDomainServiceAdmin`
+  - Use custom polify:
+    - `domainservice:describeDomains`
+    - `domainservice:describeResourceRecord`
+    - `domainservice:createResourceRecord`
+    - `domainservice:modifyResourceRecord`
+    - `domainservice:deleteResourceRecord`
+- Deploy certificates:
+  - Use system policy:
+    - `JDCloudSSLAdmin`
+    - Full access to the related services or resources.
+  - Use custom polify:
+    - `ssl:describeCerts`
+    - `ssl:uploadCert`
+    - Full access to the related services or resources.
 
 ### AWS {#aws-credentials}
 
@@ -66,18 +154,18 @@ Please refer to the [official user manual](https://docs.aws.amazon.com/en_us/IAM
 
 Least privileges:
 
-- Applying (DNS-01 challenge):
+- Request certificates (DNS-01 challenge):
   - `route53:ListHostedZones`
   - `route53:ListHostedZonesByName`
   - `route53:GetHostedZone`
   - `route53:ListResourceRecordSets`
   - `route53:ChangeResourceRecordSets`
   - `route53:GetChange`
-- Deploying:
+- Deploy certificates:
   - `acm:ListCertificates`
   - `acm:GetCertificate`
   - `acm:ImportCertificate`
-  - Permissions of the related services or resources.
+  - Full access to the related services or resources.
 
 ### Azure {#azure-credentials}
 
@@ -85,13 +173,13 @@ Please refer to the [official user manual](https://learn.microsoft.com/en-us/azu
 
 Least privileges:
 
-- Applying (DNS-01 challenge):
+- Request certificates (DNS-01 challenge):
   - `Microsoft.Network/dnsZones/read`
   - `Microsoft.Network/dnsZones/TXT/*`
-- Deploying:
+- Deploy certificates:
   - `Microsoft.KeyVault/vaults/certificates/read`
   - `Microsoft.KeyVault/vaults/certificates/write`
-  - Permissions of the related services or resources.
+  - Full access to the related services or resources.
 
 ### Cloudflare {#cloudflare-credentials}
 
@@ -103,6 +191,6 @@ Please refer to the following process to obtain:
 
 Least privileges:
 
-- Applying (DNS-01 challenge):
+- Request certificates (DNS-01 challenge):
   - `Zone / Zone / Read`
   - `Zone / DNS / Edit`

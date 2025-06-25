@@ -45,7 +45,7 @@ _acme-challenge.www.a.com  CNAME  www.a.com.validationserver.b.com
 
 ## 原理
 
-Certimate 底层使用 go-acme/lego，通过将 `_acme-challenge.你的域名` 设置为指向你控制的验证域名的 CNAME，go-acme/lego 可以在该验证域名上自动创建 TXT 记录，从而完成 ACME 服务器的验证。
+Certimate 底层使用 go-acme/lego 作为 ACME 客户端，通过将 `_acme-challenge.你的域名` 设置为指向你控制的验证域名的 CNAME，go-acme/lego 可以在该验证域名上自动创建 TXT 记录，从而完成 ACME 服务器的验证。
 
 这种方式避免了直接修改主域名的 DNS 记录，使证书申请更加灵活，适用于托管服务或自动化证书管理场景。
 

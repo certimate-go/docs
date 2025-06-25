@@ -12,8 +12,24 @@
 
 必要的最小化权限：
 
-- 申请证书（DNS-01 质询）：`AliyunDNSFullAccess`。
-- 部署证书：`AliyunYundunCertFullAccess` + 相应服务或资源的完全访问权限。
+- 申请证书（DNS-01 质询）：
+  - 使用系统策略：
+    - `AliyunDNSFullAccess`
+  - 使用自定义策略：
+    - `alidns:DescribeDomains`
+    - `alidns:DescribeDomainRecords`
+    - `alidns:AddDomainRecord`
+    - `alidns:UpdateDomainRecord`
+    - `alidns:DeleteDomainRecord`
+- 部署证书：
+  - 使用系统策略：
+    - `AliyunYundunCertFullAccess`
+    - 相应服务或资源的读写权限。
+  - 使用自定义策略：
+    - `yundun-cert:ListUserCertificateOrder`
+    - `yundun-cert:GetUserCertificateDetail`
+    - `yundun-cert:UploadUserCertificate`
+    - 相应服务或资源的读写权限。
 
 ### 腾讯云 {#tencentcloud-credentials}
 
@@ -21,8 +37,23 @@
 
 必要的最小化权限：
 
-- 申请证书（DNS-01 质询）：`QcloudDNSPodFullAccess`。
-- 部署证书：`QcloudSSLFullAccess` + 相应服务或资源的完全访问权限。
+- 申请证书（DNS-01 质询）：
+  - 使用系统策略：
+    - `QcloudDNSPodFullAccess`
+  - 使用自定义策略：
+    - `dnspod:CreateRecord`
+    - `dnspod:ModifyRecord`
+    - `dnspod:DeleteRecord`
+- 部署证书：
+  - 使用系统策略：
+    - `QcloudSSLFullAccess`
+    - 相应服务或资源的读写权限。
+  - 使用自定义策略：
+    - `ssl:DescribeCertificates`
+    - `ssl:DescribeCertificate`
+    - `ssl:DescribeCertificateDetail`
+    - `ssl:UploadCertificate`
+    - 相应服务或资源的读写权限。
 
 ### 百度智能云 {#baiducloud-credentials}
 
@@ -30,8 +61,19 @@
 
 必要的最小化权限：
 
-- 申请证书（DNS-01 质询）：`DNSOperatePolicy`。
-- 部署证书：`CASFullControlPolicy` + 相应服务或资源的完全访问权限。
+- 申请证书（DNS-01 质询）：
+  - 使用系统策略：
+    - `DNSOperatePolicy`
+  - 使用自定义策略：
+    - `bce:dns:READ`
+    - `bce:dns:OPERATE`
+- 部署证书：
+  - 使用系统策略：
+    - `CASFullControlPolicy`
+    - 相应服务或资源的读写权限。
+  - 使用自定义策略：
+    - `bce:cas:FULL_CONTROL`
+    - 相应服务或资源的读写权限。
 
 ### 华为云 {#huaweicloud-credentials}
 
@@ -39,8 +81,26 @@
 
 必要的最小化权限：
 
-- 申请证书（DNS-01 质询）：`DNSFullAccess`。
-- 部署证书：`SCMFullAccess` + 相应服务或资源的完全访问权限。
+- 申请证书（DNS-01 质询）：
+  - 使用系统策略：
+    - `DNSFullAccess`
+  - 使用自定义策略：
+    - `dns:zone:list`
+    - `dns:recordset:list`
+    - `dns:recordset:get`
+    - `dns:recordset:create`
+    - `dns:recordset:update`
+    - `dns:recordset:delete`
+- 部署证书：
+  - 使用系统策略：
+    - `SCMFullAccess`
+    - 相应服务或资源的读写权限。
+  - 使用自定义策略：
+    - `scm:cert:list`
+    - `scm:cert:get`
+    - `scm:cert:download`
+    - `scm:cert:upload`
+    - 相应服务或资源的读写权限。
 
 ### 火山引擎 {#volcengine-credentials}
 
@@ -48,8 +108,21 @@
 
 必要的最小化权限：
 
-- 申请证书（DNS-01 质询）：`DNSFullAccess`。
-- 部署证书：`SSLFullAccess` + 相应服务或资源的完全访问权限。
+- 申请证书（DNS-01 质询）：
+  - 使用系统策略：
+    - `DNSFullAccess`
+  - 使用自定义策略：
+    - `dns:ListZones`
+    - `dns:CreateRecord`
+    - `dns:UpdateRecord`
+    - `dns:DeleteRecord`
+- 部署证书：
+  - 使用系统策略：
+    - `SSLFullAccess`
+    - 相应服务或资源的读写权限。
+  - 使用自定义策略：
+    - `ImportCertificate`
+    - 相应服务或资源的读写权限。
 
 ### 京东云 {#jdcloud-credentials}
 
@@ -57,8 +130,23 @@
 
 必要的最小化权限：
 
-- 申请证书（DNS-01 质询）：`JDCloudHTTPDNSAdmin`。
-- 部署证书：`JDCloudSSLAdmin` + 相应服务或资源的完全访问权限。
+- 申请证书（DNS-01 质询）：
+  - 使用系统策略：
+    - `JDCloudDomainServiceAdmin`
+  - 使用自定义策略：
+    - `domainservice:describeDomains`
+    - `domainservice:describeResourceRecord`
+    - `domainservice:createResourceRecord`
+    - `domainservice:modifyResourceRecord`
+    - `domainservice:deleteResourceRecord`
+- 部署证书：
+  - 使用系统策略：
+    - `JDCloudSSLAdmin`
+    - 相应服务或资源的读写权限。
+  - 使用自定义策略：
+    - `ssl:describeCerts`
+    - `ssl:uploadCert`
+    - 相应服务或资源的读写权限。
 
 ### AWS {#aws-credentials}
 
@@ -77,7 +165,7 @@
   - `acm:ListCertificates`
   - `acm:GetCertificate`
   - `acm:ImportCertificate`
-  - 相应服务或资源的权限。
+  - 相应服务或资源的读写权限。
 
 ### Azure {#azure-credentials}
 
@@ -91,7 +179,7 @@
 - 部署证书：
   - `Microsoft.KeyVault/vaults/certificates/read`
   - `Microsoft.KeyVault/vaults/certificates/write`
-  - 相应服务或资源的权限。
+  - 相应服务或资源的读写权限。
 
 ### Cloudflare {#cloudflare-credentials}
 
