@@ -63,7 +63,7 @@ docker run -d \
 
 ## 国内镜像 {#cn-mirror}
 
-由于众所周知的原因，国内用户可能无法正常访问 Docker Hub 并拉取镜像。
+由于众所周知的原因，中国大陆用户可能无法正常访问 Docker Hub 并拉取镜像。
 
 我们也为此提供了在阿里云上的加速镜像，它与 Docker Hub 上的版本完全一致，你只需在镜像名前增加仓库前缀 `registry.cn-shanghai.aliyuncs.com`：
 
