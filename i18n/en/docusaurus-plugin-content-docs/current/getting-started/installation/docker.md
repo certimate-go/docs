@@ -61,28 +61,6 @@ docker run -d \
 
 ---
 
-## China mainland mirror {#cn-mirror}
-
-Due to the well-fucking-known reasons, users in China mainland may not be able to access Docker Hub and pull images properly.
-
-We also provide an accelerated image on Alibaba Cloud, which is completely consistent with the version on Docker Hub. You only need to add the registry `registry.cn-shanghai.aliyuncs.com` before the image name:
-
-```bash
-# Pull image
-docker pull registry.cn-shanghai.aliyuncs.com/certimate/certimate:latest
-# Start container
-docker run -d \
-  --name certimate_server \
-  --restart unless-stopped \
-  -p 8090:8090 \
-  -v /etc/localtime:/etc/localtime:ro \
-  -v /etc/timezone:/etc/timezone:ro \
-  -v $(pwd)/data:/app/pb_data \
-  registry.cn-shanghai.aliyuncs.com/certimate/certimate:latest
-```
-
----
-
 ## Run the specified version {#run-the-specified-version}
 
 In the above examples of the `docker-compose. yml` or `docker run` commands, the `lastest` version appears, which represents the current latest stable release version of Certimate.

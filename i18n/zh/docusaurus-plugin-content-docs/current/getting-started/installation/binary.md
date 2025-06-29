@@ -50,6 +50,20 @@ macOS 在运行时可能会提示：「无法打开“Certimate”，因为 Appl
 
 ---
 
+## 国内镜像 {#cn-mirror}
+
+由于众所周知的原因，中国大陆用户可能无法正常访问 GitHub 下载。
+
+我们也为此提供了 [Gitee 镜像仓库](https://gitee.com/certimate-go/certimate/releases)，它与 GitHub 上的版本完全一致。
+
+:::tip
+
+因 Gitee 提供的免费存储空间容量有限，因此仅能保留最新一个发行版。
+
+:::
+
+---
+
 ## 开机自启动 {#autorun-at-startup-boot}
 
 Certimate 需要在后台运行，才能周期性地执行工作流程以自动续期证书。
