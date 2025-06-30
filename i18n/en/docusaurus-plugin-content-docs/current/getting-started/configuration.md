@@ -22,7 +22,7 @@ The Docker image we provided is already listening to `0.0.0.0:8090` by default w
 
 ```bash
 docker run -d \
-  --name certimate_server \
+  --name certimate \
   --restart unless-stopped \
   -p 9999:8090 \
   -v /etc/localtime:/etc/localtime:ro \

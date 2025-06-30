@@ -50,7 +50,7 @@ If you don't want to use Docker Compose, you can also run it through `docker run
 docker pull certimate/certimate:latest
 # Start container
 docker run -d \
-  --name certimate_server \
+  --name certimate \
   --restart unless-stopped \
   -p 8090:8090 \
   -v /etc/localtime:/etc/localtime:ro \

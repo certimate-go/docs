@@ -72,7 +72,7 @@ docker run -d \
 docker pull registry.cn-shanghai.aliyuncs.com/certimate/certimate:latest
 # 启动容器
 docker run -d \
-  --name certimate_server \
+  --name certimate \
   --restart unless-stopped \
   -p 8090:8090 \
   -v /etc/localtime:/etc/localtime:ro \
