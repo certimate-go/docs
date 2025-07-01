@@ -8,7 +8,7 @@ Certimate can be deployed on aaPanel.
 
 aaPanel supports managing Docker services through it's WebUI. For more details, please refer to the [official user manual](https://www.aapanel.com/docs/Function/Docker.html).
 
-Go to aaPanel, select "Docker" -> "Compose" -> "Add Compose", then input content of `docker-compose.yml`, and click the "Confirm" button.
+Log in aaPanel, select "Docker" -> "Compose" -> "Add Compose", then input content of `docker-compose.yml`, and click the "Confirm" button.
 
 ![Screenshot](https://github.com/certimate-go/docs/blob/main/static/gh/installation_aapanel.en.png?raw=true)
 
