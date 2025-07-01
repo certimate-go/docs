@@ -101,7 +101,6 @@
 - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
 - [1Panel](https://1panel.cn/)：可部署到 1Panel。
 - [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
-- [小皮面板](https://www.xp.cn/)：可部署到小皮面板。
 - [堡塔云 WAF](https://www.bt.cn/new/aawaf.html)：可部署到堡塔云 WAF。
 - [耗子面板](https://github.com/tnb-labs/panel)：可部署到耗子面板。
 - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
@@ -164,4 +163,3 @@
 文档中所列出的提供商清单可能滞后于实际情况，请以 Certimate 程序内为准。
 
 :::
-
