@@ -101,6 +101,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
 - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaotaPanel).
+- [XP-Panel](https://www.xp.cn/): Supports deployment to XP-Panel.
 - [aaWAF](https://www.aapanel.com/new/waf.html): Supports deployment to aaWAF (aka BaotaWAF).
 - [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
 - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
@@ -163,3 +164,4 @@ If the above providers cannot meet your needs, please let us know or contribute 
 The list of providers listed in the document may be outdated.
 
 :::
+
