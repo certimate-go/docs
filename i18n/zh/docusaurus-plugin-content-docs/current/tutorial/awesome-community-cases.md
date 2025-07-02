@@ -8,6 +8,7 @@
 
 :::
 
+- 2025-07-02 [《Certimate + Let's Encrypt：零干预的 HTTPS 永续方案》](https://baiwumm.com/archives/BPGShzmO)（作者：_白雾茫茫丶_，来源：_浮生半页_）
 - 2025-07-02 [《一款能为用户部署 Let's Encrypt 证书到腾讯云的开源工具：Certimate》](https://cloud.tencent.com/developer/article/2536746)（作者：_阿星_，来源：_腾讯云开发者社区_）
 - 2025-07-01 [《Docker 建站（二十一）Certimate：自动化证书签发中心》](https://blog.tsinbei.com/archives/1997)（作者：_Hsukqi Lee_，来源：_清北博客_）
 - 2025-06-03 [《几天就过期的证书你也发？给个长一点的行不行！》](https://mp.weixin.qq.com/s/EDdL0DIumGGnzI72TwAG-w)（作者：_云原生生态圈_，来源：_微信公众号_）

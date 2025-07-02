@@ -8,6 +8,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 
 :::
 
+- 2025-07-02 [_Certimate + Let's Encrypt：零干预的 HTTPS 永续方案_](https://baiwumm.com/archives/BPGShzmO) (author _白雾茫茫丶_, from _浮生半页_)
 - 2025-07-02 [_一款能为用户部署 Let's Encrypt 证书到腾讯云的开源工具：Certimate_](https://cloud.tencent.com/developer/article/2536746) (author _阿星_, from _Tencent Cloud Developer Community_)
 - 2025-07-01 [_Docker 建站（二十一）Certimate：自动化证书签发中心_](https://blog.tsinbei.com/archives/1997) (author _Hsukqi Lee_, from _Tsinbei Blog_)
 - 2025-06-03 [_几天就过期的证书你也发？给个长一点的行不行！_](https://mp.weixin.qq.com/s/EDdL0DIumGGnzI72TwAG-w) (author _云原生生态圈_, from _WeChat Official Account_)
