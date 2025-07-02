@@ -8,6 +8,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 
 :::
 
+- [《一款能为用户部署Let's Encrypt证书到腾讯云的开源工具：Certimate》](https://cloud.tencent.com/developer/article/2536746)（author _阿星_, from _Tencent Cloud Developer Community_）
 - [_几天就过期的证书你也发？给个长一点的行不行！_](https://mp.weixin.qq.com/s/EDdL0DIumGGnzI72TwAG-w) (author _云原生生态圈_, from _WeChat Official Account_)
 - [_SSL 证书申请老出问题？这套组合直接帮你搞定！_](https://www.anye.xyz/archives/biEj2Hxb) (author _Anye_, from _Anye の小站_)
 - [_自动 SSL 证书续签工具 Certimate 安装 & 使用教程_](https://www.shephe.com/website/certimate-ssl-auto-renewal-tutorial) (author _Kevin_, from _Kevin's Space_)
