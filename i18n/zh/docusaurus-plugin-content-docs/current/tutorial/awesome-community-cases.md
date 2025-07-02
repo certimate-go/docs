@@ -8,6 +8,7 @@
 
 :::
 
+- [《一款能为用户部署Let's Encrypt证书到腾讯云的开源工具：Certimate》](https://cloud.tencent.com/developer/article/2536746)（作者：_阿星_，来源：_腾讯云开发者社区_）
 - [《几天就过期的证书你也发？给个长一点的行不行！》](https://mp.weixin.qq.com/s/EDdL0DIumGGnzI72TwAG-w)（作者：_云原生生态圈_，来源：_微信公众号_）
 - [《SSL 证书申请老出问题？这套组合直接帮你搞定！》](https://www.anye.xyz/archives/biEj2Hxb)（作者：_Anye_，来源：_Anye の小站_）
 - [《自动 SSL 证书续签工具 Certimate 安装 & 使用教程》](https://www.shephe.com/website/certimate-ssl-auto-renewal-tutorial)（作者：_Kevin_，来源：_Kevin's Space_）
