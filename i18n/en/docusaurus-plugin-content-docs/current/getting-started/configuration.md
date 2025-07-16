@@ -76,6 +76,10 @@ export HTTP_PROXY="http://proxy.example.com"
 export HTTPS_PROXY="http://proxy.example.com"
 ```
 
+You need to restart Certimate to load the new environment variable values after setting.
+
+---
+
 ## Experimental features {#experimental-features}
 
 Certimate provides some experimental features that are still unstable.

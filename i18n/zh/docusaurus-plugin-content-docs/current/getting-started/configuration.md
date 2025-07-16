@@ -78,6 +78,8 @@ export HTTP_PROXY="http://proxy.example.com"
 export HTTPS_PROXY="http://proxy.example.com"
 ```
 
+设置后需重启 Certimate 以加载新的环境变量值。
+
 ---
 
 ## 实验性功能 {#experimental-features}
