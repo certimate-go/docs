@@ -12,6 +12,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 - 2025-08-09 [_Certimate 自动部署证书踩坑记录_](https://www.nodeseek.com/post-417793-1) (author _seamee_, from _NodeSeek_)
 - 2025-08-07 [_EO 优选了没法用 SSL？自动部署来帮你咯！_](https://www.bilibili.com/video/BV1DktBzLEsJ) (author _二叉树树_, from _BiliBili_)
 - 2025-07-24 [_通过 Certimate 项目实现低成本 SSL 证书自动续期功能_](https://www.memxb.top/archives/714) (author _默小班_, from _默小班_)
+- 2025-07-13 [《通过Certimate私有化部署ssl免费证书管理系统》](https://blog.whsir.com/post-8123.html)（作者：_吴昊_，来源：_吴昊博客_）
 - 2025-07-02 [_Certimate + Let's Encrypt：零干预的 HTTPS 永续方案_](https://baiwumm.com/archives/BPGShzmO) (author _白雾茫茫丶_, from _浮生半页_)
 - 2025-07-02 [_一款能为用户部署 Let's Encrypt 证书到腾讯云的开源工具：Certimate_](https://cloud.tencent.com/developer/article/2536746) (author _阿星_, from _Tencent Cloud Developer Community_)
 - 2025-07-01 [_Docker 建站（二十一）Certimate：自动化证书签发中心_](https://blog.tsinbei.com/archives/1997) (author _Hsukqi Lee_, from _Tsinbei Blog_)
