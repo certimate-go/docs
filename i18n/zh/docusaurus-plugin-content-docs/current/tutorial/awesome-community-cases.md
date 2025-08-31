@@ -7,7 +7,7 @@
 社区案例由广大的 Certimate 用户自发提供。我们仅提供展示，不对其站点内的内容负责，请大家注意甄别信息，谨防受骗。
 
 :::
-
+- 2025-08-31 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate)（作者：那些免费的砖，来源：那些免费的砖网站）
 - 2025-08-09 [《通过 Certimate 统一管理 SSL 证书，支持自动化申请、全平台部署》](https://mp.weixin.qq.com/s/OSpj68IVvuwMvMgp-FxZCg)（作者：_只抄_，来源：_微信公众号_）
 - 2025-08-09 [《Certimate 自动部署证书踩坑记录》](https://www.nodeseek.com/post-417793-1)（作者：_seamee_，来源：_NodeSeek_）
 - 2025-08-07 [《EO 优选了没法用 SSL？自动部署来帮你咯！》](https://www.bilibili.com/video/BV1DktBzLEsJ)（作者：_二叉树树_，来源：_哔哩哔哩_）

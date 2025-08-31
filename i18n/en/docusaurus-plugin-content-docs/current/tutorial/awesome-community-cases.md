@@ -7,7 +7,7 @@ You can read the following content (sorted by publish time) for more usage help.
 Community cases are provided spontaneously by Certimate users. We only provide demonstrations and are not responsible for content on their sites. Please pay attention to identifying information and beware of being deceived.
 
 :::
-
+- 2025-08-31 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate)（author 那些免费的砖，from 那些免费的砖网站）
 - 2025-08-09 [_通过 Certimate 统一管理 SSL 证书，支持自动化申请、全平台部署_](https://mp.weixin.qq.com/s/OSpj68IVvuwMvMgp-FxZCg) (author _只抄_, from _WeChat Official Account_)
 - 2025-08-09 [_Certimate 自动部署证书踩坑记录_](https://www.nodeseek.com/post-417793-1) (author _seamee_, from _NodeSeek_)
 - 2025-08-07 [_EO 优选了没法用 SSL？自动部署来帮你咯！_](https://www.bilibili.com/video/BV1DktBzLEsJ) (author _二叉树树_, from _BiliBili_)
