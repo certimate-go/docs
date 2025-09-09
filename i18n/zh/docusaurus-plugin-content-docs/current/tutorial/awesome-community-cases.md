@@ -24,6 +24,6 @@
 - 2025-03-11 [《推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台》](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg)（作者：_woodchen_，来源：_微信公众号_）
 - 2025-03-07 [《SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！》](https://www.bilibili.com/video/BV1F591YzEUB)（作者：_冰冻大西瓜_，来源：_哔哩哔哩_）
 - 2025-03-07 [《Certimate——自动化申请并部署证书到所有平台》](https://blog.liushen.fun/posts/3a813929/)（作者：_清羽飞扬_，来源：_LiuShen's Blog_）
-- 2024-09-27 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate)（作者：那些免费的砖，来源：那些免费的砖网站）
+- 2024-09-27 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate)（作者：_那些免费的砖_，来源：_那些免费的砖网站_）
 
 如果你想贡献社区案例，请到 GitHub 中发起 Issue。
