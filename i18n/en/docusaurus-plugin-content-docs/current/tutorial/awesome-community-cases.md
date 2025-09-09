@@ -24,6 +24,6 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 - 2025-03-11 [_推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台_](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg) (author _woodchen_, from _WeChat Official Account_)
 - 2025-03-07 [_SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！_](https://www.bilibili.com/video/BV1F591YzEUB) (author _冰冻大西瓜_, from _BiliBili_)
 - 2025-03-07 [_Certimate——自动化申请并部署证书到所有平台_](https://blog.liushen.fun/posts/3a813929/) (author _清羽飞扬_, from _LiuShen's Blog_)
-- 2024-09-27 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate)（author 那些免费的砖，from 那些免费的砖网站）
+- 2024-09-27 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate) (author _那些免费的砖_, from _那些免费的砖网站_)
 
 If you want to contribute excellent cases, please create an issue on GitHub.
