@@ -1,7 +1,7 @@
 # Introduction
 
 :::note
-You are reading the documentation for Certimate v0.3! The content may not be applicable to previous versions.
+You are reading the documentation for Certimate v0.4! The content may not be applicable to previous versions.
 :::
 
 For individuals managing personal projects or those responsible for IT operations in small businesses who need to manage multiple domain names, applying for certificates manually comes with several drawbacks:
