@@ -6,7 +6,58 @@ v0.4.0 is a major version that is not backward compatible. This documentation wi
 
 ## What changes? {#what-changes}
 
-> Writing in progress ...
+Here are main differences:
+
+### New workflow editor {#new-workflow-editor}
+
+Powered by [FlowGram](https://github.com/bytedance/flowgram.ai), we have redesigned the workflow editor. Beyond visual style changes, it also includes several new features:
+
+- Free canvas dragging and zooming via mouse wheel;
+- Toggle between horizontal and vertical layouts;
+- Mini-map navigation;
+- Node movement, you can now drag and reorder nodes;
+- Import/export workflow in YAML or JSON formats.
+
+### Support HTTP-01 Challenge {#support-http01-challenge}
+
+You can now choose to complete domain ownership verification via the HTTP-01 challenge (file-based method).
+
+Note that the HTTP-01 challenge cannot be used to issue wildcard certificates.
+
+### Support uploading certificates from path or URL {#support-uploading-certificates-from-path-or-url}
+
+In previous versions, users could upload their own certificates to Certimate and deploy them to other platforms. However, this still required manually selecting certificate files in the frontend form, making it only a "semi-automated" process.
+
+Now, you can specify a local path or URL, and Certimate will read the certificate file from that location. This allows you to issue certificates through other methods (e.g., purchasing commercial certificates or using other ACME clients) without reconfiguring Certimate workflows, enabling fully automated deployment.
+
+### Support notification template synatax {#support-notification-template-synatax}
+
+You can insert variables (e.g., workflow name, certificate domain, expiration time, etc.) into notification subjects or messages to reuse notification templates.
+
+### More providers supported {#more-providers-supported}
+
+Added DNS providers:
+
+- Vultr.
+
+Added deployment providers:
+
+- Huawei Cloud OBS (Object Storage Service).
+
+Added certificate authorities:
+
+- Actalis SSL.
+- GlobalSign Atlas.
+- Sectigo.
+- Additionally, custom ACME CA can be configured in global settings now.
+
+### Improved UI {#improved-ui}
+
+A new user interface that better adapts to ultra-wide screens and mobile devices, along with numerous interaction improvements.
+
+### Some breaking changes {#some-breaking-changes}
+
+Please read the content below to learn more details.
 
 ---
 
