@@ -32,9 +32,7 @@ docker run -d \
 ```
 
 :::caution
-
-Due to the need to transmit sensitive data such as authorization and certificates, please try to avoid accessing Certimate via HTTP under non-trusted networks.
-
+Due to the need to transmit sensitive data such as credentials and certificates, please try to avoid accessing Certimate via HTTP under non-trusted networks.
 :::
 
 ---
@@ -48,9 +46,7 @@ You can execute the following command in the terminal to issue a SSL certificate
 ```
 
 :::tip
-
 HTTP-01 challenge will be used. Please add domain name resolution record in advance.
-
 :::
 
 ---
@@ -99,10 +95,20 @@ Please note that you must complete the setup before the first startup. Once Cert
 
 Please note that the account and password set through environment variables must also comply with specific rules, otherwise login may fail due to inability to pass the front-end form validations.
 
-### Control the concurrency of workflow {#control-the-concurrency-of-workflows}
+### Control the concurrency of workflow {#workflow-concurrency-limit}
 
-You can set it through environment variables:
+Certimate will limit the maximum concurrency of the workflows to avoid system resource overload. After exceeding the concurrency limit, new executions will enter the waiting queue.
+
+The default limit depends on your CPU numbers. You can set it through environment variables:
 
 ```bash
 export CERTIMATE_WORKFLOW_MAX_WORKERS=16
+```
+
+### Control multi-process mode of workflow {#workflow-multiproc-mode}
+
+After v0.4.0, multi-process mode will be enabled by default. You can close it through environment variables:
+
+```bash
+export CERTIMATE_WORKFLOW_MULTIPROC=0
 ```

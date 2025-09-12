@@ -13,9 +13,7 @@ Log in aaPanel, select "Docker" -> "Compose" -> "Add Compose", then input conten
 ![Screenshot](https://github.com/certimate-go/docs/blob/main/static/gh/installation_aapanel.en.png?raw=true)
 
 :::tip
-
 Please read the _[Docker Installation](/docs/getting-started/installation/docker)_ guide for the content of `docker-compose.yml`.
 
 Remember to modify the host path of binding mounts to an absolute path.
-
 :::

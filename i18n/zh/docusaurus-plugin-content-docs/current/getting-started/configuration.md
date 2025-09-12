@@ -32,9 +32,7 @@ docker run -d \
 ```
 
 :::caution
-
-因为需要传输授权、证书等敏感数据，请尽量避免在非可信的网络环境下以 HTTP 方式访问 Certimate。
-
+因为需要传输授权凭据、证书私钥等敏感数据，请尽量避免在非可信的网络环境下以 HTTP 方式访问 Certimate。
 :::
 
 ---
@@ -49,9 +47,7 @@ docker run -d \
 ```
 
 :::tip
-
 将使用 HTTP-01 质询完成证书申请，请提前配置好域名解析。
-
 :::
 
 ---
@@ -101,10 +97,20 @@ export CERTIMATE_ADMIN_PASSWORD=1234567890
 
 注意，通过环境变量设置的账号及密码也必须符合特定规则，否则可能因为无法通过 WebUI 的前端表单验证而登录失败。
 
-### 设置工作流最大并发数 {#control-the-concurrency-of-workflows}
+### 设置工作流最大并发数 {#workflow-concurrency-limit}
 
-你可以通过环境变量来设置：
+为了防止系统资源过载，Certimate 会限制工作流的最大并发数。超出并发限制后，新的执行将进入等待队列。
+
+默认值取决于你的 CPU 核心数。你可以通过环境变量来手动设置：
 
 ```bash
 export CERTIMATE_WORKFLOW_MAX_WORKERS=16
+```
+
+### 设置工作流多进程模式 {#workflow-multiproc-mode}
+
+在 v0.4.0 版本之后，会默认开启多进程模式。你可以通过环境变量来关闭它：
+
+```bash
+export CERTIMATE_WORKFLOW_MULTIPROC=0
 ```

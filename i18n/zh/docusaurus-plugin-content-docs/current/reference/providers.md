@@ -45,12 +45,14 @@
 - [Porkbun](https://porkbun.com/)
 - [Spaceship](https://spaceship.com/)
 - [Vercel](https://vercel.com/)
+- [Vultr](https://www.vultr.com/)
 - [优刻得](https://www.ucloud.cn/)
 - [移动云](https://ecloud.10086.cn/)
 - [天翼云](https://www.ctyun.cn/)
 - [雨云](https://www.rainyun.com/)
 - [西部数码](https://www.west.cn/)
 - [PowerDNS](https://www.powerdns.com/)
+- [ACME-DNS](https://github.com/joohoi/acme-dns)
 - ACME 代理 HTTP 请求：可申请允许通过 HTTP 请求修改 DNS 的域名。
 
 ### 我的域名注冊商不在清单内？ {#unlisted-domain-registrars}
@@ -87,7 +89,7 @@
 - [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、GA、CAS 等服务。
 - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
 - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
-- [华为云](https://www.huaweicloud.com/)：可部署到华为云 CDN、ELB、WAF、SCM 等服务。
+- [华为云](https://www.huaweicloud.com/)：可部署到华为云 OBS, CDN、ELB、WAF、SCM 等服务。
 - [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、ImageX、Live、证书中心等服务。
 - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
 - [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
@@ -125,10 +127,14 @@
 ## 支持的证书颁发机构 {#supported-certificate-authorities}
 
 - [Let's Encrypt](https://letsencrypt.org/)：包括测试环境及生产环境。
+- [Actalis](https://www.actalis.com/)
 - [Buypass](https://www.buypass.com/)
+- [GlobalSign](https://www.globalsign.com/)
 - [Google Trust Services](https://pki.goog/)
+- [Sectigo](https://www.sectigo.com/)
 - [SSL.com](https://www.ssl.com/)
 - [ZeroSSL](https://zerossl.com/)
+- 自定义 ACME CA
 
 ---
 
@@ -159,7 +165,5 @@
 如果上述提供商不能满足你的需求，欢迎告知我们，或贡献代码。
 
 :::tip
-
 文档中所列出的提供商清单可能滞后于实际情况，请以 Certimate 程序内为准。
-
 :::

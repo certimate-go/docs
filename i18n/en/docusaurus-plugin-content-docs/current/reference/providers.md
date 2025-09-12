@@ -45,12 +45,14 @@ There are several kinds of providers:
 - [Porkbun](https://porkbun.com/)
 - [Spaceship](https://spaceship.com/)
 - [Vercel](https://vercel.com/)
+- [Vultr](https://www.vultr.com/)
 - [UCloud](https://www.ucloud-global.com/)
 - [CMCC Cloud](https://ecloud.10086.cn/)
 - [CTCC StateCloud](https://www.ctyun.cn/)
 - [Rain Yun](https://www.rainyun.com/)
 - [West.cn](https://www.west.cn/)
 - [PowerDNS](https://www.powerdns.com/)
+- [ACME-DNS](https://github.com/joohoi/acme-dns)
 - ACME Proxy HTTP Request: Supports managing DNS by HTTP request.
 
 ### My domain registrar is not on the list? {#unlisted-domain-registrars}
@@ -73,7 +75,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - Binding IIS
   - Binding netsh
   - Binding RDP
-  - _Custom scripts_
+  - _Customized scripts_
 - Remove host (SSH): Supports deployment to remote servers (via SFTP/SCP). Preset scripts:
   - Replace SynologyDSM SSL certificate
   - Replace fnOS SSL certificate
@@ -81,13 +83,13 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - Binding IIS
   - Binding netsh
   - Binding RDP
-  - _Custom scripts_
+  - _Customized scripts_
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
 - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
 - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
-- [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud CDN, ELB, WAF, SCM.
+- [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, SCM.
 - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, ImageX, Live, Certificate Center.
 - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
 - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
@@ -133,7 +135,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [PushPlus](https://www.pushplus.plus/)
   - [ServerChan <sup>Turbo</sup>](https://sct.ftqq.com/)
   - [ServerChan <sup>3</sup>](https://sc3.ft07.com/)
-  - _Custom Webhook_
+  - _Customized Webhook_
 - [DingTalk Bot](https://www.dingtalk.com/)
 - [Lark/Feishu Bot](https://www.larksuite.com/)
 - [WeCom Bot](https://work.weixin.qq.com/)
@@ -147,10 +149,14 @@ In future versions, we may add a feature that allows users to manually satisfyin
 ## Supported certificate authorities {#supported-certificate-authorities}
 
 - [Let's Encrypt](https://letsencrypt.org/): Including production environment and staging environment.
+- [Actalis](https://www.actalis.com/)
 - [Buypass](https://www.buypass.com/)
+- [GlobalSign](https://www.globalsign.com/)
 - [Google Trust Services](https://pki.goog/)
+- [Sectigo](https://www.sectigo.com/)
 - [SSL.com](https://www.ssl.com/)
 - [ZeroSSL](https://zerossl.com/)
+- Customized ACME CA
 
 ---
 
@@ -159,7 +165,5 @@ In future versions, we may add a feature that allows users to manually satisfyin
 If the above providers cannot meet your needs, please let us know or contribute code.
 
 :::tip
-
 The list of providers listed in the document may be outdated.
-
 :::

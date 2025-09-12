@@ -19,9 +19,7 @@ A typical `pb_data` directory structure is as follows:
 ```
 
 :::caution
-
 If you are using Docker, please ensure that the `/app/pb_data` directory in the container is mounted on the host, otherwise you will not be able to back up these files on the host.
-
 :::
 
 You can use [Litestream](https://litestream.io/) or other automation tools to perform regular backups.
@@ -33,9 +31,7 @@ You can use [Litestream](https://litestream.io/) or other automation tools to pe
 Stop the Certimate service first, then copy all backed up files back to the `pb_data` directory and replace the files with the same name. Restart Certimate.
 
 :::caution
-
 Please do not directly restore data from lower versions to higher versions for cross version upgrades. As this may result in data confusion, loss, damage, and other issues.
 
 Read the _[Migrations](/docs/migrations/)_ guide to learn more details.
-
 :::

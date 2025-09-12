@@ -3,11 +3,9 @@
 在 [GitHub Releases](https://github.com/certimate-go/certimate/releases) 页面，你可以找到每个版本的发布说明。
 
 :::tip
-
 在执行 Certimate 升级之前，建议备份所有数据，以防升级过程中出现问题。
 
 阅读[备份与还原](/docs/getting-started/backup)指南以了解更多细节。
-
 :::
 
 ---

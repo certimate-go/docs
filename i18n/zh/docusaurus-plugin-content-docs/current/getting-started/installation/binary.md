@@ -31,7 +31,6 @@
 ```
 
 :::tip
-
 Windows 使用 CMD 作为终端时，`.exe` 后缀名不可省略。
 
 ```bash
@@ -41,11 +40,9 @@ Windows 使用 CMD 作为终端时，`.exe` 后缀名不可省略。
 :::
 
 :::tip
-
 macOS 在运行时可能会提示：「无法打开“Certimate”，因为 Apple 无法检查其是否包含恶意软件。」
 
 可在「系统设置」->「隐私与安全性」->「安全性」中点击「仍然允许」，然后再次尝试运行。
-
 :::
 
 ---
@@ -57,9 +54,7 @@ macOS 在运行时可能会提示：「无法打开“Certimate”，因为 Appl
 我们也为此提供了 [Gitee 镜像仓库](https://gitee.com/certimate-go/certimate/releases)，它与 GitHub 上的版本完全一致。
 
 :::tip
-
 因 Gitee 提供的免费存储空间容量有限，因此仅能保留最新一个发行版。
-
 :::
 
 ---

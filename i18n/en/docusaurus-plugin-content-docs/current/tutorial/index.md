@@ -1,5 +1,6 @@
 ﻿# Tutorial
 
 - [Overview](/docs/tutorial/overview)
-- [Authorization Management](/docs/tutorial/authorization-management)
+- [Workflows](/docs/tutorial/workflows)
+- [Credentials](/docs/tutorial/credentials)
 - [Awesome Community Cases](/docs/tutorial/awesome-community-cases)

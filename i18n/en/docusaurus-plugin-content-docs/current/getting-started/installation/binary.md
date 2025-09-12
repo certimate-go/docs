@@ -29,7 +29,6 @@ Once you've extracted the archive, you could start the application by running in
 ```
 
 :::tip
-
 When using CMD as the terminal on Windows, the suffix `.exe` cannot be omitted.
 
 ```bash
@@ -39,11 +38,9 @@ When using CMD as the terminal on Windows, the suffix `.exe` cannot be omitted.
 :::
 
 :::tip
-
 You may see a prompt saying on macOS: "'certimate' can't be opened because Apple cannot check it for malicious software."
 
 You can go to "System Settings" -> "Privacy & Security" -> "Security", then click "Allow Anywhere", and try run again.
-
 :::
 
 ---

@@ -13,9 +13,7 @@
 ![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel_appstore.zh.png?raw=true)
 
 :::caution
-
 1Panel 应用商店中的 Certimate 版本更新由 1Panel 官方团队负责维护，可能存在滞后。
-
 :::
 
 ### 通过容器编排部署 {#deploy-via-docker-compose}
@@ -27,9 +25,7 @@
 ![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel.zh.png?raw=true)
 
 :::tip
-
 `docker-compose.yml` 内容和其他部署细节请阅读 [Docker 安装](/docs/getting-started/installation/docker)指南。
 
-注意请将其中的宿主机挂载路径修改为绝对路径。
-
+建议将其中的宿主机挂载路径修改为绝对路径，以免给备份造成困难。
 :::

@@ -3,11 +3,9 @@
 A full changelog of past releases is available on [GitHub Releases](https://github.com/certimate-go/certimate/releases) page.
 
 :::tip
-
 Before performing a Certimate upgrade, it is recommended to back up all data to prevent any issues during the upgrade process.
 
 Read the _[Backup and Restore](/docs/getting-started/backup)_ guide to learn more details.
-
 :::
 
 ---

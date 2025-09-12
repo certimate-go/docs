@@ -61,7 +61,8 @@ const sidebars: SidebarsConfig = {
       link: { type: "doc", id: "tutorial/index" },
       items: [
         "tutorial/overview",
-        "tutorial/authorization-management",
+        "tutorial/workflows",
+        "tutorial/credentials",
         "tutorial/awesome-community-cases",
       ],
       collapsed: false,
@@ -70,12 +71,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "${REFERENCE}",
-      items: [
-        "reference/mechanism",
-        "reference/terminology",
-        "reference/providers",
-        "reference/faq",
-      ],
+      items: ["reference/mechanism", "reference/providers", "reference/faq"],
       collapsed: false,
     },
 
@@ -90,7 +86,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "${MIGRATIONS}",
       link: { type: "doc", id: "migrations/index" },
-      items: ["migrations/migrate-to-v0.3"],
+      items: ["migrations/migrate-to-v0.4", "migrations/migrate-to-v0.3"],
       collapsed: false,
     },
   ],

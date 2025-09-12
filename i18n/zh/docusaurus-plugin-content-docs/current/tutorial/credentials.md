@@ -1,10 +1,12 @@
-﻿# 授权管理
+﻿# 授权凭据
 
-在授权管理页面，你可以管理通过 Certimate 调用各个提供商 API 接口的授权凭证。
+授权凭据中存储有用于访问特定第三方应用程序或服务的身份验证信息（如账号密码、接口密钥、API 令牌等）。
+
+在授权凭据页面，你可以集中管理 Certimate 访问其他服务时所需要的授权凭据信息。
 
 ---
 
-## 如何获取提供商的授权凭证？ {#how-to-retrieve-providers-authorization-credentials}
+## 如何获取提供商的授权凭证？ {#how-to-retrieve-providers-credentials}
 
 ### 阿里云 {#aliyun-credentials}
 

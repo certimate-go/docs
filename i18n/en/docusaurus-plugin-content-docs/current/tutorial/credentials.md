@@ -1,10 +1,12 @@
-﻿# Authorization Management
+﻿# Credentials
 
-On the authorization management page, you can manage authorization credentials for calling providers' API.
+Credentials store authentication information (username and password, API key, tokens, etc.) to connect with specific third-party apps and services.
+
+On the access management page, you can centrally manage your credential information required for Certimate to access other services.
 
 ---
 
-## How to retrieve provider's authorization credentials? {#how-to-retrieve-providers-authorization-credentials}
+## How to retrieve provider's credentials? {#how-to-retrieve-providers-credentials}
 
 ### Alibaba Cloud {#aliyun-credentials}
 
