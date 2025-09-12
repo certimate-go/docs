@@ -20,7 +20,7 @@ After upgrading and restarting Certimate, it will automatically run a migration 
 
 Not supported. Please upgrade to v0.3.19 or higher first.
 
-### From v0.1.x ~ v0.2.x {#from-v0.1.x-v0.2.x}
+### From v0.1.x ~ v0.2.x {#from-v0.3}
 
 :::caution
 Users below v0.3.19 need to upgrade to v0.3.19 or higher before upgrading to v0.4.0.
@@ -42,7 +42,7 @@ The following data will be discarded:
 
 - Notification channel parameters in the global settings.
 
-### From v0.4.0-alpha/beta {#from-v0.3.0-alpha-beta}
+### From v0.4.0-alpha {#from-v0.4.0-alpha}
 
 All your data will be fully preserved.
 
@@ -132,7 +132,7 @@ Additionally, we have introduced a new configuration option called ​​"Domain
 
 In future iterations, we plan to gradually introduce the ​​"Domain match pattern"​​ configuration for all deployment providers that support wildcard resolution.
 
-### Certificate deployment to Tencent Cloud CLB {#deployment-to-tencentcloud-clb}
+### Certificate deployment to Tencent Cloud CLB {#certificate-deployment-to-tencentcloud-clb}
 
 In previous versions, the deployment provider `Tencent Cloud - CLB (Cloud Load Balancer)` included a configuration item called "Resource type".
 
