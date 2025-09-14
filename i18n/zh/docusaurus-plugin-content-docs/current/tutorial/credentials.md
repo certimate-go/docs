@@ -4,6 +4,8 @@
 
 在授权凭据页面，你可以集中管理 Certimate 访问其他服务时所需要的授权凭据信息。
 
+阅读[提供商](/docs/reference/providers/)指南以了解更多细节。
+
 ---
 
 ## 如何获取提供商的授权凭证？ {#how-to-retrieve-providers-credentials}

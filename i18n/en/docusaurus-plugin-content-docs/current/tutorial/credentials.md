@@ -4,6 +4,8 @@ Credentials store authentication information (username and password, API key, to
 
 On the access management page, you can centrally manage your credential information required for Certimate to access other services.
 
+Read the _[Providers](/docs/reference/providers)_ guide to learn more details.
+
 ---
 
 ## How to retrieve provider's credentials? {#how-to-retrieve-providers-credentials}
