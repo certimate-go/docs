@@ -18,7 +18,7 @@ Powered by [FlowGram](https://github.com/bytedance/flowgram.ai), we have redesig
 - Node movement, you can now drag and reorder nodes;
 - Import/export workflow in YAML or JSON formats.
 
-### Support HTTP-01 Challenge {#support-http01-challenge}
+### Support HTTP-01 challenge {#support-http01-challenge}
 
 You can now choose to complete domain ownership verification via the HTTP-01 challenge (file-based method).
 
@@ -30,7 +30,7 @@ In previous versions, users could upload their own certificates to Certimate and
 
 Now, you can specify a local path or URL, and Certimate will read the certificate file from that location. This allows you to issue certificates through other methods (e.g., purchasing commercial certificates or using other ACME clients) without reconfiguring Certimate workflows, enabling fully automated deployment.
 
-### Support notification template synatax {#support-notification-template-synatax}
+### Support notification template syntax {#support-notification-template-syntax}
 
 You can insert variables (e.g., workflow name, certificate domain, expiration time, etc.) into notification subjects or messages to reuse notification templates.
 
