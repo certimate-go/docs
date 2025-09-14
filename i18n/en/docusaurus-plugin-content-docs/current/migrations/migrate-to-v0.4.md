@@ -67,6 +67,10 @@ Read the _[Upgrade](/docs/getting-started/upgrade)_ guide to learn more details.
 
 After upgrading and restarting Certimate, it will automatically run a migration program.
 
+:::caution
+Once the upgrade is completed, it will not be possible to downgrade back to a lower version. If you need to rollback, please back up your data of the old version data before upgrading.
+:::
+
 ### From versions prior to v0.3 {#from-versions-prior-to-v0.3}
 
 Not supported. Please upgrade to v0.3.19 or higher first.

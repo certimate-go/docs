@@ -42,6 +42,6 @@ Read the _[Releases](/docs/about/releases)_ and the _[Migrations](/docs/migratio
 
 ## Downgrade {#downgrade}
 
-Unfortunately, once the upgrading is completed, it is no longer supported to rollback, as the data structure may have undergone fundamental changes.
+Unfortunately, once the upgrade is completed, it will not be possible to downgrade back to a lower version, as the data structure may have undergone fundamental changes.
 
 Therefore, please do not forget to back up your old version data!
