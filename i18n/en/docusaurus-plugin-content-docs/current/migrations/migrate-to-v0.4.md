@@ -24,11 +24,11 @@ You can now choose to complete domain ownership verification via the HTTP-01 cha
 
 Note that the HTTP-01 challenge cannot be used to issue wildcard certificates.
 
-### Support uploading certificates from path or URL {#support-uploading-certificates-from-path-or-url}
+### Support uploading certificates from local paths or URLs {#support-uploading-certificates-from-local-paths-or-urls}
 
 In previous versions, users could upload their own certificates to Certimate and deploy them to other platforms. However, this still required manually selecting certificate files in the frontend form, making it only a "semi-automated" process.
 
-Now, you can specify a local path or URL, and Certimate will read the certificate file from that location. This allows you to issue certificates through other methods (e.g., purchasing commercial certificates or using other ACME clients) without reconfiguring Certimate workflows, enabling fully automated deployment.
+Now, you can specify local paths or URLs, and Certimate will read the certificate file from that location. This allows you to issue certificates through other methods (e.g., purchasing commercial certificates or using other ACME clients) without reconfiguring Certimate workflows, enabling fully automated deployment.
 
 ### Support notification template syntax {#support-notification-template-syntax}
 
@@ -192,3 +192,15 @@ In future iterations, we plan to gradually introduce the ​​"Domain match pat
 In previous versions, the deployment provider `Tencent Cloud - CLB (Cloud Load Balancer)` included a configuration item called "Resource type".
 
 In v0.4.0, we have deprecated the option "Deploy via SSL Certificate Service" to streamline redundant logic. You may choose other deployment methods, or switch to the `Tencent Cloud - Deploy via SSL Certificate Service` deployment provider.
+
+### Multi-process mode {#multi-process-mode}
+
+In previous versions, you could only view ACME related logs in the terminal's `stdout`/`stderr`. This was due to a limitation in the underlying dependency go-acme/lego, which provided only a global logger. However, because it was global, we could not accurately distinguish which workflow the logged messages belonged to during concurrent operations.
+
+In v0.4.0, we introduced the multi-process mode. Each workflow now runs certificate application tasks in an independent sub-process. This allows ACME related logs generated to be recorded in the workflow logs, making them visible in the WebUI.
+
+Nevertheless, despite numerous optimizations, this approach still introduces some performance overhead. If your device is sensitive to this, you can disable the feature using an environment variable:
+
+```bash
+export CERTIMATE_WORKFLOW_MULTIPROC=0
+```

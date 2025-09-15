@@ -72,18 +72,18 @@
 ## 支持的主机提供商 {#supported-hosting-providers}
 
 - 本地主机：可部署到本地主机，并提供预设脚本：
-  - 导入并绑定到 IIS
-  - 导入并绑定到 netsh
-  - 导入并绑定到 RDP
-  - _自定义脚本_
+  - 导入并绑定到 Windows IIS
+  - 导入并绑定到 Windows netsh
+  - 导入并绑定到 Windows RDP
+  - 自定义脚本
 - 远程主机（SSH）：可部署到远程主机（通过 SFTP/SCP），并提供预设脚本：
   - 替换群晖 DSM 证书
   - 替换飞牛 fnOS 证书
   - 替换威联通 QNAP 证书
-  - 导入并绑定到 IIS
-  - 导入并绑定到 netsh
-  - 导入并绑定到 RDP
-  - _自定义脚本_
+  - 导入并绑定到 Windows IIS
+  - 导入并绑定到 Windows netsh
+  - 导入并绑定到 Windows RDP
+  - 自定义脚本
 - Webhook：可部署到 Webhook。
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
 - [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、GA、CAS 等服务。
@@ -149,7 +149,7 @@
   - [PushPlus](https://www.pushplus.plus/)
   - [Server 酱 <sup>Turbo</sup>](https://sct.ftqq.com/)
   - [Server 酱 <sup>3</sup>](https://sc3.ft07.com/)
-  - _自定义 Webhook_
+  - 自定义 Webhook
 - [钉钉机器人](https://www.dingtalk.com/)
 - [飞书机器人](https://www.feishu.cn/)
 - [企业微信机器人](https://work.weixin.qq.com/)

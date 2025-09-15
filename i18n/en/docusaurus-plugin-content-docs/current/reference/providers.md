@@ -72,18 +72,18 @@ In future versions, we may add a feature that allows users to manually satisfyin
 ## Supported hosting providers {#supported-hosting-providers}
 
 - Local host: Supports deployment to local servers. Preset scripts:
-  - Binding IIS
-  - Binding netsh
-  - Binding RDP
-  - _Customized scripts_
+  - Binding to Windows IIS
+  - Binding to Windows netsh
+  - Binding to Windows RDP
+  - Customized scripts
 - Remove host (SSH): Supports deployment to remote servers (via SFTP/SCP). Preset scripts:
   - Replace SynologyDSM SSL certificate
   - Replace fnOS SSL certificate
   - Replace QNAP SSL certificate
-  - Binding IIS
-  - Binding netsh
-  - Binding RDP
-  - _Customized scripts_
+  - Binding to Windows IIS
+  - Binding to Windows netsh
+  - Binding to Windows RDP
+  - Customized scripts
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
 - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
@@ -135,7 +135,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [PushPlus](https://www.pushplus.plus/)
   - [ServerChan <sup>Turbo</sup>](https://sct.ftqq.com/)
   - [ServerChan <sup>3</sup>](https://sc3.ft07.com/)
-  - _Customized Webhook_
+  - Customized Webhook
 - [DingTalk Bot](https://www.dingtalk.com/)
 - [Lark/Feishu Bot](https://www.larksuite.com/)
 - [WeCom Bot](https://work.weixin.qq.com/)
