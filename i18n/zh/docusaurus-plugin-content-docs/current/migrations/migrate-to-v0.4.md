@@ -206,3 +206,9 @@ graph LR;
 ```bash
 export CERTIMATE_WORKFLOW_MULTIPROC=0
 ```
+
+### 移除对证书颁发机构 Buypass 的支持 {#remove-support-for-ca-buypass}
+
+Buypass 将于 2025 年 10 月 15 日起停止提供 SSL 证书颁发服务。详情请见[官方公告](https://www.buypass.com/products/tls-ssl-certificates/discontinues-issuance-of-tls-ssl-certificates)。
+
+在 v0.4.0 中，我们从内置的证书颁发机构列表中移除了 Buypass。如果你的工作流中有依赖此机构来申请证书，请在升级完成后手动调整编排，切换到其他证书颁发机构。
