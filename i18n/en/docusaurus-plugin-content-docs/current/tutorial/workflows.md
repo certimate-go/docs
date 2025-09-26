@@ -27,16 +27,6 @@ The scheduled trigger works in a similar way to the CRON software utility in Uni
 To generate a CRON expression, you can use [crontab guru](https://crontab.guru/).
 :::
 
-:::tip
-If there is an applying certificate node in your workflow, it is recommended to set them to run at a random time of the day instead of always running at a specific time. And please don't always set it to midnight every day to avoid spikes in traffic.
-
-Why should I do this? Please refer to:
-
-1. [Let’s Encrypt rate limits](https://letsencrypt.org/docs/rate-limits/)
-2. [Why should my Let’s Encrypt (ACME) client run at a random time?](https://letsencrypt.org/docs/faq/#why-should-my-let-s-encrypt-acme-client-run-at-a-random-time)
-
-:::
-
 A start node structure is as follows:
 
 ```yaml
@@ -348,6 +338,74 @@ In addition, there are several additional constraints:
 
 ---
 
+## Best practices {#best-practices}
+
+### Apply certificates at different times {#best-practices-1}
+
+:::tip
+If you have multiple workflows containing applying certificate nodes, it is recommended to set them to run at a random time of the day instead of always running at a specific time. And please don't always set it to midnight every day to avoid spikes in traffic.
+
+Why should I do this? Please refer to:
+
+1. [Let’s Encrypt rate limits](https://letsencrypt.org/docs/rate-limits/)
+2. [Why should my Let’s Encrypt (ACME) client run at a random time?](https://letsencrypt.org/docs/faq/#why-should-my-let-s-encrypt-acme-client-run-at-a-random-time)
+
+### Run at least daily and renew certificates early {#best-practices-2}
+
+Renewing a certificate is the single highest-risk ACME procedure because it implies that the future uptime of one or more sites depends on it succeeding before the certificate expires. Because domain validation requires external resources (namely DNS), certificate issuance can be fickle, especially as more time passes from the initial issuance.
+
+Technically, the initial issuance faces the same technical challenges as a renewal, but initial issuances are supervised more often than renewals and failures of initial issuance are usually more noticeable by sysadmins, so they are fixed sooner.
+
+Therefore, choosing the renewal timing requires careful consideration: it should be delayed enough to maximize certificate validity and avoid frequent renewal load, yet early enough to allow sufficient time for identifying, diagnosing, and fixing issues before expiration.
+
+A common practice is to set the renewal window to one-third of the certificate's validity period. For certificates with very short lifespans, extending this window helps allocate more time for troubleshooting.
+
+Examples:
+
+- For a 90 day certificate, attempt renewal 30 days before expiration.
+- For a 24 hour certificate, attempt renewal 8-12 hours before expiration.
+
+The renewal window determines when to start the renewal process, not the workflow execution frequency. You should run the workflow at least daily to ensure prompt retries in case of unexpected failures.
+
+### Limit to one applying certificate node per workflow {#best-practices-3}
+
+It is recommended to include at most one certificate request node per workflow. Multiple request nodes may lead to:
+
+- Excessive request frequency, triggering CA rate limits.
+- Unnecessary resource consumption and bandwidth usage.
+- Increased complexity in certificate management.
+
+If you need to manage certificates for multiple independent domains automatically, distribute them across separate workflows.
+
+### Limit to one domain per certificate {#best-practices-4}
+
+Although it is possible to map many names to one certificate (M:1), a one-to-one (1:1) mapping is recommended. 1:1 is easy to manage, less error-prone, reduces failures at scale, reduces the impact of revocation, and speeds up certificate maintenance. It also can enhance security since each certificate can use a different private key; thus if one key is compromised, the security of connections to the other sites is not automatically compromised as well. The only notable downside is that it may use more storage space since you will have more certificates.
+
+Using M:1 has little benefit in automated settings, complicates the addition and removal of names, slows down certificate issuance, and increases the chance of validation errors. There will be greater logical and operational complexity by combining many names onto one certificate. In addition, all those names necessarily share a single private key, so if one key is lost, all those sites need a new certificate with a different key. Multi-SAN certificates also have a larger size, so they slow down TLS handshakes.
+
+If a single web server or cluster of servers is handling all subdomains of a single registered domain, it is often better to use and manage a single wildcard certificate.
+
+M:1 might be required if:
+
+- Storage space is extremely limited.
+- The web host / service provider charges for certificates and you need to reduce that cost.
+- You need to manage fewer certificates due to CA-enforced rate limits.
+- Your server software only allows one certificate per virtual host, and the virtual host serves multiple domains.
+
+### Don't rely solely on the monitoring certificate node {#best-practices-5}
+
+While the platform provides the capability to monitor certificate expiration for domains, this should not be used as a prerequisite for renewal.
+
+Use certificate monitoring primarily as a safety net: in scenarios where automated renewal fails, it can alert operators before expiration to allow for manual intervention.
+
+:::note
+To get a professional SSL certificate monitoring, you can use tools like [Uptime Kuma](https://github.com/louislam/uptime-kuma).
+:::
+
+---
+
 ## Troubleshooting {#troubleshooting}
+
+In the WebUI, you can view the workflow run's logs. You can troubleshoot issues based on the error messages within these logs.
 
 Read the _[FAQ](/docs/reference/faq)_ guide to learn more details.
