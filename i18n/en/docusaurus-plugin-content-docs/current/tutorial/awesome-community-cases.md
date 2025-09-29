@@ -6,6 +6,7 @@ You can read the following content (sorted by publish time) for more usage help.
 Community cases are provided spontaneously by Certimate users. We only provide demonstrations and are not responsible for content on their sites. Please pay attention to identifying information and beware of being deceived.
 :::
 
+- 2025-09-26 [_使用 Certimate 实现自动续签 SSL 证书_](https://mp.weixin.qq.com/s/kbc6CPSqdGMs0SuPUbCT7A) (author _三金得鑫_, from _WeChat Official Account_)
 - 2025-08-09 [_通过 Certimate 统一管理 SSL 证书，支持自动化申请、全平台部署_](https://mp.weixin.qq.com/s/OSpj68IVvuwMvMgp-FxZCg) (author _只抄_, from _WeChat Official Account_)
 - 2025-08-09 [_Certimate 自动部署证书踩坑记录_](https://www.nodeseek.com/post-417793-1) (author _seamee_, from _NodeSeek_)
 - 2025-08-07 [_EO 优选了没法用 SSL？自动部署来帮你咯！_](https://www.bilibili.com/video/BV1DktBzLEsJ) (author _二叉树树_, from _BiliBili_)
@@ -23,6 +24,6 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 - 2025-03-11 [_推荐一个自动获取泛域名证书+多平台部署，支持宝塔、1Panel、EdgeOne 等 CDN 平台_](https://mp.weixin.qq.com/s/kQyLFhCCJpbfDDRKXxEZzg) (author _woodchen_, from _WeChat Official Account_)
 - 2025-03-07 [_SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！_](https://www.bilibili.com/video/BV1F591YzEUB) (author _冰冻大西瓜_, from _BiliBili_)
 - 2025-03-07 [_Certimate——自动化申请并部署证书到所有平台_](https://blog.liushen.fun/posts/3a813929/) (author _清羽飞扬_, from _LiuShen's Blog_)
-- 2024-09-27 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate) (author _那些免费的砖_, from _那些免费的砖网站_)
+- 2024-09-27 [_Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星_](https://www.thosefree.com/certimate) (author _那些免费的砖_, from _那些免费的砖网站_)
 
 If you want to contribute excellent cases, please create an issue on GitHub.

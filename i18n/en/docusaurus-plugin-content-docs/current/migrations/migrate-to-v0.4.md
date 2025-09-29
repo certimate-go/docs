@@ -12,10 +12,11 @@ Here are main differences:
 
 Powered by [FlowGram](https://github.com/bytedance/flowgram.ai), we have redesigned the workflow editor. Beyond visual style changes, it also includes several new features:
 
+- New node type: Delay;
 - Free canvas dragging and zooming via mouse wheel;
 - Toggle between horizontal and vertical layouts;
 - Mini-map navigation;
-- Node movement, you can now drag and reorder nodes;
+- Drag and reorder nodes;
 - Import/export workflow in YAML or JSON formats.
 
 ### Support HTTP-01 challenge {#support-http01-challenge}
