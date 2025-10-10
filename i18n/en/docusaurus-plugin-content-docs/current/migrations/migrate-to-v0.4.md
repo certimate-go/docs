@@ -216,6 +216,6 @@ In v0.4.0, we have removed Buypass from the built-in CAs. If your workflow relie
 
 ## Known issues {#known-issues}
 
-### GitHub #982
+### GitHub Issue #982
 
 [Click to see more details](https://github.com/certimate-go/certimate/issues/982).

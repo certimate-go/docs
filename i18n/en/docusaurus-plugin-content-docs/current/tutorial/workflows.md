@@ -342,7 +342,6 @@ In addition, there are several additional constraints:
 
 ### Apply certificates at different times {#best-practices-1}
 
-:::tip
 If you have multiple workflows containing applying certificate nodes, it is recommended to set them to run at a random time of the day instead of always running at a specific time. And please don't always set it to midnight every day to avoid spikes in traffic.
 
 Why should I do this? Please refer to:
