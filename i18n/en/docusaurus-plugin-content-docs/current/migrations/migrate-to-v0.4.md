@@ -211,3 +211,11 @@ export CERTIMATE_WORKFLOW_MULTIPROC=0
 Buypass will discontinue issuance of SSL certificates from October 15, 2025. For details, please refer to the [official announcement](https://www.buypass.com/products/tls-ssl-certificates/discontinues-issuance-of-tls-ssl-certificates).
 
 In v0.4.0, we have removed Buypass from the built-in CAs. If your workflow relies on it to apply for certificates, please orchestrate manually after upgrading and switch to another CA.
+
+---
+
+## Known issues {#known-issues}
+
+### GitHub #982
+
+[Click to see more details](https://github.com/certimate-go/certimate/issues/982).
