@@ -21,4 +21,4 @@ Default administrator credentials should be changed immediately after setup.
 
 ## Browser support {#browser-support}
 
-Required Chrome v119.0 or higher version modern browser.
+Required Chrome v128.0 or higher version modern browser.
