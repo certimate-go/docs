@@ -221,3 +221,5 @@ Buypass 将于 2025 年 10 月 15 日起停止提供 SSL 证书颁发服务。�
 ### GitHub Issue #982
 
 [点此查看原文](https://github.com/certimate-go/certimate/issues/982)。
+
+v0.4.1 已修复。
