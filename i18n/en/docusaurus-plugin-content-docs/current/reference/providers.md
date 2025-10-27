@@ -23,6 +23,7 @@ There are several kinds of providers:
 - [JD Cloud](https://www.jdcloud.com/)
 - [AWS Route53](https://aws.amazon.com/route53/)
 - [Azure DNS](https://azure.microsoft.com/)
+- [BookMyName](https://www.bookmyname.com/)
 - [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
@@ -32,10 +33,14 @@ There are several kinds of providers:
 - [DNS.LA](https://www.dns.la/)
 - [Duck DNS](https://www.duckdns.org/)
 - [dynv6](https://dynv6.com/)
-- [Gcore](https://gcore.com/)
+- [Gandi.net](https://gandi.net/)
+- [G-Core](https://gcore.com/)
 - [GNAME](https://www.gname.com/)
 - [GoDaddy](https://www.godaddy.com/)
 - [Hetzner](https://www.hetzner.com/)
+- [Hostinger](https://www.hostinger.com/)
+- [IONOS](https://www.ionos.com/)
+- [Linode](https://www.linode.com/)
 - [Name.com](https://www.name.com/)
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
@@ -52,6 +57,8 @@ There are several kinds of providers:
 - [Rain Yun](https://www.rainyun.com/)
 - [West.cn](https://www.west.cn/)
 - [PowerDNS](https://www.powerdns.com/)
+- [Technitium DNS](https://technitium.com/dns/)
+- RFC 2136: Dynamic DNS Updates.
 - [ACME-DNS](https://github.com/joohoi/acme-dns)
 - ACME Proxy HTTP Request: Supports managing DNS by HTTP request.
 
@@ -112,9 +119,8 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
 - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
 - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly CDN.
-- [Edgio](https://edg.io/): Supports deployment to Edgio Applications.
 - [FlexCDN](https://flexcdn.cn/): Supports deployment to Flex CDN.
-- [Gcore](https://gcore.com/): Supports deployment to Gcore CDN.
+- [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
 - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge CDN.
 - [LeCDN](https://cdn.cmzi.com/): Supports deployment to LeCDN CDN.
 - [Netlify](https://www.netlify.com/): Supports deployment to Netlify Sites.

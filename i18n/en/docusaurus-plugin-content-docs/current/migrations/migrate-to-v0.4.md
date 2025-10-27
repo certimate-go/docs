@@ -39,11 +39,19 @@ You can insert variables (e.g., workflow name, certificate domain, expiration ti
 
 Added DNS providers:
 
+- BookMyName.
+- Gandi.net.
+- Hostinger.
+- IONOS.
+- Linode.
 - Vultr.
+- Technitium DNS.
+- RFC 2136.
 
 Added deployment providers:
 
 - Huawei Cloud OBS (Object Storage Service).
+- aaPanel WinGo.
 
 Added certificate authorities:
 
@@ -221,3 +229,9 @@ In v0.4.0, we have removed Buypass from the built-in CAs. If your workflow relie
 [Click to see more details](https://github.com/certimate-go/certimate/issues/982).
 
 Resolved in v0.4.1.
+
+### GitHub Issue #981
+
+[Click to see more details](https://github.com/certimate-go/certimate/issues/981).
+
+Resolved in v0.4.2.

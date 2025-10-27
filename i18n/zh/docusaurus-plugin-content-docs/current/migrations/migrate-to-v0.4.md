@@ -41,11 +41,19 @@ v0.4.0 是一个不向后兼容的大版本。本文档将帮助你将已有的 
 
 新增了以下 DNS 提供商：
 
-- Vultr。
+- BookMyName；
+- Gandi.net；
+- Hostinger；
+- IONOS；
+- Linode；
+- Vultr；
+- Technitium DNS；
+- RFC 2136。
 
 新增了以下部署提供商：
 
-- 华为云 OBS 对象存储服务。
+- 华为云 OBS 对象存储服务；
+- 宝塔面板极速版。
 
 新增了以下证书颁发机构：
 
@@ -110,7 +118,11 @@ v0.4.0 是一个不向后兼容的大版本。本文档将帮助你将已有的 
 
 ### 全局推送通知渠道已废弃 {#global-wide-notification-channels-deprecated}
 
+在 v0.3.10 中，全局推送通知渠道相关功能已被标记为废弃，但已有数据仍可访问。
+
 在 v0.4.0 中，全局推送通知渠道相关功能正式废弃。现在，所有的通知渠道已被纳入到授权凭据中统一管理。
+
+注意，原 Bark、Gotify、Pushover、PushPlus、ServerChan 等普通 HTTP 形式的通知渠道，现在仅作为 Webhook 的预设模板，不再以单独的提供商形式出现。
 
 ### 全局证书过期告警已废弃 {#global-wide-certificate-expiration-alert-deprecated}
 
@@ -223,3 +235,9 @@ Buypass 将于 2025 年 10 月 15 日起停止提供 SSL 证书颁发服务。�
 [点此查看原文](https://github.com/certimate-go/certimate/issues/982)。
 
 v0.4.1 已修复。
+
+### GitHub Issue #981
+
+[点此查看原文](https://github.com/certimate-go/certimate/issues/981)。
+
+v0.4.2 已修复。

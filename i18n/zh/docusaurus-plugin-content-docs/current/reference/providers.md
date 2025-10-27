@@ -23,6 +23,7 @@
 - [京东云](https://www.jdcloud.com/)
 - [AWS Route53](https://aws.amazon.com/route53/)
 - [Azure](https://azure.microsoft.com/)
+- [BookMyName](https://www.bookmyname.com/)
 - [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
 - [ClouDNS](https://www.cloudns.net/)
@@ -32,10 +33,14 @@
 - [DNS.LA](https://www.dns.la/)
 - [Duck DNS](https://www.duckdns.org/)
 - [dynv6](https://dynv6.com/)
-- [Gcore](https://gcore.com/)
+- [Gandi.net](https://gandi.net/)
+- [G-Core](https://gcore.com/)
 - [GNAME](https://www.gname.com/)
 - [GoDaddy](https://www.godaddy.com/)
 - [Hetzner](https://www.hetzner.com/)
+- [Hostinger](https://www.hostinger.com/)
+- [IONOS](https://www.ionos.com/)
+- [Linode](https://www.linode.com/)
 - [Name.com](https://www.name.com/)
 - [Namecheap](https://www.namecheap.com/)
 - [NameSilo](https://www.namesilo.com/)
@@ -52,8 +57,10 @@
 - [雨云](https://www.rainyun.com/)
 - [西部数码](https://www.west.cn/)
 - [PowerDNS](https://www.powerdns.com/)
+- [Technitium DNS](https://technitium.com/dns/)
+- RFC 2136：通过 Dynamic DNS Updates 协议修改 DNS 解析。
 - [ACME-DNS](https://github.com/joohoi/acme-dns)
-- ACME 代理 HTTP 请求：可申请允许通过 HTTP 请求修改 DNS 的域名。
+- ACME 代理 HTTP 请求：通过 HTTP 请求修改 DNS 解析。
 
 ### 我的域名注冊商不在清单内？ {#unlisted-domain-registrars}
 
@@ -112,9 +119,8 @@
 - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
 - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
 - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly CDN。
-- [Edgio](https://edg.io/)：可部署到 Edgio Applications。
 - [FlexCDN](https://flexcdn.cn/)：可部署到 Flex CDN。
-- [Gcore](https://gcore.com/)：可部署到 Gcore CDN。
+- [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
 - [GoEdge](https://goedge.cloud/)：可部署到 GoEdge CDN。
 - [LeCDN](https://cdn.cmzi.com/)：可部署到 LeCDN CDN。
 - [Netlify](https://www.netlify.com/)：可部署到 Netlify Sites。
