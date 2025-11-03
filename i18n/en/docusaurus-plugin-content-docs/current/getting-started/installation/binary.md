@@ -102,6 +102,16 @@ Windows Registry Editor Version 5.00
 "Certimate"="\"C:\\certimate\\certimate.exe\" serve"
 ```
 
+And you can also register a Windows Service using the command:
+
+```bash
+# Install
+.\certimate.exe winsc install --http 127.0.0.1:8090
+
+# Uninstall
+.\certimate.exe winsc uninstall
+```
+
 ### macOS {#autorun-on-macos}
 
 You can use `launchd` to manage service.

@@ -41,6 +41,7 @@ Added DNS providers:
 
 - BookMyName.
 - Gandi.net.
+- hosting.de.
 - Hostinger.
 - IONOS.
 - Linode.

@@ -38,6 +38,7 @@
 - [GNAME](https://www.gname.com/)
 - [GoDaddy](https://www.godaddy.com/)
 - [Hetzner](https://www.hetzner.com/)
+- [hosting.de](https://www.hosting.de/)
 - [Hostinger](https://www.hostinger.com/)
 - [IONOS](https://www.ionos.com/)
 - [Linode](https://www.linode.com/)

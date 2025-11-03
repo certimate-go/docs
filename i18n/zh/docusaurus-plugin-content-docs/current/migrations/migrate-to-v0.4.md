@@ -43,6 +43,7 @@ v0.4.0 是一个不向后兼容的大版本。本文档将帮助你将已有的 
 
 - BookMyName；
 - Gandi.net；
+- hosting.de；
 - Hostinger；
 - IONOS；
 - Linode；

@@ -116,6 +116,16 @@ Windows Registry Editor Version 5.00
 "Certimate"="\"D:\\certimate\\certimate.exe\" serve"
 ```
 
+也可以通过以下命令将 Certimate 注册为系统服务：
+
+```bash
+# 安装
+.\certimate.exe winsc install --http 127.0.0.1:8090
+
+# 卸载
+.\certimate.exe winsc uninstall
+```
+
 ### macOS {#autorun-on-macos}
 
 你可以利用 `launchd` 来管理开机自启动项。
