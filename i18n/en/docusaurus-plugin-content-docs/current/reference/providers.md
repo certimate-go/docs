@@ -23,6 +23,8 @@ There are several kinds of providers:
 - [JD Cloud](https://www.jdcloud.com/)
 - [AWS Route53](https://aws.amazon.com/route53/)
 - [Azure DNS](https://azure.microsoft.com/)
+- [Akamai EdgeDNS](https://www.akamai.com/)
+- [ArvanCloud](https://arvancloud.ir/)
 - [BookMyName](https://www.bookmyname.com/)
 - [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
@@ -31,7 +33,9 @@ There are several kinds of providers:
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
 - [DNS.LA](https://www.dns.la/)
+- [DNS Made Easy](https://dnsmadeeasy.com/)
 - [Duck DNS](https://www.duckdns.org/)
+- [Dynu](https://www.dynu.com/)
 - [dynv6](https://dynv6.com/)
 - [Gandi.net](https://gandi.net/)
 - [G-Core](https://gcore.com/)
@@ -40,6 +44,7 @@ There are several kinds of providers:
 - [Hetzner](https://www.hetzner.com/)
 - [hosting.de](https://www.hosting.de/)
 - [Hostinger](https://www.hostinger.com/)
+- [Infomaniak](https://www.infomaniak.com/)
 - [IONOS](https://www.ionos.com/)
 - [Linode](https://www.linode.com/)
 - [Name.com](https://www.name.com/)
@@ -48,6 +53,7 @@ There are several kinds of providers:
 - [netcup](https://www.netcup.com/)
 - [Netlify](https://www.netlify.com/)
 - [NS1 Connect](https://www.ibm.com/products/ns1-connect/)
+- [ovhcloud](https://www.ovh.com/)
 - [Porkbun](https://porkbun.com/)
 - [Spaceship](https://spaceship.com/)
 - [Vercel](https://vercel.com/)
@@ -107,6 +113,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
 - [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
+- [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud RCDN.
 - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
 - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.

@@ -39,12 +39,18 @@ You can insert variables (e.g., workflow name, certificate domain, expiration ti
 
 Added DNS providers:
 
+- Akamai EdgeDNS.
+- ArvanCloud.
 - BookMyName.
+- DNS Made Easy.
+- Dynu.
 - Gandi.net.
 - hosting.de.
 - Hostinger.
+- Infomaniak.
 - IONOS.
 - Linode.
+- OVHcloud.
 - Vultr.
 - Technitium DNS.
 - RFC 2136.
@@ -52,6 +58,7 @@ Added DNS providers:
 Added deployment providers:
 
 - Huawei Cloud OBS (Object Storage Service).
+- Kingsoft Cloud CDN (Content Delivery Network).
 - aaPanel WinGo.
 
 Added certificate authorities:

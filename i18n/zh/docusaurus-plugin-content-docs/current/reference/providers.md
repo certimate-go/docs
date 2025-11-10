@@ -22,7 +22,9 @@
 - [火山引擎](https://www.volcengine.com/)
 - [京东云](https://www.jdcloud.com/)
 - [AWS Route53](https://aws.amazon.com/route53/)
-- [Azure](https://azure.microsoft.com/)
+- [Azure DNS](https://azure.microsoft.com/)
+- [Akamai EdgeDNS](https://www.akamai.com/)
+- [ArvanCloud](https://arvancloud.ir/)
 - [BookMyName](https://www.bookmyname.com/)
 - [Bunny](https://www.bunny.net/)
 - [CloudFlare](https://www.cloudflare.com/)
@@ -31,7 +33,9 @@
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
 - [DNS.LA](https://www.dns.la/)
+- [DNS Made Easy](https://dnsmadeeasy.com/)
 - [Duck DNS](https://www.duckdns.org/)
+- [Dynu](https://www.dynu.com/)
 - [dynv6](https://dynv6.com/)
 - [Gandi.net](https://gandi.net/)
 - [G-Core](https://gcore.com/)
@@ -40,6 +44,7 @@
 - [Hetzner](https://www.hetzner.com/)
 - [hosting.de](https://www.hosting.de/)
 - [Hostinger](https://www.hostinger.com/)
+- [Infomaniak](https://www.infomaniak.com/)
 - [IONOS](https://www.ionos.com/)
 - [Linode](https://www.linode.com/)
 - [Name.com](https://www.name.com/)
@@ -48,6 +53,7 @@
 - [netcup](https://www.netcup.com/)
 - [Netlify](https://www.netlify.com/)
 - [NS1 Connect](https://www.ibm.com/cn-zh/products/ns1-connect/)
+- [ovhcloud](https://www.ovh.com/)
 - [Porkbun](https://porkbun.com/)
 - [Spaceship](https://spaceship.com/)
 - [Vercel](https://vercel.com/)
@@ -107,6 +113,7 @@
 - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
 - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
 - [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
+- [金山云](https://www.ksyun.com/)：可部署到金山云 CDN。
 - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
 - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
 - [1Panel](https://1panel.cn/)：可部署到 1Panel。
