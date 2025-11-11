@@ -212,7 +212,7 @@ In v0.4.0, we have deprecated the option "Deploy via SSL Certificate Service" to
 
 ### Multi-process mode {#multi-process-mode}
 
-In previous versions, you could only view ACME related logs in the terminal's `stdout`/`stderr`. This was due to a limitation in the underlying dependency go-acme/lego, which provided only a global logger. However, because it was global, we could not accurately distinguish which workflow the logged messages belonged to during concurrent operations.
+In previous versions, you could only view ACME related logs in the terminal's `stdout`/`stderr`. This was due to a limitation in the underlying dependency go-acme/lego, which provided only a global logger. However, because it was global, we could not accurately distinguish which workflow the outputted logs belonged to during concurrent operations.
 
 In v0.4.0, we introduced the multi-process mode. Each workflow now runs certificate application tasks in an independent sub-process. This allows ACME related logs generated to be recorded in the workflow logs, making them visible in the WebUI.
 
@@ -241,5 +241,11 @@ Resolved in v0.4.1.
 ### GitHub Issue #981
 
 [Click to see more details](https://github.com/certimate-go/certimate/issues/981).
+
+Resolved in v0.4.2.
+
+### GitHub Issue #1001
+
+[Click to see more details](https://github.com/certimate-go/certimate/issues/1001).
 
 Resolved in v0.4.2.

@@ -218,7 +218,7 @@ graph LR;
 
 ### 多进程模式 {#multi-process-mode}
 
-在之前的版本中，你只能在终端的 `stdout`/`stderr` 中查看申请证书过程中的 ACME 相关日志。这是因为底层依赖 go-acme/lego 的限制，只提供了一个全局的日志记录器。但由于它是全局的，在并发时，我们无法准确区分其记录的日志究竟来自哪一个工作流。
+在之前的版本中，你只能在终端的 `stdout`/`stderr` 中查看申请证书过程中的 ACME 相关日志。这是因为底层依赖 go-acme/lego 的限制，只提供了一个全局的日志记录器。但由于它是全局的，在并发时，我们无法准确区分其输出的日志究竟来自哪一个工作流。
 
 在 v0.4.0 中，我们引入了多进程模式，每个工作流在执行申请证书节点时，会在独立的子进程中工作。这样一来，申请证书过程中的 ACME 相关日志就可以被记录到工作流日志中了，你可以在 WebUI 中查看到它们。
 
@@ -247,5 +247,11 @@ v0.4.1 已修复。
 ### GitHub Issue #981
 
 [点此查看原文](https://github.com/certimate-go/certimate/issues/981)。
+
+v0.4.2 已修复。
+
+### GitHub Issue #1001
+
+[点此查看原文](https://github.com/certimate-go/certimate/issues/1001)。
 
 v0.4.2 已修复。
