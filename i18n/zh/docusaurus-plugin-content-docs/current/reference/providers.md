@@ -59,10 +59,13 @@
 - [Vercel](https://vercel.com/)
 - [Vultr](https://www.vultr.com/)
 - [优刻得](https://www.ucloud.cn/)
+- [青云](https://www.qingcloud.com/)
 - [移动云](https://ecloud.10086.cn/)
 - [天翼云](https://www.ctyun.cn/)
 - [雨云](https://www.rainyun.com/)
+- [三五互联](https://www.35.cn/)
 - [西部数码](https://www.west.cn/)
+- [新网数码](https://www.xinnet.com/)
 - [PowerDNS](https://www.powerdns.com/)
 - [Technitium DNS](https://technitium.com/dns/)
 - RFC 2136：通过 Dynamic DNS Updates 协议修改 DNS 解析。

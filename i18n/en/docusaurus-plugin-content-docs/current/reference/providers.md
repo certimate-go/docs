@@ -59,10 +59,13 @@ There are several kinds of providers:
 - [Vercel](https://vercel.com/)
 - [Vultr](https://www.vultr.com/)
 - [UCloud](https://www.ucloud-global.com/)
+- [QingCloud](https://intl.qingcloud.com/)
 - [CMCC Cloud](https://ecloud.10086.cn/)
 - [CTCC StateCloud](https://www.ctyun.cn/)
 - [Rain Yun](https://www.rainyun.com/)
+- [35.cn](https://www.35.cn/)
 - [West.cn](https://www.west.cn/)
+- [Xinnet](https://www.xinnet.com/)
 - [PowerDNS](https://www.powerdns.com/)
 - [Technitium DNS](https://technitium.com/dns/)
 - RFC 2136: Dynamic DNS Updates.

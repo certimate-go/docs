@@ -41,33 +41,36 @@ v0.4.0 是一个不向后兼容的大版本。本文档将帮助你将已有的 
 
 新增了以下 DNS 提供商：
 
-- Akamai EdgeDNS；
-- ArvanCloud；
-- BookMyName；
-- DNS Made Easy；
-- Dynu；
-- Gandi.net；
-- hosting.de；
-- Hostinger；
-- Infomaniak；
-- IONOS；
-- Linode；
-- OVHcloud；
-- Vultr；
-- Technitium DNS；
-- RFC 2136。
+- Akamai EdgeDNS
+- ArvanCloud
+- BookMyName
+- DNS Made Easy
+- Dynu
+- Gandi.net
+- hosting.de
+- Hostinger
+- Infomaniak
+- IONOS
+- Linode
+- OVHcloud
+- Vultr
+- 青云
+- 三五互联
+- 新网数码
+- Technitium DNS
+- RFC 2136
 
 新增了以下部署提供商：
 
-- 华为云 OBS 对象存储服务；
-- 金山云 CDN 内容分发网络；
-- 宝塔面板极速版。
+- 华为云 OBS 对象存储服务
+- 金山云 CDN 内容分发网络
+- 宝塔面板极速版
 
 新增了以下证书颁发机构：
 
-- Actalis SSL；
-- GlobalSign Atlas；
-- Sectigo；
+- Actalis SSL
+- GlobalSign Atlas
+- Sectigo
 - 同时，可在全局设置中配置自定义 ACME 证书颁发机构。
 
 ### 改进 UI {#improved-ui}

@@ -25,7 +25,7 @@ Certimate 旨在为用户提供一个安全、简便的 SSL 证书管理解决�
 - 支持单域名、多域名、泛域名证书，可选 RSA、ECC 签名算法；
 - 支持 DNS-01（即基于域名解析验证）、HTTP-01（即基于文件验证）两种质询方式；
 - 支持 PEM、PFX、JKS 等多种格式输出证书；
-- 支持 50+ 域名托管商（如阿里云、腾讯云、Cloudflare 等）；
+- 支持 60+ 域名托管商（如阿里云、腾讯云、Cloudflare 等）；
 - 支持 100+ 部署目标（如 Kubernetes、CDN、WAF、负载均衡等）；
 - 支持邮件、钉钉、飞书、企业微信、Webhook 等多种通知渠道；
 - 支持 Let's Encrypt、Actalis、Google Trust Services、SSL.com、ZeroSSL 等多种 ACME 证书颁发机构；
