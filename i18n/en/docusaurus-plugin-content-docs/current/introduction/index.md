@@ -35,7 +35,7 @@ Certimate aims to provide users with a secure and user-friendly SSL certificate 
 
 ## ⏱️ Fast track {#fast-track}
 
-**Deploy Certimate in 5 minutes!**
+**Deploy Certimate in 1 minute!**
 
 Download the archived package of precompiled binary files directly from [GitHub Releases](https://github.com/certimate-go/certimate/releases), extract and then execute:
 
