@@ -68,6 +68,7 @@ Added certificate authorities:
 
 - Actalis SSL
 - GlobalSign Atlas
+- LiteSSL
 - Sectigo
 - Additionally, custom ACME CA can be configured in global settings now.
 

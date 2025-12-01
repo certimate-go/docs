@@ -170,6 +170,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Buypass](https://www.buypass.com/)
 - [GlobalSign](https://www.globalsign.com/)
 - [Google Trust Services](https://pki.goog/)
+- [LiteSSL](https://litessl.cn/)
 - [Sectigo](https://www.sectigo.com/)
 - [SSL.com](https://www.ssl.com/)
 - [ZeroSSL](https://zerossl.com/)

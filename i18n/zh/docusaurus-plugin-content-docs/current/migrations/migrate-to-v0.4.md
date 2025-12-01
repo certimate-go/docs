@@ -70,6 +70,7 @@ v0.4.0 是一个不向后兼容的大版本。本文档将帮助你将已有的 
 
 - Actalis SSL
 - GlobalSign Atlas
+- LiteSSL
 - Sectigo
 - 同时，可在全局设置中配置自定义 ACME 证书颁发机构。
 
