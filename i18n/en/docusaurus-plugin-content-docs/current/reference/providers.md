@@ -32,6 +32,7 @@ There are several kinds of providers:
 - [Constellix](https://www.constellix.com/)
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
+- [DNSExit](https://dnsexit.com/)
 - [DNS.LA](https://www.dns.la/)
 - [DNS Made Easy](https://dnsmadeeasy.com/)
 - [Duck DNS](https://www.duckdns.org/)
@@ -119,6 +120,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud RCDN.
 - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
 - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
+- [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
 - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
 - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaotaPanel).
 - [aaWAF](https://www.aapanel.com/new/waf.html): Supports deployment to aaWAF (aka BaotaWAF).

@@ -32,6 +32,7 @@
 - [Constellix](https://www.constellix.com/)
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
+- [DNSExit](https://dnsexit.com/)
 - [DNS.LA](https://www.dns.la/)
 - [DNS Made Easy](https://dnsmadeeasy.com/)
 - [Duck DNS](https://www.duckdns.org/)
@@ -119,6 +120,7 @@
 - [金山云](https://www.ksyun.com/)：可部署到金山云 CDN。
 - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
 - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
+- [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
 - [1Panel](https://1panel.cn/)：可部署到 1Panel。
 - [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
 - [堡塔云 WAF](https://www.bt.cn/new/aawaf.html)：可部署到堡塔云 WAF。
