@@ -33,7 +33,6 @@
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
 - [DNSExit](https://dnsexit.com/)
-- [DNS.LA](https://www.dns.la/)
 - [DNS Made Easy](https://dnsmadeeasy.com/)
 - [Duck DNS](https://www.duckdns.org/)
 - [Dynu](https://www.dynu.com/)
@@ -64,9 +63,12 @@
 - [移动云](https://ecloud.10086.cn/)
 - [天翼云](https://www.ctyun.cn/)
 - [雨云](https://www.rainyun.com/)
-- [三五互联](https://www.35.cn/)
+- [三五互联（35CN）](https://www.35.cn/)
 - [西部数码](https://www.west.cn/)
 - [新网数码](https://www.xinnet.com/)
+- [帝恩思（51DNS）](https://www.51dns.com/)
+- [帝恩爱斯（DNS.LA）](https://www.dns.la/)
+- [cPanel](https://cpanel.net/)
 - [PowerDNS](https://www.powerdns.com/)
 - [Technitium DNS](https://technitium.com/dns/)
 - RFC 2136：通过 Dynamic DNS Updates 协议修改 DNS 解析。
@@ -139,6 +141,7 @@
 - [Netlify](https://www.netlify.com/)：可部署到 Netlify Sites。
 - [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。
 - [Kong](https://konghq.com/)：可部署到 Kong。
+- [cPanel](https://cpanel.net/)：可部署到 cPanel。
 - [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
 
 ---

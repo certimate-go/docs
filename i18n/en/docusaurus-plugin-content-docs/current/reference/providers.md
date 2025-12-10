@@ -33,7 +33,6 @@ There are several kinds of providers:
 - [deSEC](https://desec.io/)
 - [DigitalOcean](https://www.digitalocean.com/)
 - [DNSExit](https://dnsexit.com/)
-- [DNS.LA](https://www.dns.la/)
 - [DNS Made Easy](https://dnsmadeeasy.com/)
 - [Duck DNS](https://www.duckdns.org/)
 - [Dynu](https://www.dynu.com/)
@@ -67,6 +66,9 @@ There are several kinds of providers:
 - [35.cn](https://www.35.cn/)
 - [West.cn](https://www.west.cn/)
 - [Xinnet](https://www.xinnet.com/)
+- [51dns.com](https://www.51dns.com/)
+- [DNS.LA](https://www.dns.la/)
+- [cPanel](https://www.cpanel.net/)
 - [PowerDNS](https://www.powerdns.com/)
 - [Technitium DNS](https://technitium.com/dns/)
 - RFC 2136: Dynamic DNS Updates.
@@ -112,7 +114,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
 - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
 - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
-- [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management。
+- [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
 - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
 - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
@@ -128,7 +130,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
 - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront.
 - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
-- [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN。
+- [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN.
 - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
 - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
 - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly CDN.
@@ -137,8 +139,9 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge CDN.
 - [LeCDN](https://cdn.cmzi.com/): Supports deployment to LeCDN CDN.
 - [Netlify](https://www.netlify.com/): Supports deployment to Netlify Sites.
-- [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX。
-- [Kong](https://konghq.com/): Supports deployment to Kong。
+- [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX.
+- [Kong](https://konghq.com/): Supports deployment to Kong.
+- [cPanel](https://cpanel.net/): Supports deployment to cPanel.
 - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
 
 ---
