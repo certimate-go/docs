@@ -20,7 +20,7 @@
 
 > 请阅读本文档的[《开始 / 配置 / 重置登录密码》](/docs/getting-started/configuration#reset-password)。
 
-### 为何本地 127.0.0.1:8090 能访问，公网访问不了？
+### 为何本机 127.0.0.1:8090 能访问，公网访问不了？
 
 > 请阅读本文档的[《开始 / 配置 / 修改监听地址》](/docs/getting-started/configuration#set-listening-url)。
 
@@ -40,23 +40,33 @@
 
 ### 无法申请证书？
 
-#### 错误日志中包含“could not find zone _xxx_”、“zone _xxx_ not found”，且出现了乱七八糟的域名：
+#### 错误日志中包含“could not find zone _xxx_”、“zone _xxx_ not found”，且只出现了 `.com`、`.net` 这类顶级域名：
 
-> 可能因为你的域名解析中包含 CNAME 泛解析。根据 DNS 规范，CNAME 的优先级最高，因此 DNS-01 质询过程中无法查询到正确的 TXT 解析记录。
+> 可能因为你的域名解析 SOA 记录设置不正确，无法返回正确的域名信息。
+
+#### 错误日志中包含“could not find zone _xxx_”、“zone _xxx_ not found”，且出现了其他不相关的域名：
+
+> 可能因为你的域名解析中包含 CNAME 记录。根据 DNS 规范，CNAME 泛解析的优先级最高，因此 DNS-01 质询过程中无法查询到正确的 TXT 解析记录。
 >
 > 可以尝试在工作流编排的申请节点配置中，勾选「阻止 CNAME 跟随」开关后重试。
 
-#### 错误日志中包含“authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_.”：
+#### 错误日志中包含“No TXT record found at \_acme-challenge._xxx_”：
 
 > 可能因为你的域名解析记录未能在权威名称服务器中生效。
 >
-> Certimate 底层使用 go-acme/lego 作为 ACME 客户端，默认会在正式向证书颁发机构发出订单请求前，尝试在本机使用权威名称服务器验证 DNS 解析是否在全球范围内生效，以降低因 DNS 解析频繁未生效从而触发速率限制被封禁的概率。但某些 DNS 服务商提供的的域名解析服务因种种原因，无法及时传播到权威名称服务器，你可以通过下面的方式跳过本机检查。
+> DNS 解析记录在被提交后、直到全球范围内生效的过程，被称之为“DNS 传播”。通常来说传播将在几秒内完成，但某些情况下传播可能会很慢。
 >
-> 可以尝试在工作流编排的申请节点配置中，设置「DNS 递归服务器」为公共 DNS（如 `8.8.8.8` 或 `1.1.1.1`），同时设置一个较大的「DNS 传播检查超时时间」值（如 600 秒）后重试。
+> Certimate 底层使用 go-acme/lego 作为 ACME 库，默认会在正式向证书颁发机构发出订单请求前，尝试在本机使用权威名称服务器验证 DNS 解析是否在全球范围内生效，以降低因 DNS 质询频繁失败从而触发证书颁发机构速率限制的概率。但某些 NS 服务因种种原因，无法及时完成传播。你可以在工作流编排的申请节点配置中通过下面的方式跳过本机检查。
+>
+> 可以尝试设置「DNS 递归服务器」为公共 DNS（如 `8.8.8.8` 或 `1.1.1.1`），同时设置一个较大的「DNS 传播检查超时时间」值（如 600 秒）后重试。
 >
 > 也可以尝试设置「DNS 传播等待时间」值（如 30 秒）。与上一种方式两者二选一即可。
 
-#### 错误日志中包含“NXDOMAIN looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain”：
+#### 错误日志中包含“authoritative nameservers: _xxx_ returned NXDOMAIN/SERVFAIL for \_acme-challenge._xxx_”：
+
+> 同上。
+
+#### 错误日志中包含“looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain”：
 
 > 同上。
 

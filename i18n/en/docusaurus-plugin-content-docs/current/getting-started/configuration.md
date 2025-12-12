@@ -13,7 +13,11 @@ For security reasons, Certimate defaults to listening on `127.0.0.1:8090`, which
 You can configure this at startup:
 
 ```bash
-./certimate serve --http 0.0.0.0:9999
+# Listen IPv4
+./certimate serve --http "0.0.0.0:8090"
+
+# Listen IPv6
+./certimate serve --http "[::]:8090"
 ```
 
 ### Via Docker installation {#via-docker-installation}

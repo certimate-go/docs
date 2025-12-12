@@ -13,7 +13,11 @@
 你可以在启动时修改这个配置：
 
 ```bash
-./certimate serve --http 0.0.0.0:9999
+# 监听任意 IPv4 地址
+./certimate serve --http "0.0.0.0:8090"
+
+# 监听任意 IPv6 地址
+./certimate serve --http "[::]:8090"
 ```
 
 ### 通过 Docker 安装的 {#via-docker-installation}

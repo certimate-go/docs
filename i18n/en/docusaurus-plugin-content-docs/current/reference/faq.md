@@ -40,19 +40,29 @@
 
 ### Unable to apply certificates?
 
-#### The error logs contain "could not find zone _xxx_", "zone _xxx_ not found":
+#### The error logs contain "could not find zone _xxx_", "zone _xxx_ not found", and only top-level domain (`.com`, `.net`, etc.) appeared:
 
-> Perhaps because your domain name resolution includes CNAME wildcard resolution. According to the specification, CNAME has the highest priority, so the TXT resolution record cannot be queried during the DNS-01 challenge process.
+> Perhaps because your domain's SOA record is configured incorrectly.
+
+#### The error logs contain "could not find zone _xxx_", "zone _xxx_ not found", and another unrelated domain appeared:
+
+> Perhaps because your domain name resolution includes CNAME record. According to the specification, CNAME wildcard resolution has the highest priority, so the TXT resolution record cannot be queried during the DNS-01 challenge process.
 >
 > You can try turning on the "Disable CNAME following" switch in the application node configuration.
 
-#### The error logs contain "authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_.":
+#### The error logs contain "authoritative nameservers: _xxx_ returned SERVFAIL for \_acme-challenge._xxx_":
 
 > Perhaps because your domain name resolution records did not take effect in the authoritative nameservers.
 >
-> You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8` or `1.1.1.1`), and setting a larger "DNS propagation checks timeout" value (such as 600s) in the application node configuration. You can also try setting the "DNS propagation waiting time" value (such as 30s) to skip local checks.
+> You can try setting the "DNS recursive nameservers" to a public DNS (such as `8.8.8.8` or `1.1.1.1`), and setting a larger "DNS propagation checks timeout" value (such as 600s) in the application node configuration.
+>
+> You can also try setting the "DNS propagation waiting time" value (such as 30s) to skip local checks.
 
-#### The error logs contain "NXDOMAIN looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain":
+#### The error logs contain "authoritative nameservers: _xxx_ returned NXDOMAIN/SERVFAIL for \_acme-challenge._xxx_":
+
+> Same as above.
+
+#### The error logs contain "looking up TXT for \_acme-challenge._xxx_ - check that a DNS record exists for this domain":
 
 > Same as above.
 
