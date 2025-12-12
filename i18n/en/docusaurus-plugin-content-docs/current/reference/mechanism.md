@@ -15,7 +15,7 @@ The work process of Certimate is as follows:
 
 Certimate will periodically repeat the above process to achieve the purpose of renewing the certificate.
 
-During this process, Certimate requires credentials information to control your domain name DNS resolution records or access your cloud service resources.
+During this process, Certimate requires credentials information to control your domain name resolution records or access your cloud service resources.
 
 ```mermaid
 ---
@@ -58,6 +58,6 @@ Certimate supports multiple CAs, including Let's Encrypt.
 
 ### DNS-01 challenge {#dns-01-challenge}
 
-DNS-01 challenge is a method used in the ACME protocol to verify domain ownership. By adding a specific TXT record to the DNS resolution record of a domain name, the ACME server can query the DNS record to verify user ownership of the domain name. If the verification is successful, the ACME server issues a certificate.
+DNS-01 challenge is a method used in the ACME protocol to verify domain ownership. By adding a specific TXT record to the DNS of a domain name, the ACME server can query the DNS record to verify user ownership of the domain name. If the verification is successful, the ACME server issues a certificate.
 
-Certimate can control domain DNS resolution through APIs to automate the DNS-01 challenge process.
+Certimate can control domain name resolution through APIs to automate the DNS-01 challenge process.
