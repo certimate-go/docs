@@ -47,3 +47,5 @@ All your data will be fully preserved.
 ### Domain management deprecated {#domain-management-deprecated}
 
 The functionality related to domain management has been deprecated.
+
+P.S. Migration Assistant: https://github.com/certimate-go/migration-assistant

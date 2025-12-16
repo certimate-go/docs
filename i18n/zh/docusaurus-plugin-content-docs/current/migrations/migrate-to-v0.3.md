@@ -47,3 +47,5 @@ v0.3.0 是一个不向后兼容的大版本。本文档将帮助你将已有的 
 ### 域名管理功能废弃 {#domain-management-deprecated}
 
 原域名管理功能废弃，取而代之的是工作流，已有的证书申请参数、部署参数及已签发的证书将不可读取。
+
+P.S. 迁移辅助工具：https://github.com/certimate-go/migration-assistant
