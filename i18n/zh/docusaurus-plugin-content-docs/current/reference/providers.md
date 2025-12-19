@@ -110,14 +110,14 @@
 - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
 - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
 - [华为云](https://www.huaweicloud.com/)：可部署到华为云 OBS, CDN、ELB、WAF、SCM 等服务。
-- [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、ImageX、Live、证书中心等服务。
+- [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、WAF、ImageX、Live、VOD、证书中心等服务。
 - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
 - [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
 - [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
 - [网宿云](https://www.wangsu.com/)：可部署到网宿云 CDN、CDN Pro、证书管理等服务。
 - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
 - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
-- [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN 等服务。
+- [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN、UCLB、UALB、UEWAF、UPathX 等服务。
 - [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
 - [金山云](https://www.ksyun.com/)：可部署到金山云 CDN。
 - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。

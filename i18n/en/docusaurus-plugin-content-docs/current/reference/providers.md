@@ -110,14 +110,14 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
 - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
 - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, SCM.
-- [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, ImageX, Live, Certificate Center.
+- [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, WAF, ImageX, Live, VOD, Certificate Center.
 - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
 - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
 - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
 - [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
 - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
 - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
-- [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN.
+- [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN, UCLB, UALB, UEWAF, UPathX.
 - [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
 - [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud RCDN.
 - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
