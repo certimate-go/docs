@@ -9,7 +9,7 @@ It is recommended for ordinary users.
 Supported operating systems:
 
 - Linux Kernel 3.2 or higher
-- macOS 11 Big Sur or higher
+- macOS 12 Monterey or higher
 - Windows 10 / Windows Server 2016 or higher
 
 ---

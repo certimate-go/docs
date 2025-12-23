@@ -9,7 +9,7 @@
 操作系统版本要求：
 
 - Linux 内核 3.2 或更高版本
-- macOS 11 Big Sur 或更高版本
+- macOS 12 Monterey 或更高版本
 - Windows 10 / Windows Server 2016 或更高版本
 
 ---
