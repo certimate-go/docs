@@ -6,6 +6,7 @@ You can read the following content (sorted by publish time) for more usage help.
 Community cases are provided spontaneously by Certimate users. We only provide demonstrations and are not responsible for content on their sites. Please pay attention to identifying information and beware of being deceived.
 :::
 
+- 2025-12-20 [_【笔记】群晖计划任务自动更新 SSL 证书，已通过 Certimate 工作流将证书上传到群晖服务器_](https://www.yumehinata.com/archives/diekxCHW) (author _YumeHinata_, from _幻梦の大图书馆_)
 - 2025-12-09 [_告别手动续期！Unraid+Certimate 打造全自动 HTTPS 证书管理_](https://www.bilibili.com/opus/1144326025217310757) (author _流心 y_, from _BiliBili_)
 - 2025-12-07 [_经常忘记续签 SSL 证书？免费送你一张“无限”有效期的 SSL。_](https://www.bilibili.com/video/BV1GtmABmEri) (author _zhulin_, from _BiliBili_)
 - 2025-09-26 [_使用 Certimate 实现自动续签 SSL 证书_](https://mp.weixin.qq.com/s/kbc6CPSqdGMs0SuPUbCT7A) (author _三金得鑫_, from _WeChat Official Account_)

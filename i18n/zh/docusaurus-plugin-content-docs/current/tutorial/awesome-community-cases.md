@@ -6,6 +6,7 @@
 社区案例由广大的 Certimate 用户自发提供。我们仅提供展示，不对其站点内的内容负责，请大家注意甄别信息，谨防受骗。
 :::
 
+- 2025-12-20 [《【笔记】群晖计划任务自动更新 SSL 证书，已通过 Certimate 工作流将证书上传到群晖服务器》](https://www.yumehinata.com/archives/diekxCHW)（作者：_YumeHinata_，来源：_幻梦の大图书馆_）
 - 2025-12-09 [《告别手动续期！Unraid+Certimate 打造全自动 HTTPS 证书管理》](https://www.bilibili.com/opus/1144326025217310757)（作者：_流心 y_，来源：_哔哩哔哩_）
 - 2025-12-07 [《经常忘记续签 SSL 证书？免费送你一张“无限”有效期的 SSL。》](https://www.bilibili.com/video/BV1GtmABmEri)（作者：_竹林_，来源：_哔哩哔哩_）
 - 2025-09-26 [《使用 Certimate 实现自动续签 SSL 证书》](https://mp.weixin.qq.com/s/kbc6CPSqdGMs0SuPUbCT7A)（作者：_三金得鑫_，来源：_微信公众号_）
