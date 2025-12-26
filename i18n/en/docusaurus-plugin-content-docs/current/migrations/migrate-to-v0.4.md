@@ -37,40 +37,7 @@ You can insert variables (e.g., workflow name, certificate domain, expiration ti
 
 ### More providers supported {#more-providers-supported}
 
-Added DNS providers:
-
-- Akamai EdgeDNS
-- ArvanCloud
-- BookMyName
-- DNS Made Easy
-- Dynu
-- Gandi.net
-- hosting.de
-- Hostinger
-- Infomaniak
-- IONOS
-- Linode
-- OVHcloud
-- Vultr
-- QingCloud
-- 35.cn
-- Xinnet
-- Technitium DNS
-- RFC 2136
-
-Added deployment providers:
-
-- Huawei Cloud OBS (Object Storage Service)
-- Kingsoft Cloud CDN (Content Delivery Network)
-- aaPanel WinGo
-
-Added certificate authorities:
-
-- Actalis SSL
-- GlobalSign Atlas
-- LiteSSL
-- Sectigo
-- Additionally, custom ACME CA can be configured in global settings now.
+Added several DNS providers, deployment providers, and certificate authorities.
 
 ### Improved UI {#improved-ui}
 
