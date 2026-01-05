@@ -106,43 +106,47 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - Customized scripts
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
-- [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
-- [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
-- [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
-- [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, SCM.
-- [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, WAF, ImageX, Live, VOD, Certificate Center.
-- [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
-- [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
-- [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
-- [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
-- [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
-- [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
-- [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN, UCLB, UALB, UEWAF, UPathX.
-- [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
-- [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud RCDN.
-- [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
-- [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
-- [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
-- [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
-- [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaotaPanel).
-- [aaWAF](https://www.aapanel.com/new/waf.html): Supports deployment to aaWAF (aka BaotaWAF).
-- [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
-- [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
-- [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront.
-- [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
-- [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN.
-- [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
-- [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
-- [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly CDN.
-- [FlexCDN](https://flexcdn.cn/): Supports deployment to Flex CDN.
-- [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
-- [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge CDN.
-- [LeCDN](https://cdn.cmzi.com/): Supports deployment to LeCDN CDN.
-- [Netlify](https://www.netlify.com/): Supports deployment to Netlify Sites.
-- [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX.
-- [Kong](https://konghq.com/): Supports deployment to Kong.
-- [cPanel](https://cpanel.net/): Supports deployment to cPanel.
-- [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
+- Cloud services:
+  - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
+  - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
+  - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
+  - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, SCM.
+  - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, WAF, ImageX, Live, VOD, Certificate Center.
+  - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, Live Video, VOD.
+  - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
+  - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
+  - [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
+  - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
+  - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
+  - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN, UCLB, UALB, UEWAF, UPathX.
+  - [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
+  - [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud RCDN.
+  - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
+  - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
+  - [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
+  - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront.
+  - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
+  - [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN.
+  - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
+  - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
+  - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
+  - [Netlify](https://www.netlify.com/): Supports deployment to Netlify.
+- Self-hosted services:
+  - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
+  - [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX.
+  - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaotaPanel).
+  - [aaWAF](https://www.aapanel.com/new/waf.html): Supports deployment to aaWAF (aka BaotaWAF).
+  - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly.
+  - [cPanel](https://cpanel.net/): Supports deployment to cPanel.
+  - [Dokploy](https://github.com/Dokploy/dokploy): Supports deployment to Dokploy.
+  - [FlexCDN](https://flexcdn.cn/): Supports deployment to FlexCDN.
+  - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge.
+  - [Kong](https://konghq.com/): Supports deployment to Kong.
+  - [LeCDN](https://cdn.cmzi.com/): Supports deployment to LeCDN.
+  - [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager): Supports deployment to Nginx Proxy Manager.
+  - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
+  - [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
+  - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
 
 ---
 

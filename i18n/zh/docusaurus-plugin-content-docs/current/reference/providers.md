@@ -106,43 +106,47 @@
   - 自定义脚本
 - Webhook：可部署到 Webhook。
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
-- [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、GA、CAS 等服务。
-- [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
-- [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
-- [华为云](https://www.huaweicloud.com/)：可部署到华为云 OBS, CDN、ELB、WAF、SCM 等服务。
-- [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、WAF、ImageX、Live、VOD、证书中心等服务。
-- [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
-- [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
-- [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
-- [网宿云](https://www.wangsu.com/)：可部署到网宿云 CDN、CDN Pro、证书管理等服务。
-- [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
-- [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
-- [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN、UCLB、UALB、UEWAF、UPathX 等服务。
-- [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
-- [金山云](https://www.ksyun.com/)：可部署到金山云 CDN。
-- [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
-- [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
-- [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
-- [1Panel](https://1panel.cn/)：可部署到 1Panel。
-- [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
-- [堡塔云 WAF](https://www.bt.cn/new/aawaf.html)：可部署到堡塔云 WAF。
-- [耗子面板](https://github.com/tnb-labs/panel)：可部署到耗子面板。
-- [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
-- [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront 等服务。
-- [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
-- [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
-- [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
-- [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
-- [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly CDN。
-- [FlexCDN](https://flexcdn.cn/)：可部署到 Flex CDN。
-- [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
-- [GoEdge](https://goedge.cloud/)：可部署到 GoEdge CDN。
-- [LeCDN](https://cdn.cmzi.com/)：可部署到 LeCDN CDN。
-- [Netlify](https://www.netlify.com/)：可部署到 Netlify Sites。
-- [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。
-- [Kong](https://konghq.com/)：可部署到 Kong。
-- [cPanel](https://cpanel.net/)：可部署到 cPanel。
-- [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
+- 云厂商服务：
+  - [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、GA、CAS 等服务。
+  - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
+  - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
+  - [华为云](https://www.huaweicloud.com/)：可部署到华为云 OBS, CDN、ELB、WAF、SCM 等服务。
+  - [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、WAF、ImageX、Live、VOD、证书中心等服务。
+  - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、视频直播、视频点播等服务。
+  - [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
+  - [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
+  - [网宿云](https://www.wangsu.com/)：可部署到网宿云 CDN、CDN Pro、证书管理等服务。
+  - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
+  - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
+  - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN、UCLB、UALB、UEWAF、UPathX 等服务。
+  - [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
+  - [金山云](https://www.ksyun.com/)：可部署到金山云 CDN。
+  - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
+  - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
+  - [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
+  - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront 等服务。
+  - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
+  - [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
+  - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
+  - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
+  - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
+  - [Netlify](https://www.netlify.com/)：可部署到 Netlify。
+- 自托管服务：
+  - [1Panel](https://1panel.cn/)：可部署到 1Panel。
+  - [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。
+  - [宝塔面板](https://www.bt.cn/)：可部署到宝塔面板。
+  - [堡塔云 WAF](https://www.bt.cn/new/aawaf.html)：可部署到堡塔云 WAF。
+  - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly。
+  - [cPanel](https://cpanel.net/)：可部署到 cPanel。
+  - [Dokploy](github.com/Dokploy/dokploy)：可部署到 Dokploy。
+  - [FlexCDN](https://flexcdn.cn/)：可部署到 FlexCDN。
+  - [GoEdge](https://goedge.cloud/)：可部署到 GoEdge。
+  - [LeCDN](https://cdn.cmzi.com/)：可部署到 LeCDN。
+  - [Kong](https://konghq.com/)：可部署到 Kong。
+  - [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)：可部署到 Nginx Proxy Manager。
+  - [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
+  - [耗子面板](https://github.com/tnb-labs/panel)：可部署到耗子面板。
+  - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
 
 ---
 
