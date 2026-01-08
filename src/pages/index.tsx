@@ -24,7 +24,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/introduction"
           >
-            <Translate>homepage.hero.actions.button.gettingStarted</Translate>
+            <Translate>homepage.hero.actions.button.getStarted</Translate>
           </Link>
         </div>
       </div>

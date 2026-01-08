@@ -313,8 +313,8 @@
   "homepage.hero.subtitle": {
     "message": "完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期全流程自动化可视化，支持各大主流云厂商。"
   },
-  "homepage.hero.actions.button.gettingStarted": {
-    "message": "快速开始 🔥"
+  "homepage.hero.actions.button.getStarted": {
+    "message": "快速开始 ➡"
   },
   "homepage.features.item.localDeployment.title": {
     "message": "本地部署​"

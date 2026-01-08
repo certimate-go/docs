@@ -313,8 +313,8 @@
   "homepage.hero.subtitle": {
     "message": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, and renewal visually."
   },
-  "homepage.hero.actions.button.gettingStarted": {
-    "message": "Getting Started 🔥"
+  "homepage.hero.actions.button.getStarted": {
+    "message": "Get Started ➡"
   },
   "homepage.features.item.localDeployment.title": {
     "message": "Local Deployment​"
