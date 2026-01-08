@@ -1,0 +1,4 @@
+﻿.navbar a.dropdown__link[href="/"][lang],
+.navbar a.menu__link[href="/"][lang] {
+  display: none !important;
+}
