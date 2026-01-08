@@ -311,7 +311,7 @@
     "message": "Certimate"
   },
   "homepage.hero.subtitle": {
-    "message": "An open-source SSL certificate management tool that helps you automatically apply for and deploy SSL certificates, as well as automatically renew them when they are about to expire."
+    "message": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, and renewal visually."
   },
   "homepage.hero.actions.button.gettingStarted": {
     "message": "Getting Started 🔥"

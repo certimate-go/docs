@@ -138,7 +138,7 @@
   - [堡塔云 WAF](https://www.bt.cn/new/aawaf.html)：可部署到堡塔云 WAF。
   - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly。
   - [cPanel](https://cpanel.net/)：可部署到 cPanel。
-  - [Dokploy](github.com/Dokploy/dokploy)：可部署到 Dokploy。
+  - [Dokploy](https://github.com/Dokploy/dokploy)：可部署到 Dokploy。
   - [FlexCDN](https://flexcdn.cn/)：可部署到 FlexCDN。
   - [GoEdge](https://goedge.cloud/)：可部署到 GoEdge。
   - [LeCDN](https://cdn.cmzi.com/)：可部署到 LeCDN。

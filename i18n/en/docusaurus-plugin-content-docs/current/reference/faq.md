@@ -10,7 +10,7 @@
 
 ### Is data security really?
 
-> Since only self-hosted is supported, all data is stored on the user’s server. Additionally, the source code of Certimate is open-source, and the packaging process for binary files and Docker images is entirely done using GitHub Actions. This process is transparent and visible, allowing for independent auditing.
+> Since only self-hosted is supported, all data is stored on the user’s server. Additionally, all the source code of Certimate is open-source, and the packaging process for binary files and Docker images is entirely done using GitHub Actions. This process is public and transparent, allowing for independent auditing.
 
 ### How long is the validity period of the certificates?
 

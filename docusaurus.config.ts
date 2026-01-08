@@ -4,7 +4,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Certimate",
-  tagline: "开源的 SSL 证书管理工具，可以帮助你自动申请、部署、续期 SSL 证书。",
+  tagline:
+    "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, and renewal visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期全流程自动化可视化，支持各大主流云厂商。",
   favicon: "img/logo.svg",
 
   // Set the production url of your site here
@@ -19,7 +20,6 @@ const config: Config = {
   projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -31,6 +31,9 @@ const config: Config = {
 
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
   },
 
   themes: [
@@ -152,7 +155,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Certimate. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} certimate-go. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
