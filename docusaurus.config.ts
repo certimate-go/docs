@@ -2,6 +2,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 import { type Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+import { localeConfigs, localLanguages } from "./src/i18n/locale";
+
 const config: Config = {
   title: "Certimate",
   tagline:
@@ -13,6 +15,7 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -26,27 +29,16 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "DEFAULT",
-    locales: ["DEFAULT", "en", "zh"],
+    locales: ["DEFAULT", ...localLanguages],
     localeConfigs: {
       ["DEFAULT"]: {
-        // TODO: This is a temporary workaround for default locale
+        // WARNING: This is a temporary workaround for default locale.
         baseUrl: "/",
         htmlLang: "en",
         label: "\u200B",
         path: "en",
       },
-      en: {
-        baseUrl: "/en-US/",
-        htmlLang: "en-US",
-        label: "English",
-        path: "en",
-      },
-      zh: {
-        baseUrl: "/zh-CN/",
-        htmlLang: "zh-Hans",
-        label: "简体中文",
-        path: "zh",
-      },
+      ...localeConfigs,
     },
   },
 
@@ -57,47 +49,35 @@ const config: Config = {
     },
   },
 
-  themes: [
-    "@docusaurus/theme-mermaid",
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+  themeConfig: {
+    metadata: [
       {
-        hashed: true,
-        language: ["en", "zh"],
+        name: "keywords",
+        content: [
+          "Certimate",
+          "certificate management",
+          "certificates",
+          "SSL",
+          "HTTPS",
+          "Let's Encrypt",
+          "ACME",
+          "ACME client",
+          "ACME protocol",
+          "automation",
+          "devops",
+          "证书管理",
+          "自动化",
+          "运维",
+          "lego",
+          "certbot",
+          "acme.sh",
+        ].join(", "),
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
       },
     ],
-  ],
-
-  presets: [
-    [
-      "@docusaurus/preset-classic",
-      {
-        docs: {
-          sidebarPath: "./docusaurus.sidebars.ts",
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
-        theme: {
-          customCss: [
-            "./src/css/custom.css",
-            "./src/css/hack.css",
-            "./src/css/icon.css",
-          ],
-        },
-      } satisfies Preset.Options,
-    ],
-  ],
-
-  themeConfig: {
     colorMode: {
       defaultMode: "dark",
     },
@@ -187,6 +167,44 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  themes: [
+    "@docusaurus/theme-mermaid",
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        hashed: true,
+        language: [...localLanguages],
+      },
+    ],
+  ],
+
+  presets: [
+    [
+      "@docusaurus/preset-classic",
+      {
+        docs: {
+          sidebarPath: "./docusaurus.sidebars.ts",
+        },
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ["rss", "atom"],
+            xslt: true,
+          },
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
+        },
+        theme: {
+          customCss: ["./src/css/custom.css", "./src/css/icon.css"],
+        },
+      } satisfies Preset.Options,
+    ],
+  ],
+
+  clientModules: ["./src/i18n/fallback.clientModules.ts", "./src/css/hack.css"],
 };
 
 export default config;

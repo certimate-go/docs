@@ -1,4 +1,5 @@
-﻿.navbar a.dropdown__link[href="/"][lang],
+﻿/* WANING: This is a temporary workaround for default locale. */
+.navbar a.dropdown__link[href="/"][lang],
 .navbar a.menu__link[href="/"][lang] {
   display: none !important;
 }
