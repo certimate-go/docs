@@ -1,5 +1,9 @@
 ﻿/* WANING: This is a temporary workaround for default locale. */
 .navbar a.dropdown__link[href="/"][lang],
-.navbar a.menu__link[href="/"][lang] {
+.navbar a.dropdown__link[href^="/docs"][lang="en"],
+.navbar a.dropdown__link[href^="/blog"][lang="en"],
+.navbar a.menu__link[href="/"][lang],
+.navbar a.menu__link[href^="/docs"][lang="en"],
+.navbar a.menu__link[href^="/blog"][lang="en"] {
   display: none !important;
 }
