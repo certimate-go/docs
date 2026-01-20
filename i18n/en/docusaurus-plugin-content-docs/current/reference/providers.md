@@ -13,67 +13,69 @@ There are several kinds of providers:
 
 ## Supported DNS providers {#supported-dns-providers}
 
-- [Alibaba Cloud](https://www.alibabacloud.com/)
-- [Alibaba Cloud ESA NS mode](https://www.alibabacloud.com/help/en/edge-security-acceleration/esa/user-guide/dns-overview/)
-- [Tencent Cloud](https://www.tencentcloud.com/)
-- [Tencent Cloud EdgeOne NS mode](https://www.tencentcloud.com/document/product/1145/66364/)
-- [Baidu AI Cloud](https://intl.cloud.baidu.com/)
-- [Huawei Cloud](https://www.huaweicloud.com/)
-- [Volcengine](https://www.volcengine.com/)
-- [JD Cloud](https://www.jdcloud.com/)
-- [AWS Route53](https://aws.amazon.com/route53/)
-- [Azure DNS](https://azure.microsoft.com/)
-- [Akamai EdgeDNS](https://www.akamai.com/)
-- [ArvanCloud](https://arvancloud.ir/)
-- [BookMyName](https://www.bookmyname.com/)
-- [Bunny](https://www.bunny.net/)
-- [CloudFlare](https://www.cloudflare.com/)
-- [ClouDNS](https://www.cloudns.net/)
-- [Constellix](https://www.constellix.com/)
-- [deSEC](https://desec.io/)
-- [DigitalOcean](https://www.digitalocean.com/)
-- [DNSExit](https://dnsexit.com/)
-- [DNS Made Easy](https://dnsmadeeasy.com/)
-- [Duck DNS](https://www.duckdns.org/)
-- [Dynu](https://www.dynu.com/)
-- [dynv6](https://dynv6.com/)
-- [Gandi.net](https://gandi.net/)
-- [G-Core](https://gcore.com/)
-- [GNAME](https://www.gname.com/)
-- [GoDaddy](https://www.godaddy.com/)
-- [Hetzner](https://www.hetzner.com/)
-- [hosting.de](https://www.hosting.de/)
-- [Hostinger](https://www.hostinger.com/)
-- [Infomaniak](https://www.infomaniak.com/)
-- [IONOS](https://www.ionos.com/)
-- [Linode](https://www.linode.com/)
-- [Name.com](https://www.name.com/)
-- [Namecheap](https://www.namecheap.com/)
-- [NameSilo](https://www.namesilo.com/)
-- [netcup](https://www.netcup.com/)
-- [Netlify](https://www.netlify.com/)
-- [NS1 Connect](https://www.ibm.com/products/ns1-connect/)
-- [ovhcloud](https://www.ovh.com/)
-- [Porkbun](https://porkbun.com/)
-- [Spaceship](https://spaceship.com/)
-- [Vercel](https://vercel.com/)
-- [Vultr](https://www.vultr.com/)
-- [UCloud](https://www.ucloud-global.com/)
-- [QingCloud](https://intl.qingcloud.com/)
-- [CMCC Cloud](https://ecloud.10086.cn/)
-- [CTCC StateCloud](https://www.ctyun.cn/)
-- [Rain Yun](https://www.rainyun.com/)
-- [35.cn](https://www.35.cn/)
-- [West.cn](https://www.west.cn/)
-- [Xinnet](https://www.xinnet.com/)
-- [51dns.com](https://www.51dns.com/)
-- [DNS.LA](https://www.dns.la/)
-- [cPanel](https://www.cpanel.net/)
-- [PowerDNS](https://www.powerdns.com/)
-- [Technitium DNS](https://technitium.com/dns/)
-- RFC 2136: Dynamic DNS Updates.
-- [ACME-DNS](https://github.com/joohoi/acme-dns)
-- ACME Proxy HTTP Request: Supports managing DNS by HTTP request.
+- RFC 2136: Set DNS by Dynamic DNS Updates.
+- Custom ACME challenge validation endpoint based on HTTP request: Set DNS by Webhook.
+- **Cloud Services**:
+  - [Alibaba Cloud](https://www.alibabacloud.com/)
+  - [Alibaba Cloud ESA NS mode](https://www.alibabacloud.com/help/en/edge-security-acceleration/esa/user-guide/dns-overview/)
+  - [Tencent Cloud](https://www.tencentcloud.com/)
+  - [Tencent Cloud EdgeOne NS mode](https://www.tencentcloud.com/document/product/1145/66364/)
+  - [Baidu AI Cloud](https://intl.cloud.baidu.com/)
+  - [Huawei Cloud](https://www.huaweicloud.com/)
+  - [Volcengine](https://www.volcengine.com/)
+  - [JD Cloud](https://www.jdcloud.com/)
+  - [AWS Route53](https://aws.amazon.com/route53/)
+  - [Azure DNS](https://azure.microsoft.com/)
+  - [Akamai EdgeDNS](https://www.akamai.com/)
+  - [ArvanCloud](https://arvancloud.ir/)
+  - [BookMyName](https://www.bookmyname.com/)
+  - [Bunny](https://www.bunny.net/)
+  - [CloudFlare](https://www.cloudflare.com/)
+  - [ClouDNS](https://www.cloudns.net/)
+  - [Constellix](https://www.constellix.com/)
+  - [deSEC](https://desec.io/)
+  - [DigitalOcean](https://www.digitalocean.com/)
+  - [DNSExit](https://dnsexit.com/)
+  - [DNS Made Easy](https://dnsmadeeasy.com/)
+  - [Duck DNS](https://www.duckdns.org/)
+  - [Dynu](https://www.dynu.com/)
+  - [dynv6](https://dynv6.com/)
+  - [Gandi.net](https://gandi.net/)
+  - [G-Core](https://gcore.com/)
+  - [GNAME](https://www.gname.com/)
+  - [GoDaddy](https://www.godaddy.com/)
+  - [Hetzner](https://www.hetzner.com/)
+  - [hosting.de](https://www.hosting.de/)
+  - [Hostinger](https://www.hostinger.com/)
+  - [Infomaniak](https://www.infomaniak.com/)
+  - [IONOS](https://www.ionos.com/)
+  - [Linode](https://www.linode.com/)
+  - [Name.com](https://www.name.com/)
+  - [Namecheap](https://www.namecheap.com/)
+  - [NameSilo](https://www.namesilo.com/)
+  - [netcup](https://www.netcup.com/)
+  - [Netlify](https://www.netlify.com/)
+  - [NS1 Connect](https://www.ibm.com/products/ns1-connect/)
+  - [ovhcloud](https://www.ovh.com/)
+  - [Porkbun](https://porkbun.com/)
+  - [Spaceship](https://spaceship.com/)
+  - [Vercel](https://vercel.com/)
+  - [Vultr](https://www.vultr.com/)
+  - [UCloud](https://www.ucloud-global.com/)
+  - [QingCloud](https://intl.qingcloud.com/)
+  - [CMCC Cloud](https://ecloud.10086.cn/)
+  - [CTCC StateCloud](https://www.ctyun.cn/)
+  - [Rain Yun](https://www.rainyun.com/)
+  - [35.cn](https://www.35.cn/)
+  - [West.cn](https://www.west.cn/)
+  - [Xinnet](https://www.xinnet.com/)
+  - [51dns.com](https://www.51dns.com/)
+  - [DNS.LA](https://www.dns.la/)
+- **Self-hosted Services**:
+  - [cPanel](https://www.cpanel.net/)
+  - [PowerDNS](https://www.powerdns.com/)
+  - [Technitium DNS](https://technitium.com/dns/)
+  - [ACME-DNS](https://github.com/joohoi/acme-dns)
 
 ### My domain registrar is not on the list? {#unlisted-domain-registrars}
 
@@ -92,21 +94,22 @@ In future versions, we may add a feature that allows users to manually satisfyin
 ## Supported hosting providers {#supported-hosting-providers}
 
 - Local host: Supports deployment to local servers. Preset scripts:
-  - Binding to Windows IIS
-  - Binding to Windows netsh
-  - Binding to Windows RDP
-  - Customized scripts
+  1. Binding to Windows IIS
+  2. Binding to Windows netsh
+  3. Binding to Windows RDP
+  4. Customized scripts
 - Remove host (SSH): Supports deployment to remote servers (via SFTP/SCP). Preset scripts:
-  - Replace SynologyDSM SSL certificate
-  - Replace fnOS SSL certificate
-  - Replace QNAP SSL certificate
-  - Binding to Windows IIS
-  - Binding to Windows netsh
-  - Binding to Windows RDP
-  - Customized scripts
+  1. Replace SynologyDSM SSL certificate
+  2. Replace fnOS SSL certificate
+  3. Replace QNAP SSL certificate
+  4. Binding to Windows IIS
+  5. Binding to Windows netsh
+  6. Binding to Windows RDP
+  7. Customized scripts
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
-- Cloud services:
+- Object storage (S3-compatible): Supports upload to S3-compatible service.
+- **Cloud services**:
   - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
   - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
   - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
@@ -131,7 +134,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
   - [Netlify](https://www.netlify.com/): Supports deployment to Netlify.
-- Self-hosted services:
+- **Self-hosted Services**:
   - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
   - [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX.
   - [aaPanel](https://www.aapanel.com/): Supports deployment to aaPanel (aka BaotaPanel).
@@ -147,6 +150,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
   - [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
   - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
+  - [Synology DSM](https://www.synology.com/en-us/dsm/): Supports deployment to Synology DSM.
 
 ---
 
@@ -154,14 +158,17 @@ In future versions, we may add a feature that allows users to manually satisfyin
 
 - Email (SMTP)
 - Webhook. Preset templates:
-  - [Bark](https://github.com/Finb/Bark)
-  - [ntfy](https://github.com/binwiederhier/ntfy)
-  - [Gotify](https://github.com/gotify/server)
-  - [Pushover](https://pushover.net/)
-  - [PushPlus](https://www.pushplus.plus/)
-  - [ServerChan <sup>Turbo</sup>](https://sct.ftqq.com/)
-  - [ServerChan <sup>3</sup>](https://sc3.ft07.com/)
-  - Customized Webhook
+  1. [Bark](https://github.com/Finb/Bark)
+  2. [ntfy](https://github.com/binwiederhier/ntfy)
+  3. [Gotify](https://github.com/gotify/server)
+  4. [Pushover](https://pushover.net/)
+  5. [PushPlus](https://www.pushplus.plus/)
+  6. [ServerChan <sup>Turbo</sup>](https://sct.ftqq.com/)
+  7. [ServerChan <sup>3</sup>](https://sc3.ft07.com/)
+  8. [Message Nest](https://github.com/engigu/Message-Push-Nest)
+  9. [WXPush](https://github.com/frankiejun/wxpush)
+  10. [PushMe](https://github.com/yafoo/pushme)
+  11. Customized Webhook
 - [DingTalk Bot](https://www.dingtalk.com/)
 - [Lark/Feishu Bot](https://www.larksuite.com/)
 - [WeCom Bot](https://work.weixin.qq.com/)
