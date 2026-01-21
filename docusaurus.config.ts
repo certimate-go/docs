@@ -2,12 +2,31 @@ import { themes as prismThemes } from "prism-react-renderer";
 import { type Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
-import { localeConfigs, localLanguages } from "./src/i18n/locale";
+import {
+  localeConfigs,
+  localLanguages,
+  type LocalLanguage,
+} from "./src/i18n/locale";
+import ConfigLocalizationDict from "./i18n/docusaurus.config.json";
+
+const defaultLocale: LocalLanguage = "en";
+
+const getLocalizedConfigValue = (key: keyof typeof ConfigLocalizationDict) => {
+  const currentLocale = process.env.DOCUSAURUS_CURRENT_LOCALE ?? defaultLocale;
+  const values = ConfigLocalizationDict[key];
+  if (!values) {
+    throw new Error(`Localized config key=${key} not found`);
+  }
+  const value = values[currentLocale] ?? values[defaultLocale];
+  if (!value) {
+    throw new Error(`Localized value for config key=${key} not found`);
+  }
+  return value;
+};
 
 const config: Config = {
   title: "Certimate",
-  tagline:
-    "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, and renewal visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期全流程自动化可视化，支持各大主流云厂商。",
+  tagline: getLocalizedConfigValue("tagline"),
   favicon: "img/logo.svg",
 
   // Set the production url of your site here
@@ -33,10 +52,10 @@ const config: Config = {
     localeConfigs: {
       ["DEFAULT"]: {
         // WARNING: This is a temporary workaround for default locale.
+        ...localeConfigs[defaultLocale],
         baseUrl: "/",
         htmlLang: "en",
         label: "\u200B",
-        path: "en",
       },
       ...localeConfigs,
     },
@@ -204,7 +223,10 @@ const config: Config = {
     ],
   ],
 
-  clientModules: ["./src/i18n/fallback.clientModules.ts", "./src/css/hack.css"],
+  clientModules: [
+    "./src/i18n/fallback.clientModules.ts",
+    "./src/i18n/fallback.clientModules.css",
+  ],
 };
 
 export default config;

@@ -1,11 +1,10 @@
 ﻿import { type I18nLocaleConfig } from "@docusaurus/types";
 
+export type LocalLanguage = (typeof localLanguages)[number];
+
 export const localLanguages = ["en", "zh"] as const;
 
-export const localeConfigs: Record<
-  (typeof localLanguages)[number],
-  Partial<I18nLocaleConfig>
-> = {
+export const localeConfigs: Record<LocalLanguage, Partial<I18nLocaleConfig>> = {
   en: {
     baseUrl: "/en-US/",
     htmlLang: "en-US",
