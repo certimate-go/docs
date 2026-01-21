@@ -46,7 +46,7 @@
 
 #### The error logs contain "could not find zone _xxx_", "zone _xxx_ not found", and another unrelated domain appeared:
 
-> Perhaps because your domain name resolution includes CNAME record. According to the specification, CNAME wildcard resolution has the highest priority, so the TXT resolution record cannot be queried during the DNS-01 challenge process.
+> Perhaps because your domain name resolution includes CNAME wildcard record. According to the specification (RFC 1034), CNAME wildcard resolution has the highest priority, so the TXT resolution record cannot be queried during the DNS-01 challenge process.
 >
 > You can try turning on the "Disable CNAME following" switch in the application node configuration.
 
@@ -107,7 +107,7 @@
 
 #### Using a wildcard domain certificate, but browser prompts "SSL host name does not match certificate":
 
-> The wildcard domain name `*.example.com` can only match the second level domain name, such as `www.example.com`, `static.example.com`，but not match `example.com`.
+> According to the specification (RFC 6125), the wildcard domain name `*.example.com` can only match the second level domain name, such as `www.example.com`, `static.example.com`，but not match `example.com`.
 >
 > You need to apply for `*.example.com; example.com` both in one certificate at the same time.
 

@@ -46,7 +46,7 @@
 
 #### 错误日志中包含“could not find zone _xxx_”、“zone _xxx_ not found”，且出现了其他不相关的域名：
 
-> 可能因为你的域名解析中包含 CNAME 记录。根据 DNS 规范，CNAME 泛解析的优先级最高，因此 DNS-01 质询过程中无法查询到正确的 TXT 记录。
+> 可能因为你的域名解析中包含 CNAME 泛解析记录。根据 RFC 1034 规范，CNAME 泛解析的优先级最高，因此 DNS-01 质询过程中无法查询到正确的 TXT 记录。
 >
 > 可以尝试在工作流编排的申请节点配置中，勾选「阻止 CNAME 跟随」开关后重试。
 
@@ -111,9 +111,9 @@
 
 ### 已部署证书，但浏览器显示证书错误？
 
-#### 使用泛域名证书，提示“服务器的证书与网址不相符”：
+#### 使用泛域名通配符证书，提示“服务器的证书与网址不相符”：
 
-> 泛域名 `*.example.com` 只能匹配次一级域名，如 `www.example.com`、`static.example.com`，不能匹配 `example.com`。这是正常且符合 TLS/SSL 规范的。
+> 根据 RFC 6125 规范，泛域名 `*.example.com` 只能匹配次一级域名，如 `www.example.com`、`static.example.com`，而不能匹配 `example.com`。
 >
 > 如果你还想让根域名也可以使用同一张证书，你需要在申请时同时填入 `*.example.com; example.com` 这两个域名，签发一张多域名证书。
 >
