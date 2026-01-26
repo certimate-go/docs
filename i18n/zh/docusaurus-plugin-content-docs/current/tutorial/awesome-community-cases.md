@@ -1,12 +1,21 @@
 ﻿# 社区精选案例
 
-你可以阅读以下内容（按发布时间倒序排序）来获取更多使用帮助。
-
 :::caution
 社区案例由广大的 Certimate 用户自发提供。我们仅提供展示，不对其站点内的内容负责，请大家注意甄别信息，谨防受骗。
 :::
 
-- 2026-01-23 [《Certimate 多平台客户端：手机就能管理，省时省心》](https://github.com/belier-cn/certimate_flutter)（作者：_Belier_，来源：_GitHub_）
+---
+
+## 生态 {#ecosystem}
+
+- [Certimate 多平台客户端](https://github.com/belier-cn/certimate_flutter)
+
+---
+
+## 文章 {#articles}
+
+你可以阅读以下内容（按发布时间倒序排序）来获取更多使用帮助。
+
 - 2025-12-20 [《【笔记】群晖计划任务自动更新 SSL 证书，已通过 Certimate 工作流将证书上传到群晖服务器》](https://www.yumehinata.com/archives/diekxCHW)（作者：_YumeHinata_，来源：_幻梦の大图书馆_）
 - 2025-12-09 [《告别手动续期！Unraid+Certimate 打造全自动 HTTPS 证书管理》](https://www.bilibili.com/opus/1144326025217310757)（作者：_流心 y_，来源：_哔哩哔哩_）
 - 2025-12-07 [《经常忘记续签 SSL 证书？免费送你一张“无限”有效期的 SSL。》](https://www.bilibili.com/video/BV1GtmABmEri)（作者：_竹林_，来源：_哔哩哔哩_）
@@ -29,5 +38,7 @@
 - 2025-03-07 [《SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！》](https://www.bilibili.com/video/BV1F591YzEUB)（作者：_冰冻大西瓜_，来源：_哔哩哔哩_）
 - 2025-03-07 [《Certimate——自动化申请并部署证书到所有平台》](https://blog.liushen.fun/posts/3a813929/)（作者：_清羽飞扬_，来源：_LiuShen's Blog_）
 - 2024-09-27 [《Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星》](https://www.thosefree.com/certimate)（作者：_那些免费的砖_，来源：_那些免费的砖网站_）
+
+---
 
 如果你想贡献社区案例，请到 GitHub 中发起 Issue。

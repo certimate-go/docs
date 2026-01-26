@@ -1,12 +1,21 @@
 ﻿# Awesome Community Cases
 
-You can read the following content (sorted by publish time) for more usage help.
-
 :::caution
 Community cases are provided spontaneously by Certimate users. We only provide demonstrations and are not responsible for content on their sites. Please pay attention to identifying information and beware of being deceived.
 :::
 
-- 2026-01-23 [《Certimate cross-platform client: manage on your phone – save time, stay at ease.》](https://github.com/belier-cn/certimate_flutter)（author：_Belier_，from：_GitHub_）
+---
+
+## Ecosystem {#ecosystem}
+
+- [Certimate cross-platform client](https://github.com/belier-cn/certimate_flutter)
+
+---
+
+## Articles {#articles}
+
+You can read the following content (sorted by publish time) for more usage help.
+
 - 2025-12-20 [_【笔记】群晖计划任务自动更新 SSL 证书，已通过 Certimate 工作流将证书上传到群晖服务器_](https://www.yumehinata.com/archives/diekxCHW) (author _YumeHinata_, from _幻梦の大图书馆_)
 - 2025-12-09 [_告别手动续期！Unraid+Certimate 打造全自动 HTTPS 证书管理_](https://www.bilibili.com/opus/1144326025217310757) (author _流心 y_, from _BiliBili_)
 - 2025-12-07 [_经常忘记续签 SSL 证书？免费送你一张“无限”有效期的 SSL。_](https://www.bilibili.com/video/BV1GtmABmEri) (author _zhulin_, from _BiliBili_)
@@ -29,5 +38,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 - 2025-03-07 [_SSL 证书老是过期? 来试试 GitHub 大佬的自动续期项目！_](https://www.bilibili.com/video/BV1F591YzEUB) (author _冰冻大西瓜_, from _BiliBili_)
 - 2025-03-07 [_Certimate——自动化申请并部署证书到所有平台_](https://blog.liushen.fun/posts/3a813929/) (author _清羽飞扬_, from _LiuShen's Blog_)
 - 2024-09-27 [_Certimate - 免费开源的 SSL 证书托管、自动续签工具，开发者维护 90 天免费证书的救星_](https://www.thosefree.com/certimate) (author _那些免费的砖_, from _那些免费的砖网站_)
+
+---
 
 If you want to contribute excellent cases, please create an issue on GitHub.
