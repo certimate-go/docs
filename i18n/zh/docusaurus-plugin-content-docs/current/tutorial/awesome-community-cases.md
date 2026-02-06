@@ -8,7 +8,7 @@
 
 ## 生态 {#ecosystem}
 
-- [Certimate 多平台客户端](https://github.com/belier-cn/certimate_flutter)
+- [Certimate Flutter](https://github.com/belier-cn/certimate_flutter)：Certimate 多平台客户端。
 
 ---
 

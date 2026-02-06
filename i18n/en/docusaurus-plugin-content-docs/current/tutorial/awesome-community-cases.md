@@ -8,7 +8,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 
 ## Ecosystem {#ecosystem}
 
-- [Certimate cross-platform client](https://github.com/belier-cn/certimate_flutter)
+- [Certimate Flutter](https://github.com/belier-cn/certimate_flutter): A cross-platform client for Certimate.
 
 ---
 
