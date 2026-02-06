@@ -10,9 +10,8 @@
 
 登录小皮面板，在 Docker 应用商店中搜索 `Certimate`，然后点击“立即安装”按钮。
 
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_xppanel-1.zh.png?raw=true)
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_xppanel-2.zh.png?raw=true)
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_xppanel-3.zh.png?raw=true)
+![屏幕截图](https://i.imgur.com/BVkXZAQ.png)
+![屏幕截图](https://i.imgur.com/LOjCuwK.png)
 
 :::caution
 小皮面板 Docker 应用商店中的 Certimate 版本更新由小皮面板官方团队负责维护，可能存在滞后。
@@ -24,7 +23,7 @@
 
 登录小皮面板，选择左侧「Docker」->「Compose」->「添加 Compose」，输入 `docker-compose.yml` 内容，点击“确认”按钮即可。
 
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_xppanel-4.zh.png?raw=true)
+![屏幕截图](https://i.imgur.com/IiKNhy2.png)
 
 :::tip
 `docker-compose.yml` 内容和其他部署细节请阅读 [Docker 安装](/docs/getting-started/installation/docker)指南。

@@ -10,7 +10,7 @@ aaPanel supports managing Docker services through it's WebUI. For more details, 
 
 Log in aaPanel, select "Docker" -> "Compose" -> "Add Compose", then input content of `docker-compose.yml`, and click the "Confirm" button.
 
-![Screenshot](https://github.com/certimate-go/docs/blob/main/static/gh/installation_aapanel.en.png?raw=true)
+![Screenshot](https://i.imgur.com/T1iObXW.jpeg)
 
 :::tip
 Please read the _[Docker Installation](/docs/getting-started/installation/docker)_ guide for the content of `docker-compose.yml`.

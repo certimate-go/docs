@@ -10,7 +10,7 @@
 
 登录 1Panel，在应用商店中搜索 `Certimate`，然后点击“安装”按钮。
 
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel_appstore.zh.png?raw=true)
+![屏幕截图](https://i.imgur.com/qV25Zcm.png)
 
 :::caution
 1Panel 应用商店中的 Certimate 版本更新由 1Panel 官方团队负责维护，可能存在滞后。
@@ -22,7 +22,7 @@
 
 登录 1Panel，选择左侧菜单「容器」->「编排」>「创建编排」，输入 `docker-compose.yml` 内容，点击“确认”按钮即可。
 
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel.zh.png?raw=true)
+![屏幕截图](https://i.imgur.com/O7gOUW2.png)
 
 :::tip
 `docker-compose.yml` 内容和其他部署细节请阅读 [Docker 安装](/docs/getting-started/installation/docker)指南。

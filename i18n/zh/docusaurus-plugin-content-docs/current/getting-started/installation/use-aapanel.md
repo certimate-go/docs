@@ -10,7 +10,7 @@
 
 登录宝塔面板，选择左侧菜单「Docker」->「容器编排」>「添加容器编排」，输入 `docker-compose.yml` 内容，点击“确定”按钮即可。
 
-![屏幕截图](https://github.com/certimate-go/docs/blob/main/static/gh/installation_aapanel.zh.png?raw=true)
+![屏幕截图](https://i.imgur.com/S1b1Bib.jpeg)
 
 :::tip
 `docker-compose.yml` 内容和其他部署细节请阅读 [Docker 安装](/docs/getting-started/installation/docker)指南。

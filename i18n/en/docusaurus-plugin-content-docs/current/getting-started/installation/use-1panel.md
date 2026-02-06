@@ -10,7 +10,7 @@ Certimate can be deployed on 1Panel.
 
 Log in to 1Panel, search for `Certimate` in the App Store, then click the "Install" button.
 
-![Screenshot](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel_appstore.en.png?raw=true)
+![Screenshot](https://i.imgur.com/VqyRk38.png)
 
 :::caution
 The version updates of Certimate in the 1Panel App Store are maintained by the 1Panel team, and may experience delays.
@@ -22,7 +22,7 @@ The version updates of Certimate in the 1Panel App Store are maintained by the 1
 
 Log in 1Panel, select "Containers" -> "Composes" -> "Create", then input content of `docker-compose.yml`, and click the "Confirm" button.
 
-![Screenshot](https://github.com/certimate-go/docs/blob/main/static/gh/installation_1panel.en.png?raw=true)
+![Screenshot](https://i.imgur.com/PEyf1bG.png)
 
 :::tip
 Please read the _[Docker Installation](/docs/getting-started/installation/docker)_ guide for the content of `docker-compose.yml`.
