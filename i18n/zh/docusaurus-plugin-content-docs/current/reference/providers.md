@@ -67,10 +67,11 @@
   - [天翼云](https://www.ctyun.cn/)
   - [雨云](https://www.rainyun.com/)
   - [三五互联（35CN）](https://www.35.cn/)
-  - [西部数码](https://www.west.cn/)
-  - [新网数码](https://www.xinnet.com/)
   - [帝恩思（51DNS）](https://www.51dns.com/)
   - [帝恩爱斯（DNS.LA）](https://www.dns.la/)
+  - [时代互联](https://www.todaynic.com/)
+  - [西部数码](https://www.west.cn/)
+  - [新网数码](https://www.xinnet.com/)
 - **自托管服务**：
   - [cPanel](https://cpanel.net/)
   - [PowerDNS](https://www.powerdns.com/)
@@ -132,6 +133,7 @@
   - [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
   - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
   - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
+  - [Fly.io](https://fly.io/)：可部署到 Fly.io。
   - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
   - [Netlify](https://www.netlify.com/)：可部署到 Netlify。
 - **自托管服务**：

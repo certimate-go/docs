@@ -67,10 +67,11 @@ There are several kinds of providers:
   - [CTCC StateCloud](https://www.ctyun.cn/)
   - [Rain Yun](https://www.rainyun.com/)
   - [35.cn](https://www.35.cn/)
-  - [West.cn](https://www.west.cn/)
-  - [Xinnet](https://www.xinnet.com/)
   - [51dns.com](https://www.51dns.com/)
   - [DNS.LA](https://www.dns.la/)
+  - [TodayNIC.com](https://www.todaynic.com/)
+  - [West.cn](https://www.west.cn/)
+  - [Xinnet.com](https://www.xinnet.com/)
 - **Self-hosted Services**:
   - [cPanel](https://www.cpanel.net/)
   - [PowerDNS](https://www.powerdns.com/)
@@ -133,6 +134,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
   - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
+  - [Fly.io](https://fly.io/): Supports deployment to Fly.io.
   - [Netlify](https://www.netlify.com/): Supports deployment to Netlify.
 - **Self-hosted Services**:
   - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.

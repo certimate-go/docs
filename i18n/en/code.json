@@ -311,7 +311,7 @@
     "message": "Certimate"
   },
   "homepage.hero.subtitle": {
-    "message": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, and renewal visually."
+    "message": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually."
   },
   "homepage.hero.actions.button.getStarted": {
     "message": "Get Started"
