@@ -22,7 +22,7 @@ An open-source and free self-hosted SSL certificates ACME tool, automates the fu
 - Supports more than 60+ domain registrars (e.g., AWS, Cloudflare, GoDaddy, Alibaba Cloud, Tencent Cloud, etc. [Check out full providers](/docs/reference/providers#supported-dns-providers)).
 - Supports more than 110+ deployment targets (e.g., Kubernetes, CDN, WAF, load balancers, etc. [Check out full providers](/docs/reference/providers#supported-hosting-providers)).
 - Supports multiple notification channels including email, Discord, Slack, Telegram, DingTalk, Feishu, WeCom, and more.
-- Supports multiple ACME CAs including Let's Encrypt, Actalis, Google Trust Services，SSL.com, ZeroSSL, and more.
+- Supports multiple ACME CAs including Let's Encrypt, Actalis, Google Trust Services, SSL.com, ZeroSSL, and more.
 - More features waiting to be discovered.
 
 ---
