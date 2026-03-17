@@ -161,6 +161,7 @@
 - [Let's Encrypt](https://letsencrypt.org/)：包括测试环境及生产环境。
 - [Actalis](https://www.actalis.com/)
 - [Buypass](https://www.buypass.com/)
+- [DigiCert](https://www.digicert.com/)
 - [GlobalSign](https://www.globalsign.com/)
 - [Google Trust Services](https://pki.goog/)
 - [LiteSSL](https://litessl.cn/)

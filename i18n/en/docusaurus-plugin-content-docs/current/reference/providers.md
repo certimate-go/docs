@@ -186,6 +186,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Let's Encrypt](https://letsencrypt.org/): Including production environment and staging environment.
 - [Actalis](https://www.actalis.com/)
 - [Buypass](https://www.buypass.com/)
+- [DigiCert](https://www.digicert.com/)
 - [GlobalSign](https://www.globalsign.com/)
 - [Google Trust Services](https://pki.goog/)
 - [LiteSSL](https://litessl.cn/)
