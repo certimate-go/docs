@@ -99,7 +99,7 @@
   2. 导入并绑定到 Windows netsh
   3. 导入并绑定到 Windows RDP
   4. 自定义脚本
-- 远程主机（SSH）：可部署到远程主机（通过 SFTP/SCP），并提供预设脚本：
+- 远程主机（SSH）：可部署到远程 SSH 主机（通过 SFTP/SCP），并提供预设脚本：
   1. 替换群晖 DSM 证书
   2. 替换飞牛 fnOS 证书
   3. 替换威联通 QNAP 证书
@@ -107,6 +107,7 @@
   5. 导入并绑定到 Windows netsh
   6. 导入并绑定到 Windows RDP
   7. 自定义脚本
+- 远程主机（FTP）：可部署到远程 FTP 主机
 - Webhook：可部署到 Webhook。
 - [Kubernetes](https://kubernetes.io/)：可部署到 Kubernetes Secret。
 - 对象存储（S3 兼容）：可上传到 S3 兼容的对象存储服务。
@@ -124,7 +125,7 @@
   - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
   - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN、UCLB、UALB、UEWAF、UPathX 等服务。
   - [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
-  - [金山云](https://www.ksyun.com/)：可部署到金山云 CDN。
+  - [金山云](https://www.ksyun.com/)：可部署到金山云 CDN、SLB 等服务。
   - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
   - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
   - [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
@@ -135,7 +136,8 @@
   - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
   - [Fly.io](https://fly.io/)：可部署到 Fly.io。
   - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
-  - [Netlify](https://www.netlify.com/)：可部署到 Netlify。
+  - [Netlify](https://netlify.com/)：可部署到 Netlify。
+  - [Vercel](https://vercel.com/)：可部署到 Vercel。
 - **自托管服务**：
   - [1Panel](https://1panel.cn/)：可部署到 1Panel。
   - [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。
@@ -152,6 +154,7 @@
   - [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
   - [耗子面板](https://github.com/tnb-labs/panel)：可部署到耗子面板。
   - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
+  - [SamWAF](https://github.com/samwafgo/SamWaf)：可部署到 SamWAF。
   - [群晖 DSM](https://www.synology.cn/zh-cn/dsm/)：可部署到群晖 DSM。
 
 ---

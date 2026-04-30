@@ -99,7 +99,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   2. Binding to Windows netsh
   3. Binding to Windows RDP
   4. Customized scripts
-- Remove host (SSH): Supports deployment to remote servers (via SFTP/SCP). Preset scripts:
+- Remove host (SSH): Supports deployment to remote SSH servers (via SFTP/SCP). Preset scripts:
   1. Replace SynologyDSM SSL certificate
   2. Replace fnOS SSL certificate
   3. Replace QNAP SSL certificate
@@ -107,6 +107,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   5. Binding to Windows netsh
   6. Binding to Windows RDP
   7. Customized scripts
+- Remove host (FTP): Supports deployment to remote FTP servers.
 - Webhook: Supports deployment to Webhook.
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
 - Object storage (S3-compatible): Supports upload to S3-compatible service.
@@ -124,7 +125,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
   - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN, UCLB, UALB, UEWAF, UPathX.
   - [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
-  - [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud RCDN.
+  - [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud CDN, SLB.
   - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
   - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
   - [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
@@ -136,6 +137,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
   - [Fly.io](https://fly.io/): Supports deployment to Fly.io.
   - [Netlify](https://www.netlify.com/): Supports deployment to Netlify.
+  - [Vercel](https://www.netlify.com/): Supports deployment to Vercel.
 - **Self-hosted Services**:
   - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
   - [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX.
@@ -152,6 +154,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
   - [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
   - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
+  - [SamWAF](https://github.com/samwafgo/SamWaf): Supports deployment to SamWAF.
   - [Synology DSM](https://www.synology.com/en-us/dsm/): Supports deployment to Synology DSM.
 
 ---
