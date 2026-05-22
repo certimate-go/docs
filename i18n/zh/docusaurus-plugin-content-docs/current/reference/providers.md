@@ -25,6 +25,7 @@
   - [火山引擎](https://www.volcengine.com/)
   - [京东云](https://www.jdcloud.com/)
   - [AWS Route53](https://aws.amazon.com/route53/)
+  - [AWS Lightsail](https://aws.amazon.com/lightsail/)
   - [Azure DNS](https://azure.microsoft.com/)
   - [Akamai EdgeDNS](https://www.akamai.com/)
   - [ArvanCloud](https://arvancloud.ir/)
@@ -38,6 +39,7 @@
   - [DNSExit](https://dnsexit.com/)
   - [DNS Made Easy](https://dnsmadeeasy.com/)
   - [Duck DNS](https://www.duckdns.org/)
+  - [Dynadot](https://www.dynadot.com/)
   - [Dynu](https://www.dynu.com/)
   - [dynv6](https://dynv6.com/)
   - [Gandi.net](https://gandi.net/)
@@ -138,6 +140,7 @@
   - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
   - [Netlify](https://netlify.com/)：可部署到 Netlify。
   - [Vercel](https://vercel.com/)：可部署到 Vercel。
+  - [Zenlayer](https://zenlayer.com/)：可部署到 Zenlayer CDN、ZGA 等服务。
 - **自托管服务**：
   - [1Panel](https://1panel.cn/)：可部署到 1Panel。
   - [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。

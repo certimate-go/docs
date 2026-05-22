@@ -25,6 +25,7 @@ There are several kinds of providers:
   - [Volcengine](https://www.volcengine.com/)
   - [JD Cloud](https://www.jdcloud.com/)
   - [AWS Route53](https://aws.amazon.com/route53/)
+  - [AWS Lightsail](https://aws.amazon.com/lightsail/)
   - [Azure DNS](https://azure.microsoft.com/)
   - [Akamai EdgeDNS](https://www.akamai.com/)
   - [ArvanCloud](https://arvancloud.ir/)
@@ -38,6 +39,7 @@ There are several kinds of providers:
   - [DNSExit](https://dnsexit.com/)
   - [DNS Made Easy](https://dnsmadeeasy.com/)
   - [Duck DNS](https://www.duckdns.org/)
+  - [Dynadot](https://www.dynadot.com/)
   - [Dynu](https://www.dynu.com/)
   - [dynv6](https://dynv6.com/)
   - [Gandi.net](https://gandi.net/)
@@ -136,8 +138,9 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
   - [Fly.io](https://fly.io/): Supports deployment to Fly.io.
-  - [Netlify](https://www.netlify.com/): Supports deployment to Netlify.
-  - [Vercel](https://www.netlify.com/): Supports deployment to Vercel.
+  - [Netlify](https://netlify.com/): Supports deployment to Netlify.
+  - [Vercel](https://netlify.com/): Supports deployment to Vercel.
+  - [Zenlayer](https://zenlayer.com/): Supports deployment to Zenlayer CDN, ZGA.
 - **Self-hosted Services**:
   - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
   - [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX.
