@@ -23,16 +23,18 @@
   - [百度智能云](https://cloud.baidu.com/)
   - [华为云](https://www.huaweicloud.com/)
   - [火山引擎](https://www.volcengine.com/)
-  - [京东云](https://www.jdcloud.com/)
   - [AWS Route53](https://aws.amazon.com/route53/)
   - [AWS Lightsail](https://aws.amazon.com/lightsail/)
   - [Azure DNS](https://azure.microsoft.com/)
   - [Akamai EdgeDNS](https://www.akamai.com/)
   - [ArvanCloud](https://arvancloud.ir/)
+  - [Beget（Бегет）](http://beget.com/)
   - [BookMyName](https://www.bookmyname.com/)
   - [Bunny](https://www.bunny.net/)
+  - [BytePlus](https://www.byteplus.com/)
   - [CloudFlare](https://www.cloudflare.com/)
   - [ClouDNS](https://www.cloudns.net/)
+  - [ConoHa VPS](https://vps.conoha.jp/)
   - [Constellix](https://www.constellix.com/)
   - [deSEC](https://desec.io/)
   - [DigitalOcean](https://www.digitalocean.com/)
@@ -46,6 +48,7 @@
   - [G-Core](https://gcore.com/)
   - [GNAME](https://www.gname.com/)
   - [GoDaddy](https://www.godaddy.com/)
+  - [Google Cloud](https://cloud.google.com/)
   - [Hetzner](https://www.hetzner.com/)
   - [hosting.de](https://www.hosting.de/)
   - [Hostinger](https://www.hostinger.com/)
@@ -60,9 +63,12 @@
   - [NS1 Connect](https://www.ibm.com/cn-zh/products/ns1-connect/)
   - [ovhcloud](https://www.ovh.com/)
   - [Porkbun](https://porkbun.com/)
+  - [Reg.ru（Рег.ру）](https://www.reg.ru/)
+  - [Ru-Center（Руцентр）](https://www.nic.ru/)
   - [Spaceship](https://spaceship.com/)
   - [Vercel](https://vercel.com/)
   - [Vultr](https://www.vultr.com/)
+  - [京东云](https://www.jdcloud.com/)
   - [优刻得](https://www.ucloud.cn/)
   - [青云](https://www.qingcloud.com/)
   - [移动云](https://ecloud.10086.cn/)
@@ -131,13 +137,15 @@
   - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
   - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
   - [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
-  - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront 等服务。
+  - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront、ELB、API 网关、Amplify 等服务。
   - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
   - [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
-  - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus CDN。
+  - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus TOS、CDN、CLB、ALB、直播平台、证书中心等服务。
   - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
+  - [CloudFlare](https://www.cloudflare.com/)：可部署到 Cloudflare 边缘证书。
   - [Fly.io](https://fly.io/)：可部署到 Fly.io。
   - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
+  - [Google Cloud](https://cloud.google.com/)：可部署到 Google Cloud Certificate Manager。
   - [Netlify](https://netlify.com/)：可部署到 Netlify。
   - [Vercel](https://vercel.com/)：可部署到 Vercel。
   - [Zenlayer](https://zenlayer.com/)：可部署到 Zenlayer CDN、ZGA 等服务。

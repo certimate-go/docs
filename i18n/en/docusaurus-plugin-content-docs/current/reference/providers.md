@@ -23,16 +23,18 @@ There are several kinds of providers:
   - [Baidu AI Cloud](https://intl.cloud.baidu.com/)
   - [Huawei Cloud](https://www.huaweicloud.com/)
   - [Volcengine](https://www.volcengine.com/)
-  - [JD Cloud](https://www.jdcloud.com/)
   - [AWS Route53](https://aws.amazon.com/route53/)
   - [AWS Lightsail](https://aws.amazon.com/lightsail/)
   - [Azure DNS](https://azure.microsoft.com/)
   - [Akamai EdgeDNS](https://www.akamai.com/)
   - [ArvanCloud](https://arvancloud.ir/)
+  - [Beget (Бегет)](http://beget.com/)
   - [BookMyName](https://www.bookmyname.com/)
   - [Bunny](https://www.bunny.net/)
+  - [BytePlus](https://www.byteplus.com/)
   - [CloudFlare](https://www.cloudflare.com/)
   - [ClouDNS](https://www.cloudns.net/)
+  - [ConoHa VPS](https://vps.conoha.jp/)
   - [Constellix](https://www.constellix.com/)
   - [deSEC](https://desec.io/)
   - [DigitalOcean](https://www.digitalocean.com/)
@@ -46,6 +48,7 @@ There are several kinds of providers:
   - [G-Core](https://gcore.com/)
   - [GNAME](https://www.gname.com/)
   - [GoDaddy](https://www.godaddy.com/)
+  - [Google Cloud](https://cloud.google.com/)
   - [Hetzner](https://www.hetzner.com/)
   - [hosting.de](https://www.hosting.de/)
   - [Hostinger](https://www.hostinger.com/)
@@ -60,9 +63,12 @@ There are several kinds of providers:
   - [NS1 Connect](https://www.ibm.com/products/ns1-connect/)
   - [ovhcloud](https://www.ovh.com/)
   - [Porkbun](https://porkbun.com/)
+  - [Reg.ru (Рег.ру)](https://www.reg.ru/)
+  - [Ru-Center (Руцентр)](https://www.nic.ru/)
   - [Spaceship](https://spaceship.com/)
   - [Vercel](https://vercel.com/)
   - [Vultr](https://www.vultr.com/)
+  - [JD Cloud](https://www.jdcloud.com/)
   - [UCloud](https://www.ucloud-global.com/)
   - [QingCloud](https://intl.qingcloud.com/)
   - [CMCC Cloud](https://ecloud.10086.cn/)
@@ -131,12 +137,14 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
   - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
   - [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
-  - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront.
+  - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront, ELB, API Gateway, Amplify.
   - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
   - [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN.
-  - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus CDN.
+  - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus TOS, CDN, CLB, ALB, MediaLive, Certificate Center.
   - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
+  - [CloudFlare](https://www.cloudflare.com/): Supports deployment to Cloudflare Edge Certificates.
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
+  - [Google Cloud](https://cloud.google.com/): Supports deployment to Google Cloud Certificate Manager.
   - [Fly.io](https://fly.io/): Supports deployment to Fly.io.
   - [Netlify](https://netlify.com/): Supports deployment to Netlify.
   - [Vercel](https://netlify.com/): Supports deployment to Vercel.
