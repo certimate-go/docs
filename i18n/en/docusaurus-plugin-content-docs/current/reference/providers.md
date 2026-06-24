@@ -20,7 +20,6 @@ There are several kinds of providers:
   - [Alibaba Cloud ESA NS mode](https://www.alibabacloud.com/help/en/edge-security-acceleration/esa/user-guide/dns-overview/)
   - [Tencent Cloud](https://www.tencentcloud.com/)
   - [Tencent Cloud EdgeOne NS mode](https://www.tencentcloud.com/document/product/1145/66364/)
-  - [Baidu AI Cloud](https://intl.cloud.baidu.com/)
   - [Huawei Cloud](https://www.huaweicloud.com/)
   - [Volcengine](https://www.volcengine.com/)
   - [AWS Route53](https://aws.amazon.com/route53/)
@@ -68,12 +67,13 @@ There are several kinds of providers:
   - [Spaceship](https://spaceship.com/)
   - [Vercel](https://vercel.com/)
   - [Vultr](https://www.vultr.com/)
-  - [JD Cloud](https://www.jdcloud.com/)
-  - [UCloud](https://www.ucloud-global.com/)
-  - [QingCloud](https://intl.qingcloud.com/)
-  - [CMCC Cloud](https://ecloud.10086.cn/)
+  - [Baidu AI Cloud](https://intl.cloud.baidu.com/)
+  - [CMCC ECloud](https://ecloud.10086.cn/)
   - [CTCC StateCloud](https://www.ctyun.cn/)
+  - [JD Cloud](https://www.jdcloud.com/)
+  - [QingCloud](https://intl.qingcloud.com/)
   - [Rain Yun](https://www.rainyun.com/)
+  - [UCloud](https://www.ucloud-global.com/)
   - [35.cn](https://www.35.cn/)
   - [51dns.com](https://www.51dns.com/)
   - [DNS.LA](https://www.dns.la/)
@@ -121,34 +121,38 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - Object storage (S3-compatible): Supports upload to S3-compatible service.
 - **Cloud services**:
   - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
-  - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, SSL.
-  - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
+  - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, TSE, GAAP, GA2, SSL.
   - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, AAD, SCM.
   - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, WAF, ImageX, Live, VOD, APIG, Certificate Center.
-  - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, WAF, Live Video, VOD.
-  - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
-  - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
-  - [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
-  - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
-  - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
-  - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN, UCLB, UALB, UEWAF, UPathX.
-  - [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
-  - [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud CDN, SLB.
-  - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
-  - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
-  - [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
-  - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront, ELB, API Gateway, Amplify.
+  - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront, ELB(CLB/ALB/NLB), API Gateway, Amplify.
   - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
   - [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN.
   - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus TOS, CDN, CLB, ALB, MediaLive, Certificate Center.
   - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
   - [CloudFlare](https://www.cloudflare.com/): Supports deployment to Cloudflare Edge Certificates.
+  - [DigitalOcean](https://www.digitalocean.com/): Supports deployment to DigitalOcean.
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
   - [Google Cloud](https://cloud.google.com/): Supports deployment to Google Cloud Certificate Manager.
+  - [Linode](https://www.linode.com/): Supports deployment to Linode Obejct Storage.
+  - [Zenlayer](https://zenlayer.com/): Supports deployment to Zenlayer CDN, ZGA.
+  - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
+  - [CMCC ECloud](https://ecloud.10086.cn/): Supports deployment to CMCC ECloud CDN, VLB.
+  - [CTCC StateCloud](https://www.ctyun.cn/): Supports deployment to CTCC StateCloud CDN, ICDN, AccessOne, ELB, LVDN, CMS.
+  - [JD Cloud](https://www.jdcloud.com/): Supports deployment to JD Cloud CDN, ALB, WAF, Live Video, VOD.
+  - [Kingsoft Cloud](https://en.ksyun.com/): Supports deployment to Kingsoft Cloud CDN, SLB, KCM.
+  - [QingCloud](https://intl.qingcloud.com/): Supports deployment to QingCloud LB.
+  - [UCloud](https://www.ucloud-global.com/): Supports deployment to UCloud US3, UCDN, UCLB, UALB, UEWAF, UPathX.
+  - [Baishan Cloud](https://intl.baishancloud.com/): Supports deployment to Baishan Cloud CDN.
+  - [Doge Cloud](https://www.dogecloud.com/): Supports deployment to Doge Cloud CDN.
+  - [Qiniu Cloud](https://www.qiniu.com/): Supports deployment to Qiniu Cloud Kodo, CDN, Pili.
+  - [Rain Yun](https://www.rainyun.com/): Supports deployment to Rain Yun RCDN.
+  - [UPYUN Cloud](https://www.upyun.com/): Supports deployment to UPYUN Cloud File, CDN.
+  - [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
+  - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
+  - [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
   - [Fly.io](https://fly.io/): Supports deployment to Fly.io.
   - [Netlify](https://netlify.com/): Supports deployment to Netlify.
   - [Vercel](https://netlify.com/): Supports deployment to Vercel.
-  - [Zenlayer](https://zenlayer.com/): Supports deployment to Zenlayer CDN, ZGA.
 - **Self-hosted Services**:
   - [1Panel](https://1panel.pro/): Supports deployment to 1Panel.
   - [APISIX](https://apisix.apache.org/): Supports deployment to Apache APISIX.
@@ -191,6 +195,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Discord Bot](https://discordapp.com/)
 - [Slack Bot](https://slack.com/)
 - [Telegram Bot](https://telegram.org/)
+- [Matrix / ElementX](https://element.io/)
 - [Mattermost](https://mattermost.com/)
 
 ---

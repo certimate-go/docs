@@ -59,26 +59,6 @@
     - `ssl:UploadCertificate`
     - 相应服务或资源的读写权限。
 
-### 百度智能云 {#baiducloud-credentials}
-
-如何获取请参考百度智能云[官方用户手册](https://cloud.baidu.com/doc/Reference/s/9jwvz2egb)。
-
-必要的最小化权限：
-
-- 申请证书（DNS-01 质询）：
-  - 使用系统策略：
-    - `DNSOperatePolicy`
-  - 使用自定义策略：
-    - `bce:dns:READ`
-    - `bce:dns:OPERATE`
-- 部署证书：
-  - 使用系统策略：
-    - `CASFullControlPolicy`
-    - 相应服务或资源的读写权限。
-  - 使用自定义策略：
-    - `bce:cas:FULL_CONTROL`
-    - 相应服务或资源的读写权限。
-
 ### 华为云 {#huaweicloud-credentials}
 
 如何获取请参考华为云[官方用户手册](https://support.huaweicloud.com/usermanual-ca/ca_01_0003.html)。
@@ -128,30 +108,6 @@
     - `ImportCertificate`
     - 相应服务或资源的读写权限。
 
-### 京东云 {#jdcloud-credentials}
-
-如何获取请参考京东云[官方用户手册](https://docs.jdcloud.com/cn/account-management/accesskey-management)。
-
-必要的最小化权限：
-
-- 申请证书（DNS-01 质询）：
-  - 使用系统策略：
-    - `JDCloudDomainServiceAdmin`
-  - 使用自定义策略：
-    - `domainservice:describeDomains`
-    - `domainservice:describeResourceRecord`
-    - `domainservice:createResourceRecord`
-    - `domainservice:modifyResourceRecord`
-    - `domainservice:deleteResourceRecord`
-- 部署证书：
-  - 使用系统策略：
-    - `JDCloudSSLAdmin`
-    - 相应服务或资源的读写权限。
-  - 使用自定义策略：
-    - `ssl:describeCerts`
-    - `ssl:uploadCert`
-    - 相应服务或资源的读写权限。
-
 ### AWS {#aws-credentials}
 
 如何获取请参考 AWS [官方用户手册](https://docs.aws.amazon.com/zh_cn/IAM/latest/UserGuide/id_credentials_access-keys.html)。
@@ -198,3 +154,23 @@
 - 申请证书（DNS-01 质询）：
   - `Zone / Zone / Read`
   - `Zone / DNS / Edit`
+
+### Google Cloud {#googlecloud-credentials}
+
+如何获取请参考 Google Cloud [官方用户手册](https://docs.cloud.google.com/iam/docs/keys-create-delete?hl=zh-cn)。
+
+必要的最小化权限：
+
+- 申请证书（DNS-01 质询）：
+  - 使用系统策略：
+    - `DnsRecordSetAdmin`
+  - 使用自定义策略：
+    - `dns.changes.create`
+    - `dns.changes.get`
+    - `dns.changes.list`
+    - `dns.resourceRecordSets.create`
+    - `dns.resourceRecordSets.update`
+    - `dns.resourceRecordSets.delete`
+    - `dns.resourceRecordSets.list`
+    - `dns.managedZones.get`
+    - `dns.managedZones.list`

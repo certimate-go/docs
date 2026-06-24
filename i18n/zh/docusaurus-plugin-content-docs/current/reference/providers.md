@@ -20,7 +20,6 @@
   - [阿里云 ESA NS 模式](https://help.aliyun.com/zh/edge-security-acceleration/esa/user-guide/dns-overview/)
   - [腾讯云](https://cloud.tencent.com/)
   - [腾讯云 EdgeOne NS 模式](https://cloud.tencent.com/document/product/1552/111782/)
-  - [百度智能云](https://cloud.baidu.com/)
   - [华为云](https://www.huaweicloud.com/)
   - [火山引擎](https://www.volcengine.com/)
   - [AWS Route53](https://aws.amazon.com/route53/)
@@ -68,12 +67,13 @@
   - [Spaceship](https://spaceship.com/)
   - [Vercel](https://vercel.com/)
   - [Vultr](https://www.vultr.com/)
-  - [京东云](https://www.jdcloud.com/)
-  - [优刻得](https://www.ucloud.cn/)
-  - [青云](https://www.qingcloud.com/)
+  - [百度智能云](https://cloud.baidu.com/)
   - [移动云](https://ecloud.10086.cn/)
   - [天翼云](https://www.ctyun.cn/)
+  - [京东云](https://www.jdcloud.com/)
+  - [青云](https://www.qingcloud.com/)
   - [雨云](https://www.rainyun.com/)
+  - [优刻得](https://www.ucloud.cn/)
   - [三五互联（35CN）](https://www.35.cn/)
   - [帝恩思（51DNS）](https://www.51dns.com/)
   - [帝恩爱斯（DNS.LA）](https://www.dns.la/)
@@ -121,34 +121,38 @@
 - 对象存储（S3 兼容）：可上传到 S3 兼容的对象存储服务。
 - **云厂商服务**：
   - [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、GA、CAS 等服务。
-  - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、SSL 等服务。
-  - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
+  - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、TSE、GAAP、GA2、SSL 等服务。
   - [华为云](https://www.huaweicloud.com/)：可部署到华为云 OBS, CDN、ELB、WAF、AAD、Live、APIG、SCM 等服务。
   - [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、WAF、ImageX、Live、VOD、APIG、证书中心等服务。
-  - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、WAF、视频直播、视频点播等服务。
-  - [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
-  - [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
-  - [网宿云](https://www.wangsu.com/)：可部署到网宿云 CDN、CDN Pro、证书管理等服务。
-  - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
-  - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
-  - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN、UCLB、UALB、UEWAF、UPathX 等服务。
-  - [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
-  - [金山云](https://www.ksyun.com/)：可部署到金山云 CDN、SLB 等服务。
-  - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
-  - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
-  - [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
-  - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront、ELB、API 网关、Amplify 等服务。
+  - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront、ELB（CLB/ALB/NLB）、API 网关、Amplify 等服务。
   - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
   - [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
   - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus TOS、CDN、CLB、ALB、直播平台、证书中心等服务。
   - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
   - [CloudFlare](https://www.cloudflare.com/)：可部署到 Cloudflare 边缘证书。
-  - [Fly.io](https://fly.io/)：可部署到 Fly.io。
+  - [DigitalOcean](https://www.digitalocean.com/)：可部署到 DigitalOcean。
   - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
   - [Google Cloud](https://cloud.google.com/)：可部署到 Google Cloud Certificate Manager。
+  - [Linode](https://www.linode.com/)：可部署到 Linode 对象存储。
+  - [Zenlayer](https://zenlayer.com/)：可部署到 Zenlayer CDN、ZGA 等服务。
+  - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
+  - [移动云](https://ecloud.10086.cn/)：可部署到移动云 CDN、VLB 等服务。
+  - [天翼云](https://www.ctyun.cn/)：可部署到天翼云 CDN、ICDN、AccessOne、ELB、LVDN、CMS 等服务。
+  - [京东云](https://www.jdcloud.com/)：可部署到京东云 CDN、ALB、WAF、视频直播、视频点播等服务。
+  - [金山云](https://www.ksyun.com/)：可部署到金山云 CDN、SLB、KCM 等服务。
+  - [青云](https://www.qingcloud.com/)：可部署到青云负载均衡。
+  - [优刻得](https://www.ucloud.cn/)：可部署到优刻得 US3、UCDN、UCLB、UALB、UEWAF、UPathX 等服务。
+  - [白山云](https://www.baishan.com/)：可部署到白山云 CDN。
+  - [多吉云](https://www.dogecloud.com/)：可部署到多吉云 CDN。
+  - [七牛云](https://www.qiniu.com/)：可部署到七牛云对象存储、CDN、直播云等服务。
+  - [雨云](https://www.rainyun.com/)：可部署到雨云 RCDN。
+  - [又拍云](https://www.upyun.com/)：可部署到又拍云云存储、CDN 等服务。
+  - [网宿云](https://www.wangsu.com/)：可部署到网宿云 CDN、CDN Pro、证书管理等服务。
+  - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
+  - [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
+  - [Fly.io](https://fly.io/)：可部署到 Fly.io。
   - [Netlify](https://netlify.com/)：可部署到 Netlify。
   - [Vercel](https://vercel.com/)：可部署到 Vercel。
-  - [Zenlayer](https://zenlayer.com/)：可部署到 Zenlayer CDN、ZGA 等服务。
 - **自托管服务**：
   - [1Panel](https://1panel.cn/)：可部署到 1Panel。
   - [APISIX](https://apisix.apache.org/)：可部署到 Apache APISIX。
@@ -207,6 +211,7 @@
 - [Discord 机器人](https://discordapp.com/)
 - [Slack 机器人](https://slack.com/)
 - [Telegram 机器人](https://telegram.org/)
+- [Matrix / ElementX](https://element.io/)
 - [Mattermost](https://mattermost.com/)
 
 ---

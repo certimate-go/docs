@@ -59,26 +59,6 @@ Least privileges:
     - `ssl:UploadCertificate`
     - Full access to the related services or resources.
 
-### Baidu Cloud {#baiducloud-credentials}
-
-Please refer to the [official user manual](https://intl.cloud.baidu.com/doc/Reference/s/9jwvz2egb-en).
-
-Least privileges:
-
-- Request certificates (DNS-01 challenge):
-  - Use system policy:
-    - `DNSOperatePolicy`
-  - Use custom policy:
-    - `bce:dns:READ`
-    - `bce:dns:OPERATE`
-- Deploy certificates:
-  - Use system policy:
-    - `CASFullControlPolicy`
-    - Full access to the related services or resources.
-  - Use custom policy:
-    - `bce:cas:FULL_CONTROL`
-    - Full access to the related services or resources.
-
 ### Huawei Cloud {#huaweicloud-credentials}
 
 Please refer to the [official user manual](https://support.huaweicloud.com/intl/en-us/usermanual-ca/ca_01_0003.html).
@@ -128,30 +108,6 @@ Least privileges:
     - `ImportCertificate`
     - Full access to the related services or resources.
 
-### JD Cloud {#jdcloud-credentials}
-
-Please refer to the [official user manual](https://docs.jdcloud.com/en/account-management/accesskey-management).
-
-Least privileges:
-
-- Request certificates (DNS-01 challenge):
-  - Use system policy:
-    - `JDCloudDomainServiceAdmin`
-  - Use custom polify:
-    - `domainservice:describeDomains`
-    - `domainservice:describeResourceRecord`
-    - `domainservice:createResourceRecord`
-    - `domainservice:modifyResourceRecord`
-    - `domainservice:deleteResourceRecord`
-- Deploy certificates:
-  - Use system policy:
-    - `JDCloudSSLAdmin`
-    - Full access to the related services or resources.
-  - Use custom polify:
-    - `ssl:describeCerts`
-    - `ssl:uploadCert`
-    - Full access to the related services or resources.
-
 ### AWS {#aws-credentials}
 
 Please refer to the [official user manual](https://docs.aws.amazon.com/en_us/IAM/latest/UserGuide/id_credentials_access-keys.html)。
@@ -198,3 +154,23 @@ Least privileges:
 - Request certificates (DNS-01 challenge):
   - `Zone / Zone / Read`
   - `Zone / DNS / Edit`
+
+### Google Cloud {#googlecloud-credentials}
+
+Please refer to the [official user manual](https://docs.cloud.google.com/iam/docs/keys-create-delete/)。
+
+Least privileges:
+
+- Request certificates (DNS-01 challenge):
+  - Use system policy:
+    - `DnsRecordSetAdmin`
+  - Use custom policy:
+    - `dns.changes.create`
+    - `dns.changes.get`
+    - `dns.changes.list`
+    - `dns.resourceRecordSets.create`
+    - `dns.resourceRecordSets.update`
+    - `dns.resourceRecordSets.delete`
+    - `dns.resourceRecordSets.list`
+    - `dns.managedZones.get`
+    - `dns.managedZones.list`
