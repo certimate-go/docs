@@ -141,23 +141,9 @@
   - `Microsoft.KeyVault/vaults/certificates/write`
   - 相应服务或资源的读写权限。
 
-### Cloudflare {#cloudflare-credentials}
-
-请参考以下流程获取：
-
-1. 登录 Cloudflare 控制台，进入控制台域名管理页面。
-2. 点击账号头像，依次点击「我的个人资料」->「API 令牌」->「创建令牌」，选择使用「编辑区域 DNS」模板。
-3. 配置权限，并填入域名后，点击“继续”按钮。
-
-必要的最小化权限：
-
-- 申请证书（DNS-01 质询）：
-  - `Zone / Zone / Read`
-  - `Zone / DNS / Edit`
-
 ### Google Cloud {#googlecloud-credentials}
 
-如何获取请参考 Google Cloud [官方用户手册](https://docs.cloud.google.com/iam/docs/keys-create-delete?hl=zh-cn)。
+如何获取请参考 GCP [官方用户手册](https://docs.cloud.google.com/iam/docs/keys-create-delete?hl=zh-cn)。
 
 必要的最小化权限：
 
@@ -174,3 +160,27 @@
     - `dns.resourceRecordSets.list`
     - `dns.managedZones.get`
     - `dns.managedZones.list`
+
+### Oracle Cloud {#oraclecloud-credentials}
+
+如何获取请参考 OCI [官方用户手册](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm)。
+
+必要的最小化权限：
+
+- 申请证书（DNS-01 质询）：
+  - `dns-zones`
+  - `dns-records`
+
+### Cloudflare {#cloudflare-credentials}
+
+请参考以下流程获取：
+
+1. 登录 Cloudflare 控制台，进入控制台域名管理页面。
+2. 点击账号头像，依次点击「我的个人资料」->「API 令牌」->「创建令牌」，选择使用「编辑区域 DNS」模板。
+3. 配置权限，并填入域名后，点击“继续”按钮。
+
+必要的最小化权限：
+
+- 申请证书（DNS-01 质询）：
+  - `Zone / Zone / Read`
+  - `Zone / DNS / Edit`

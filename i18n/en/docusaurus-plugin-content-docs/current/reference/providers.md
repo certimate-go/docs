@@ -25,6 +25,8 @@ There are several kinds of providers:
   - [AWS Route53](https://aws.amazon.com/route53/)
   - [AWS Lightsail](https://aws.amazon.com/lightsail/)
   - [Azure DNS](https://azure.microsoft.com/)
+  - [Google Cloud](https://cloud.google.com/)
+  - [Oracle Cloud](https://cloud.google.com/)
   - [Akamai EdgeDNS](https://www.akamai.com/)
   - [ArvanCloud](https://arvancloud.ir/)
   - [Beget (Бегет)](http://beget.com/)
@@ -47,7 +49,6 @@ There are several kinds of providers:
   - [G-Core](https://gcore.com/)
   - [GNAME](https://www.gname.com/)
   - [GoDaddy](https://www.godaddy.com/)
-  - [Google Cloud](https://cloud.google.com/)
   - [Hetzner](https://www.hetzner.com/)
   - [hosting.de](https://www.hosting.de/)
   - [Hostinger](https://www.hostinger.com/)
@@ -126,13 +127,14 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, WAF, ImageX, Live, VOD, APIG, Certificate Center.
   - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront, ELB(CLB/ALB/NLB), API Gateway, Amplify.
   - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
+  - [Google Cloud](https://cloud.google.com/): Supports deployment to GCP Certificate Manager.
+  - [Oracle Cloud](https://www.oracle.com/cloud/): Supports deployment to OCI Certificates Management.
   - [Bunny](https://www.bunny.net/)：Supports deployment to Bunny CDN.
   - [BytePlus](https://www.byteplus.com/): Supports deployment to BytePlus TOS, CDN, CLB, ALB, MediaLive, Certificate Center.
   - [CacheFly](https://www.cachefly.com/): Supports deployment to CacheFly CDN.
   - [CloudFlare](https://www.cloudflare.com/): Supports deployment to Cloudflare Edge Certificates.
   - [DigitalOcean](https://www.digitalocean.com/): Supports deployment to DigitalOcean.
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
-  - [Google Cloud](https://cloud.google.com/): Supports deployment to Google Cloud Certificate Manager.
   - [Linode](https://www.linode.com/): Supports deployment to Linode Obejct Storage.
   - [Zenlayer](https://zenlayer.com/): Supports deployment to Zenlayer CDN, ZGA.
   - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
@@ -161,6 +163,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly.
   - [cPanel](https://cpanel.net/): Supports deployment to cPanel.
   - [Dokploy](https://github.com/Dokploy/dokploy): Supports deployment to Dokploy.
+  - [F5 BIG-IP](https://www.f5.com/products/big-ip): Supports deployment to F5 BIG-IP.
   - [FlexCDN](https://flexcdn.cn/): Supports deployment to FlexCDN.
   - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge.
   - [Kong](https://konghq.com/): Supports deployment to Kong.

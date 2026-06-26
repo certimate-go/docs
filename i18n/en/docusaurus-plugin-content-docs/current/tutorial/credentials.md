@@ -141,20 +141,6 @@ Least privileges:
   - `Microsoft.KeyVault/vaults/certificates/write`
   - Full access to the related services or resources.
 
-### Cloudflare {#cloudflare-credentials}
-
-Please refer to the following process to obtain:
-
-1. Log in to the Cloudflare console.
-2. Click on the account avatar, then click on "My Profile" -> "API Tokens" -> "Create Token", and select to use the "Edit zone DNS" template.
-3. Add permission, fill in your domain names, then click the "Continue" button.
-
-Least privileges:
-
-- Request certificates (DNS-01 challenge):
-  - `Zone / Zone / Read`
-  - `Zone / DNS / Edit`
-
 ### Google Cloud {#googlecloud-credentials}
 
 Please refer to the [official user manual](https://docs.cloud.google.com/iam/docs/keys-create-delete/)。
@@ -174,3 +160,27 @@ Least privileges:
     - `dns.resourceRecordSets.list`
     - `dns.managedZones.get`
     - `dns.managedZones.list`
+
+### Oracle Cloud {#oraclecloud-credentials}
+
+Please refer to the [official user manual](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm)。
+
+Least privileges:
+
+- Request certificates (DNS-01 challenge):
+  - `dns-zones`
+  - `dns-records`
+
+### Cloudflare {#cloudflare-credentials}
+
+Please refer to the following process to obtain:
+
+1. Log in to the Cloudflare console.
+2. Click on the account avatar, then click on "My Profile" -> "API Tokens" -> "Create Token", and select to use the "Edit zone DNS" template.
+3. Add permission, fill in your domain names, then click the "Continue" button.
+
+Least privileges:
+
+- Request certificates (DNS-01 challenge):
+  - `Zone / Zone / Read`
+  - `Zone / DNS / Edit`

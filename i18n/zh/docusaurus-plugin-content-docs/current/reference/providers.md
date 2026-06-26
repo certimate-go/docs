@@ -25,6 +25,8 @@
   - [AWS Route53](https://aws.amazon.com/route53/)
   - [AWS Lightsail](https://aws.amazon.com/lightsail/)
   - [Azure DNS](https://azure.microsoft.com/)
+  - [Google Cloud](https://cloud.google.com/)
+  - [Oracle Cloud](https://cloud.google.com/)
   - [Akamai EdgeDNS](https://www.akamai.com/)
   - [ArvanCloud](https://arvancloud.ir/)
   - [Beget（Бегет）](http://beget.com/)
@@ -47,7 +49,6 @@
   - [G-Core](https://gcore.com/)
   - [GNAME](https://www.gname.com/)
   - [GoDaddy](https://www.godaddy.com/)
-  - [Google Cloud](https://cloud.google.com/)
   - [Hetzner](https://www.hetzner.com/)
   - [hosting.de](https://www.hosting.de/)
   - [Hostinger](https://www.hostinger.com/)
@@ -126,13 +127,14 @@
   - [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、WAF、ImageX、Live、VOD、APIG、证书中心等服务。
   - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront、ELB（CLB/ALB/NLB）、API 网关、Amplify 等服务。
   - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。
+  - [Google Cloud](https://cloud.google.com/)：可部署到 GCP 证书管理器等服务。
+  - [Oracle Cloud](https://www.oracle.com/cn/cloud/)：可部署到 OCI 证书管理服务等服务。
   - [Bunny](https://www.bunny.net/)：可部署到 Bunny CDN。
   - [BytePlus](https://www.byteplus.com/)：可部署到 BytePlus TOS、CDN、CLB、ALB、直播平台、证书中心等服务。
   - [CacheFly](https://www.cachefly.com/)：可部署到 CacheFly CDN。
   - [CloudFlare](https://www.cloudflare.com/)：可部署到 Cloudflare 边缘证书。
   - [DigitalOcean](https://www.digitalocean.com/)：可部署到 DigitalOcean。
   - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
-  - [Google Cloud](https://cloud.google.com/)：可部署到 Google Cloud Certificate Manager。
   - [Linode](https://www.linode.com/)：可部署到 Linode 对象存储。
   - [Zenlayer](https://zenlayer.com/)：可部署到 Zenlayer CDN、ZGA 等服务。
   - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
@@ -161,6 +163,7 @@
   - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly。
   - [cPanel](https://cpanel.net/)：可部署到 cPanel。
   - [Dokploy](https://github.com/Dokploy/dokploy)：可部署到 Dokploy。
+  - [F5 BIG-IP](https://www.f5.com.cn/products/big-ip)：可部署到 F5 BIG-IP。
   - [FlexCDN](https://flexcdn.cn/)：可部署到 FlexCDN。
   - [GoEdge](https://goedge.cloud/)：可部署到 GoEdge。
   - [LeCDN](https://cdn.cmzi.com/)：可部署到 LeCDN。
