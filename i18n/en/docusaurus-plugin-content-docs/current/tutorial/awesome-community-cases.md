@@ -16,6 +16,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 
 You can read the following content (sorted by publish time) for more usage help.
 
+- 2026-07-13 [利用阿里云与docker部署Certimate](https://gisersqdai.top/2026/07/13/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%8Edocker%E9%83%A8%E7%BD%B2Certimate/) （author Dai Shaoqing，from GISerDaiShaoqing's Blog）
 - 2026-06-20 [_部署 Certimate 管理证书_](https://www.yanchang.pw/archives/bu-shu-certimateguan-li-zheng-shu) (author _yanchang_, from _畅言的个人网站_)
 - 2025-12-20 [_【笔记】群晖计划任务自动更新 SSL 证书，已通过 Certimate 工作流将证书上传到群晖服务器_](https://www.yumehinata.com/archives/diekxCHW) (author _YumeHinata_, from _幻梦の大图书馆_)
 - 2025-12-09 [_告别手动续期！Unraid+Certimate 打造全自动 HTTPS 证书管理_](https://www.bilibili.com/opus/1144326025217310757) (author _流心 y_, from _BiliBili_)
