@@ -16,6 +16,7 @@
 
 你可以阅读以下内容（按发布时间倒序排序）来获取更多使用帮助。
 
+- 2026-07-13 [_《利用阿里云与 Docker 部署 Certimate》_](https://gisersqdai.top/2026/07/13/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%8Edocker%E9%83%A8%E7%BD%B2Certimate/)（作者：_Dai Shaoqing_，来源：_GISerDaiShaoqing's Blog_）
 - 2026-06-20 [_《部署 Certimate 管理证书》_](https://www.yanchang.pw/archives/bu-shu-certimateguan-li-zheng-shu)（作者：_yanchang_，来源：_畅言的个人网站_）
 - 2025-12-20 [《【笔记】群晖计划任务自动更新 SSL 证书，已通过 Certimate 工作流将证书上传到群晖服务器》](https://www.yumehinata.com/archives/diekxCHW)（作者：_YumeHinata_，来源：_幻梦の大图书馆_）
 - 2025-12-09 [《告别手动续期！Unraid+Certimate 打造全自动 HTTPS 证书管理》](https://www.bilibili.com/opus/1144326025217310757)（作者：_流心 y_，来源：_哔哩哔哩_）
