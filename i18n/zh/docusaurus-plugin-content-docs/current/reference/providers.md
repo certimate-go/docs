@@ -123,7 +123,7 @@
 - **云厂商服务**：
   - [阿里云](https://www.aliyun.com/)：可部署到阿里云 OSS、CDN、DCDN、ESA、SLB（CLB/ALB/NLB）、WAF、DDoS、Live、VOD、FC、APIG、GA、CAS 等服务。
   - [腾讯云](https://cloud.tencent.com/)：可部署到腾讯云 COS、CDN、ECDN、EdgeOne、CLB、WAF、CSS、VOD、SCF、TSE、GAAP、GA2、SSL 等服务。
-  - [华为云](https://www.huaweicloud.com/)：可部署到华为云 OBS, CDN、ELB、WAF、AAD、Live、APIG、SCM 等服务。
+  - [华为云](https://www.huaweicloud.com/)：可部署到华为云 OBS, CDN、ELB、WAF、AAD、Live、VOD、APIG、SCM 等服务。
   - [火山引擎](https://www.volcengine.com/)：可部署到火山引擎 TOS、CDN、DCDN、CLB、ALB、WAF、ImageX、Live、VOD、APIG、证书中心等服务。
   - [AWS](https://aws.amazon.com/)：可部署到 AWS ACM、IAM、CloudFront、ELB（CLB/ALB/NLB）、API 网关、Amplify 等服务。
   - [Azure](https://azure.microsoft.com/)：可部署到 Azure KeyVault 等服务。

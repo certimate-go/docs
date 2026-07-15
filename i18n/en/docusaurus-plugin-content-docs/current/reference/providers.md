@@ -123,7 +123,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - **Cloud services**:
   - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
   - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, TSE, GAAP, GA2, SSL.
-  - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, AAD, SCM.
+  - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, AAD, Live, VOD, APIG, SCM.
   - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, WAF, ImageX, Live, VOD, APIG, Certificate Center.
   - [AWS](https://aws.amazon.com/): Supports deployment to AWS ACM, IAM, CloudFront, ELB(CLB/ALB/NLB), API Gateway, Amplify.
   - [Azure](https://azure.microsoft.com/)：Supports deployment to Azure KeyVault.
