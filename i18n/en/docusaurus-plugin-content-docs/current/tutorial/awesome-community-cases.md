@@ -16,7 +16,7 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 
 You can read the following content (sorted by publish time) for more usage help.
 
-- 2026-07-23 [_教程:免费https证书自动续期托管_](https://zhuanlan.zhihu.com/p/2063584206358426313) (author _magic_, from _Zhihu Column_)
+- 2026-07-23 [_教程：免费 HTTPS 证书自动续期托管_](https://zhuanlan.zhihu.com/p/2063584206358426313) (author _magic_, from _Zhihu Column_)
 - 2026-07-20 [_Certimate: SSL-сертификаты на автопилоте_](https://matveev.tech/certimate/) (author _Pavel Matveev_, from _Matveev Tech_)
 - 2026-07-13 [_利用阿里云与 Docker 部署 Certimate_](https://gisersqdai.top/2026/07/13/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%8Edocker%E9%83%A8%E7%BD%B2Certimate/) (author _Dai Shaoqing_, from _GISerDaiShaoqing's Blog_)
 - 2026-06-20 [_部署 Certimate 管理证书_](https://www.yanchang.pw/archives/bu-shu-certimateguan-li-zheng-shu) (author _yanchang_, from _畅言的个人网站_)
