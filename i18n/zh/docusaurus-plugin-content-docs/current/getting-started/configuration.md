@@ -82,7 +82,7 @@ export HTTPS_PROXY="http://proxy.example.com"
 
 ---
 
-### 反向代理 {#reverse-proxy}
+## 反向代理 {#reverse-proxy}
 
 以下是一个 Nginx 的配置文件参考：
 

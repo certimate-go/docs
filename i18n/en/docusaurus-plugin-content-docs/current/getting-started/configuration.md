@@ -80,7 +80,7 @@ You need to restart Certimate to load the new environment variable values after 
 
 ---
 
-### Reverse proxy {#reverse-proxy}
+## Reverse proxy {#reverse-proxy}
 
 Here is a sample configuration file for Nginx:
 
