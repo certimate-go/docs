@@ -68,6 +68,7 @@ There are several kinds of providers:
   - [Spaceship](https://spaceship.com/)
   - [Vercel](https://vercel.com/)
   - [Vultr](https://www.vultr.com/)
+  - [Yandex Cloud](https://yandex.cloud/)
   - [Baidu AI Cloud](https://intl.cloud.baidu.com/)
   - [CMCC ECloud](https://ecloud.10086.cn/)
   - [CTCC StateCloud](https://www.ctyun.cn/)
@@ -136,6 +137,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [DigitalOcean](https://www.digitalocean.com/): Supports deployment to DigitalOcean.
   - [G-Core](https://gcore.com/): Supports deployment to G-Core CDN.
   - [Linode](https://www.linode.com/): Supports deployment to Linode Obejct Storage.
+  - [Yandex Cloud](https://yandex.cloud/): Supports deployment to Yandex Cloud Certificate Manager.
   - [Zenlayer](https://zenlayer.com/): Supports deployment to Zenlayer CDN, ZGA.
   - [Baidu AI Cloud](https://intl.cloud.baidu.com/): Supports deployment to Baidu AI CLoud BLB, CDN, CAS.
   - [CMCC ECloud](https://ecloud.10086.cn/): Supports deployment to CMCC ECloud CDN, VLB.

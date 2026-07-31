@@ -68,6 +68,7 @@
   - [Spaceship](https://spaceship.com/)
   - [Vercel](https://vercel.com/)
   - [Vultr](https://www.vultr.com/)
+  - [Yandex Cloud](https://yandex.cloud/)
   - [百度智能云](https://cloud.baidu.com/)
   - [移动云](https://ecloud.10086.cn/)
   - [天翼云](https://www.ctyun.cn/)
@@ -136,6 +137,7 @@
   - [DigitalOcean](https://www.digitalocean.com/)：可部署到 DigitalOcean。
   - [G-Core](https://gcore.com/)：可部署到 G-Core CDN。
   - [Linode](https://www.linode.com/)：可部署到 Linode 对象存储。
+  - [Yandex Cloud](https://yandex.cloud/)：可部署到 Yandex Cloud 证书管理器等服务。
   - [Zenlayer](https://zenlayer.com/)：可部署到 Zenlayer CDN、ZGA 等服务。
   - [百度智能云](https://cloud.baidu.com/)：可部署到百度智能云 BLB、CDN、CAS 等服务。
   - [移动云](https://ecloud.10086.cn/)：可部署到移动云 CDN、VLB 等服务。
