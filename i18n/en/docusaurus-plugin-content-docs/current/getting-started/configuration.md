@@ -80,6 +80,59 @@ You need to restart Certimate to load the new environment variable values after 
 
 ---
 
+### Reverse proxy {#reverse-proxy}
+
+Here is a sample configuration file for Nginx:
+
+```conf
+server {
+  listen 443 ssl;
+  server_name your-domain.com;
+
+  location / {
+    proxy_set_header Host $host;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Host $server_name;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_pass http://127.0.0.1:8090;
+  }
+}
+```
+
+If you want to access Certimate under a sub-path, you need to modify the configuration file:
+
+```conf
+server {
+  listen 443 ssl;
+  server_name your-domain.com;
+
+  location = /sub-path {
+    return 301 /sub-path/;
+  }
+
+  location / {
+    proxy_set_header Host $host;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Host $server_name;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_pass http://127.0.0.1:8090/;
+    proxy_redirect / /sub-path/;
+  }
+}
+```
+
+:::caution
+Due to browser same-origin policies, if other sites under the same domain have security vulnerabilities, they could potentially lead to data leaks in Certimate. Therefore, we strongly recommend avoiding the use of sub-paths whenever possible.
+:::
+
+---
+
 ## Experimental features {#experimental-features}
 
 Certimate provides some experimental features that are still unstable.

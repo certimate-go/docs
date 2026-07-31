@@ -1,4 +1,4 @@
-﻿# 配置
+# 配置
 
 你可以通过 WebUI 来完成 Certimate 的绝大部分配置，除了以下几点。
 
@@ -79,6 +79,59 @@ export HTTPS_PROXY="http://proxy.example.com"
 ```
 
 设置后需重启 Certimate 以加载新的环境变量值。
+
+---
+
+### 反向代理 {#reverse-proxy}
+
+以下是一个 Nginx 的配置文件参考：
+
+```conf
+server {
+  listen 443 ssl;
+  server_name your-domain.com;
+
+  location / {
+    proxy_set_header Host $host;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Host $server_name;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_pass http://127.0.0.1:8090;
+  }
+}
+```
+
+如果你想在子路径下访问 Certimate，你需要修改配置文件：
+
+```conf
+server {
+  listen 443 ssl;
+  server_name your-domain.com;
+
+  location = /sub-path {
+    return 301 /sub-path/;
+  }
+
+  location / {
+    proxy_set_header Host $host;
+    proxy_set_header Connection "upgrade";
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Host $server_name;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_pass http://127.0.0.1:8090/;
+    proxy_redirect / /sub-path/;
+  }
+}
+```
+
+:::caution
+因为浏览器的同源策略，如果同一域名下的其他站点存在安全漏洞，也可能会使 Certimate 产生数据泄露。因此，请尽量避免使用子路径。
+:::
 
 ---
 
