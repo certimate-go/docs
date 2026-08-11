@@ -154,6 +154,7 @@
   - [网宿云](https://www.wangsu.com/)：可部署到网宿云 CDN、CDN Pro、证书管理等服务。
   - [uniCloud](https://unicloud.dcloud.net.cn/)：可部署到 uniCloud 前端网页托管。
   - [嘿华云](https://cloud.mhjz1.cn/)：可部署到嘿华云虚拟主机。
+  - [AxisNow](https://www.axisnow.io/)：可部署到 AxisNow。
   - [Fly.io](https://fly.io/)：可部署到 Fly.io。
   - [Netlify](https://netlify.com/)：可部署到 Netlify。
   - [Vercel](https://vercel.com/)：可部署到 Vercel。
@@ -165,17 +166,18 @@
   - [Cdnfly](https://www.cdnfly.cn/)：可部署到 Cdnfly。
   - [cPanel](https://cpanel.net/)：可部署到 cPanel。
   - [Dokploy](https://github.com/Dokploy/dokploy)：可部署到 Dokploy。
-  - [F5 BIG-IP](https://www.f5.com.cn/products/big-ip)：可部署到 F5 BIG-IP。
   - [FlexCDN](https://flexcdn.cn/)：可部署到 FlexCDN。
   - [GoEdge](https://goedge.cloud/)：可部署到 GoEdge。
   - [LeCDN](https://cdn.cmzi.com/)：可部署到 LeCDN。
   - [Kong](https://konghq.com/)：可部署到 Kong。
   - [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)：可部署到 Nginx Proxy Manager。
-  - [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox VE。
+  - [Proxmox BS](https://pbs.proxmox.com/)：可部署到 Proxmox Backup Server。
+  - [Proxmox VE](https://pve.proxmox.com/)：可部署到 Proxmox Virtual Environment。
   - [耗子面板](https://github.com/tnb-labs/panel)：可部署到耗子面板。
   - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
   - [SamWAF](https://github.com/samwafgo/SamWaf)：可部署到 SamWAF。
   - [群晖 DSM](https://www.synology.cn/zh-cn/dsm/)：可部署到群晖 DSM。
+  - [华为 iBMS](https://e.huawei.com/cn/products/computing/kunpeng/accessories/ibmc)：可部署到华为 iBMS。
 
 ---
 

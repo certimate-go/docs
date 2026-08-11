@@ -154,6 +154,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
   - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
   - [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
+  - [AxisNow](https://www.axisnow.io/) Supports deployment to AxisNow.
   - [Fly.io](https://fly.io/): Supports deployment to Fly.io.
   - [Netlify](https://netlify.com/): Supports deployment to Netlify.
   - [Vercel](https://netlify.com/): Supports deployment to Vercel.
@@ -165,17 +166,18 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Cdnfly](https://www.cdnfly.cn/): Supports deployment to Cdnfly.
   - [cPanel](https://cpanel.net/): Supports deployment to cPanel.
   - [Dokploy](https://github.com/Dokploy/dokploy): Supports deployment to Dokploy.
-  - [F5 BIG-IP](https://www.f5.com/products/big-ip): Supports deployment to F5 BIG-IP.
   - [FlexCDN](https://flexcdn.cn/): Supports deployment to FlexCDN.
   - [GoEdge](https://goedge.cloud/): Supports deployment to GoEdge.
   - [Kong](https://konghq.com/): Supports deployment to Kong.
   - [LeCDN](https://cdn.cmzi.com/): Supports deployment to LeCDN.
   - [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager): Supports deployment to Nginx Proxy Manager.
+  - [Proxmox BS](https://pbs.proxmox.com/): Supports deployment to Proxmox Backup Server.
   - [Proxmox VE](https://pve.proxmox.com/): Supports deployment to Proxmox Virtual Environment.
   - [RatPanel](https://github.com/tnb-labs/panel): Supports deployment to RatPanel.
   - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
   - [SamWAF](https://github.com/samwafgo/SamWaf): Supports deployment to SamWAF.
   - [Synology DSM](https://www.synology.com/en-us/dsm/): Supports deployment to Synology DSM.
+  - [Huawei iBMS](https://e.huawei.com/en/products/computing/kunpeng/accessories/ibmc): Supports deployment to Huawei iBMS.
 
 ---
 

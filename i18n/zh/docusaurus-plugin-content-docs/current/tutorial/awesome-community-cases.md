@@ -16,6 +16,7 @@
 
 你可以阅读以下内容（按发布时间倒序排序）来获取更多使用帮助。
 
+- 2026-08-05 [_《网站证书过期，别再靠人肉续命：我发现了一个把 SSL/TLS 变成流水线的开源项目》_](https://x.com/fox_proj/status/2084926081359040926)（作者：_@fox_proj_，来源：_X_）
 - 2026-07-23 [_《教程：免费 HTTPS 证书自动续期托管》_](https://zhuanlan.zhihu.com/p/2063584206358426313)（作者：_magic_，来源：_知乎专栏_）
 - 2026-07-20 [_《Certimate: SSL-сертификаты на автопилоте》_](https://matveev.tech/certimate/)（作者：_Pavel Matveev_，来源：_Matveev Tech_）
 - 2026-07-13 [_《利用阿里云与 Docker 部署 Certimate》_](https://gisersqdai.top/2026/07/13/%E5%88%A9%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E4%B8%8Edocker%E9%83%A8%E7%BD%B2Certimate/)（作者：_Dai Shaoqing_，来源：_GISerDaiShaoqing's Blog_）
