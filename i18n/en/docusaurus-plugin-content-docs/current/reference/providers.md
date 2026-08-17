@@ -177,7 +177,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [SafeLine](https://waf.chaitin.com/): Supports deployment to SafeLine WAF.
   - [SamWAF](https://github.com/samwafgo/SamWaf): Supports deployment to SamWAF.
   - [Synology DSM](https://www.synology.com/en-us/dsm/): Supports deployment to Synology DSM.
-  - [Huawei iBMS](https://e.huawei.com/en/products/computing/kunpeng/accessories/ibmc): Supports deployment to Huawei iBMS.
+  - [Huawei iBMC](https://e.huawei.com/en/products/computing/kunpeng/accessories/ibmc): Supports deployment to Huawei iBMC.
 
 ---
 

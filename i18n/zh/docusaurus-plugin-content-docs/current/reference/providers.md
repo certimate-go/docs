@@ -177,7 +177,7 @@
   - [雷池](https://waf-ce.chaitin.cn/)：可部署到雷池 WAF。
   - [SamWAF](https://github.com/samwafgo/SamWaf)：可部署到 SamWAF。
   - [群晖 DSM](https://www.synology.cn/zh-cn/dsm/)：可部署到群晖 DSM。
-  - [华为 iBMS](https://e.huawei.com/cn/products/computing/kunpeng/accessories/ibmc)：可部署到华为 iBMS。
+  - [华为 iBMC](https://e.huawei.com/cn/products/computing/kunpeng/accessories/ibmc)：可部署到华为 iBMC。
 
 ---
 
