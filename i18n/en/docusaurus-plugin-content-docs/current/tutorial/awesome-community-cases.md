@@ -16,6 +16,8 @@ Community cases are provided spontaneously by Certimate users. We only provide d
 
 You can read the following content (sorted by publish time) for more usage help.
 
+- 2026-09-02 [_Certimateとは｜SSL証明書の発行・配置・更新を自動化するセルフホストACMEツールを実測_](https://ai-heartland.com/automation/certimate/) (author _AI Heartland·編集部_, from _AI Heartland_)
+- 2026-08-26 [_证书三个月一换之后，我把续期交给了 Certimate_](https://qiuxs.com/posts/8qihcux4ji7k/) (author _qiuxs_, from _长安休息室_)
 - 2026-08-05 [_网站证书过期，别再靠人肉续命：我发现了一个把 SSL/TLS 变成流水线的开源项目_](https://x.com/fox_proj/status/2084926081359040926) (author _@fox_proj_, from _X_)
 - 2026-07-23 [_教程：免费 HTTPS 证书自动续期托管_](https://zhuanlan.zhihu.com/p/2063584206358426313) (author _magic_, from _Zhihu Column_)
 - 2026-07-20 [_Certimate: SSL-сертификаты на автопилоте_](https://matveev.tech/certimate/) (author _Pavel Matveev_, from _Matveev Tech_)

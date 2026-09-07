@@ -16,6 +16,8 @@
 
 你可以阅读以下内容（按发布时间倒序排序）来获取更多使用帮助。
 
+- 2026-09-02 [_《Certimateとは｜SSL証明書の発行・配置・更新を自動化するセルフホストACMEツールを実測》_](https://ai-heartland.com/automation/certimate/)（作者：_AI Heartland·編集部_，来源：_AI Heartland_）
+- 2026-08-26 [_《证书三个月一换之后，我把续期交给了 Certimate》_](https://qiuxs.com/posts/8qihcux4ji7k/)（作者：_qiuxs_，来源：_长安休息室_）
 - 2026-08-05 [_《网站证书过期，别再靠人肉续命：我发现了一个把 SSL/TLS 变成流水线的开源项目》_](https://x.com/fox_proj/status/2084926081359040926)（作者：_@fox_proj_，来源：_X_）
 - 2026-07-23 [_《教程：免费 HTTPS 证书自动续期托管》_](https://zhuanlan.zhihu.com/p/2063584206358426313)（作者：_magic_，来源：_知乎专栏_）
 - 2026-07-20 [_《Certimate: SSL-сертификаты на автопилоте》_](https://matveev.tech/certimate/)（作者：_Pavel Matveev_，来源：_Matveev Tech_）

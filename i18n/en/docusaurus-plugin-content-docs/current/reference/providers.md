@@ -122,7 +122,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
 - [Kubernetes](https://kubernetes.io/): Supports deployment to Kubernetes Secret.
 - Object storage (S3-compatible): Supports upload to S3-compatible service.
 - **Cloud services**:
-  - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Live, VOD, FC, APIG, GA, CAS.
+  - [Alibaba Cloud](https://www.alibabacloud.com/): Supports deployment to Alibaba Cloud OSS, CDN, DCDN, SLB(CLB/ALB/NLB), WAF, Anti-DDoS, Live, VOD, FC, APIG, GA, CAS.
   - [Tencent Cloud](https://www.tencentcloud.com/): Supports deployment to Tencent Cloud COS, CDN, ECDN, EdgeOne, CLB, WAF, Anti-DDoS, CSS, VOD, SCF, TSE, GAAP, GA2, SSL.
   - [Huawei Cloud](https://www.huaweicloud.com/): Supports deployment to Huawei Cloud OBS, CDN, ELB, WAF, AAD, Live, VOD, APIG, SCM.
   - [Volcengine](https://www.volcengine.com/): Supports deployment to Volcengine TOS, CDN, DCDN, CLB, ALB, WAF, ImageX, Live, VOD, APIG, Certificate Center.
@@ -154,6 +154,7 @@ In future versions, we may add a feature that allows users to manually satisfyin
   - [Wangsu Cloud](https://en.wangsu.com/)：Supports deployment to Wangsu Cloud CDN, CDN Pro, Certificate Management.
   - [uniCloud](https://unicloud.dcloud.net.cn/): Supports deployment to uniCloud web host.
   - [Mohua Cloud](https://cloud.mhjz1.cn/)：Supports deployment to Mohua Cloud MVH.
+  - [Asia ISP](https://asia-isp.com/)：Supports deployment to Asia ISP CDN.
   - [AxisNow](https://www.axisnow.io/) Supports deployment to AxisNow.
   - [Fly.io](https://fly.io/): Supports deployment to Fly.io.
   - [Netlify](https://netlify.com/): Supports deployment to Netlify.
